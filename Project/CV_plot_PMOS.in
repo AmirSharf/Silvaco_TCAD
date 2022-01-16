@@ -1,0 +1,36 @@
+go atlas
+mesh
+
+x.m l=0.0 s=1.0
+x.m l=1.0 s=1.0
+	
+y.m l=-0.002 s=0.00004
+y.m l=0.0    s=0.00004
+y.m l=0.1    s=0.001
+y.m l=1      s=0.05
+
+region num=1 Silicon x.min=0.0 x.max=1.0 y.min=0 y.max=1.0
+region num=2 SiO2    y.max=0.0
+
+elec num=1 name=gate y.max=-0.002
+elec num=2 name=substrate y.min=1.0
+
+contact name=gate aluminum
+
+doping conc=1e18 unif p.type
+
+models srh fermi ni.fermi
+
+method dvlimit=1.0 carriers=0
+
+solve init
+
+solve vgate=-3.0
+
+log outfile=CV.log
+solve name=gate vgate=-3.0 vstep=0.03 vfinal=3.0 qscv 
+logoff 
+save outf= CV.str
+tonyplot CV.str
+tonyplot CV.log
+quit

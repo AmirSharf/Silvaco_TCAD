@@ -1,0 +1,3456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE rto SYSTEM "rto.dtd">
+<rto>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="deckbuild" timestamp="1641017653" type="out">
+*** this is deckbuild version 4.6.2.R ***
+
+</text>
+
+  <text deck-line="1" is-extract="false" line-id="1" simulator="atlas" timestamp="1641017653" type="out">go atlas
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017654" type="out">
+
+                                   A T L A S
+
+            Version:  atlas 5.26.1.R (Tue May  8 01:53:16 PDT 2018)
+
+                           Copyright (c) 1984 - 2018
+                        Silvaco Inc. All rights reserved
+
+    We acknowledge the contribution of the following collaborative partners:
+
+                              Stanford University
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017656" type="out">
+
+
+               ======================================================
+
+                  ATLAS                           : enabled
+
+                  S-PISCES                        : enabled
+
+                  BLAZE                           : enabled
+
+                  GIGA                            : enabled
+
+                  LUMINOUS                        : enabled
+
+                  LED                             : enabled
+
+                  TFT                             : en</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017656" type="out">abled
+
+                  ORGANIC DISPLAY                 : enabled
+
+                  ORGANIC SOLAR                   : enabled
+
+                  MIXEDMODE                       : enabled
+
+                  LASER                           : enabled
+
+                  VCSEL                           : enabled
+
+                  FERRO                           : enabled
+
+                  QUANTUM                         : enabled
+
+                  NOISE                           : enabled
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017656" type="out">
+                  REM                             : enabled
+
+                  MAGNETIC                        : enabled
+
+                  DEVICE3D                        : enabled
+
+                  THERMAL3D                       : enabled
+
+                  GIGA3D                          : enabled
+
+                  MIXEDMODE3D                     : enabled
+
+                  TFT3D                           : enabled
+
+                  QUANTUM3D                       : enabled
+
+     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017656" type="out">             LUMINOUS3D                      : enabled
+
+                  REM3D                           : enabled
+
+                  MAGNETIC3D                      : enabled
+
+                  LED3D                           : enabled
+
+                  LASER3D                         : enabled
+
+                  MIXEDMODE XL                    : enabled
+
+                  S-PISCES BUNDLE                 : enabled
+
+                  BLAZE BUNDLE                    : enabled
+
+            </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017656" type="out">      TFT BUNDLE                      : enabled
+
+                  ORGANIC BUNDLE                  : enabled
+
+                  DEVICE3D BUNDLE                 : enabled
+
+                  TFT3D BUNDLE                    : enabled
+
+               ======================================================
+
+                           Sat Jan 01 10:14:16 2022
+
+                       Executing on host: DESKTOP-NV769LF
+                  Current SFLM Server: DESKTOP-NV769LF:3162/
+
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="2" is-extract="false" line-id="2" simulator="atlas" timestamp="1641017656" type="out">mesh diag.flip
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017659" type="out">	####################################################
+	######                                        ######
+	######           Running on 1 CPU             ######
+	######            4 CPUs available            ######
+	######                                        ######
+	####################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="3" is-extract="false" line-id="3" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="4" is-extract="false" line-id="4" simulator="atlas" timestamp="1641017660" type="out">x.m l=0.00     s=0.00025
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="5" is-extract="false" line-id="5" simulator="atlas" timestamp="1641017660" type="out">x.m l=0.035    s=0.00025
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="6" is-extract="false" line-id="6" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="7" is-extract="false" line-id="7" simulator="atlas" timestamp="1641017660" type="out">y.m l= -0.0045   s=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="8" is-extract="false" line-id="8" simulator="atlas" timestamp="1641017660" type="out">y.m l= -0.0015   s=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="9" is-extract="false" line-id="9" simulator="atlas" timestamp="1641017660" type="out">y.m l= -0.0005   s=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="10" is-extract="false" line-id="10" simulator="atlas" timestamp="1641017660" type="out">y.m l=  0.0005   s=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="11" is-extract="false" line-id="11" simulator="atlas" timestamp="1641017660" type="out">y.m l=  0.0015   s=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="12" is-extract="false" line-id="12" simulator="atlas" timestamp="1641017660" type="out">y.m l=  0.0045   s=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="13" is-extract="false" line-id="13" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="14" is-extract="false" line-id="14" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="15" is-extract="false" line-id="15" simulator="atlas" timestamp="1641017660" type="out">#  Here we consider a simple double gate transistor with flared up 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="16" is-extract="false" line-id="16" simulator="atlas" timestamp="1641017660" type="out">#  source and drain extensions
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="17" is-extract="false" line-id="17" simulator="atlas" timestamp="1641017660" type="out">#  Device length is 35 nm, channel thickness is 1 nm, gate oxide is 1 nm
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="18" is-extract="false" line-id="18" simulator="atlas" timestamp="1641017660" type="out">#  gate length is 10nm. Source and drain extension thickness is 5nm
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="19" is-extract="false" line-id="19" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="20" is-extract="false" line-id="20" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="21" is-extract="false" line-id="21" simulator="atlas" timestamp="1641017660" type="out">region      num=2  silicon
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="22" is-extract="false" line-id="22" simulator="atlas" timestamp="1641017660" type="out">region      num=1  x.min=0.01     x.max=0.025     y.min= 0.0015  y.max=0.0045  sio2
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="23" is-extract="false" line-id="23" simulator="atlas" timestamp="1641017660" type="out">region      num=1  x.min=0.01     x.max=0.025     y.min=-0.0045  y.max=-0.0015  sio2
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="24" is-extract="false" line-id="24" simulator="atlas" timestamp="1641017660" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017660" type="out">ATLAS&gt; </text>
+
+  <text deck-line="25" is-extract="false" line-id="25" simulator="atlas" timestamp="1641017661" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="26" is-extract="false" line-id="26" simulator="atlas" timestamp="1641017661" type="out">#   Only two carrier injecting contacts (source and drain) are supported in ATLAS. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="27" is-extract="false" line-id="27" simulator="atlas" timestamp="1641017661" type="out">#   There can be any number of gates.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="28" is-extract="false" line-id="28" simulator="atlas" timestamp="1641017661" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="29" is-extract="false" line-id="29" simulator="atlas" timestamp="1641017661" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="30" is-extract="false" line-id="30" simulator="atlas" timestamp="1641017661" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="31" is-extract="false" line-id="31" simulator="atlas" timestamp="1641017661" type="out">electrode   num=1 name= source x.max=0     y.min= -0.0045 y.max=0.0045 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out"> 
+Electrode #1
+Name: source              
+ Number of boundary nodes: 91
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  0.000e+000 
+ y -4.500e-003  4.500e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="32" is-extract="false" line-id="32" simulator="atlas" timestamp="1641017661" type="out">electrode   num=2 name= drain  x.min=0.035 y.min= -0.0045 y.max=0.0045 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out"> 
+Electrode #2
+Name: drain               
+ Number of boundary nodes: 91
+ Dimensions in microns: 
+       min         max
+ x 3.500e-002  3.500e-002 
+ y -4.500e-003  4.500e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="33" is-extract="false" line-id="33" simulator="atlas" timestamp="1641017661" type="out">electrode   num=3 name=gate1  x.min=0.0125 x.max=0.0225 y.min=-0.0045 y.max=-0.0025 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out"> 
+Electrode #3
+Name: gate1               
+ Number of boundary nodes: 861
+ Dimensions in microns: 
+       min         max
+ x 1.250e-002  2.250e-002 
+ y -4.500e-003  -2.500e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="34" is-extract="false" line-id="34" simulator="atlas" timestamp="1641017661" type="out">electrode   num=4 name=gate2  x.min=0.0125 x.max=0.0225 y.min= 0.0025 y.max=0.0045 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out"> 
+Electrode #4
+Name: gate2               
+ Number of boundary nodes: 861
+ Dimensions in microns: 
+       min         max
+ x 1.250e-002  2.250e-002 
+ y 2.500e-003  4.500e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="35" is-extract="false" line-id="35" simulator="atlas" timestamp="1641017661" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="36" is-extract="false" line-id="36" simulator="atlas" timestamp="1641017661" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="37" is-extract="false" line-id="37" simulator="atlas" timestamp="1641017661" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="38" is-extract="false" line-id="38" simulator="atlas" timestamp="1641017661" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="39" is-extract="false" line-id="39" simulator="atlas" timestamp="1641017661" type="out"># Due to a ballistic nature of transport, there is no voltage 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="40" is-extract="false" line-id="40" simulator="atlas" timestamp="1641017661" type="out"># drop near the source and drain contacts. Moreover, the potential 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="41" is-extract="false" line-id="41" simulator="atlas" timestamp="1641017661" type="out"># in the source and drain has to be allowed to float because  the number 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="42" is-extract="false" line-id="42" simulator="atlas" timestamp="1641017661" type="out"># of electrons reflected backward and thus total carrier concentration in  contacts
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="43" is-extract="false" line-id="43" simulator="atlas" timestamp="1641017661" type="out"># can change with bias.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="44" is-extract="false" line-id="44" simulator="atlas" timestamp="1641017661" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="45" is-extract="false" line-id="45" simulator="atlas" timestamp="1641017661" type="out"># For these reasons we use REFLECT on the CONTACT statement to apply 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="46" is-extract="false" line-id="46" simulator="atlas" timestamp="1641017661" type="out"># von Neumann boundary conditions for potential. Note that Fermi levels 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="47" is-extract="false" line-id="47" simulator="atlas" timestamp="1641017662" type="out"># in contacts are fixed.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="48" is-extract="false" line-id="48" simulator="atlas" timestamp="1641017662" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="49" is-extract="false" line-id="49" simulator="atlas" timestamp="1641017662" type="out">contact name=source  reflect
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">
+Mesh
+ Type:               non-cylindrical
+ Total grid points:  12831
+ Total triangles  :  25200
+ Obtuse triangles :  0  (0 %)
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="50" is-extract="false" line-id="50" simulator="atlas" timestamp="1641017662" type="out">contact name=drain   reflect
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="51" is-extract="false" line-id="51" simulator="atlas" timestamp="1641017662" type="out">contact name=gate1   workfun=4.7 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="52" is-extract="false" line-id="52" simulator="atlas" timestamp="1641017662" type="out">contact name=gate2   workfun=4.7 common=gate1
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">  
+Electrode   gate2    is slaved to electrode   gate1   .
+  
+ATLAS&gt; </text>
+
+  <text deck-line="53" is-extract="false" line-id="53" simulator="atlas" timestamp="1641017662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="54" is-extract="false" line-id="54" simulator="atlas" timestamp="1641017662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="55" is-extract="false" line-id="55" simulator="atlas" timestamp="1641017662" type="out">doping region=2  n.type uniform conc=1.0E20 x.max=0.0125 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017662" type="out">  
+ Warning: Statement out of order. Structure 
+ creation statements (MESH, X.MESH, Y.MESH, REGION,
+ ELECTRODE and DOPING) preceed all output, contact,
+ material, models or solution control statements.
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017663" type="out">ATLAS&gt; </text>
+
+  <text deck-line="56" is-extract="false" line-id="56" simulator="atlas" timestamp="1641017663" type="out">doping region=2  n.type uniform conc=1.0E20 x.min=0.0225
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017664" type="out">ATLAS&gt; </text>
+
+  <text deck-line="57" is-extract="false" line-id="57" simulator="atlas" timestamp="1641017664" type="out">doping region=2  p.type uniform conc=1.0E15 x.min=0.0125 x.max=0.0225
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="58" is-extract="false" line-id="58" simulator="atlas" timestamp="1641017665" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="59" is-extract="false" line-id="59" simulator="atlas" timestamp="1641017665" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="60" is-extract="false" line-id="60" simulator="atlas" timestamp="1641017665" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="61" is-extract="false" line-id="61" simulator="atlas" timestamp="1641017665" type="out"># SCHRODINGER  parameter on the MODELS statement
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="62" is-extract="false" line-id="62" simulator="atlas" timestamp="1641017665" type="out"># will tell ATLAS that this is a quantum solution. A Schrodinger 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="63" is-extract="false" line-id="63" simulator="atlas" timestamp="1641017665" type="out"># equation will be solved in each slice of the device.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="64" is-extract="false" line-id="64" simulator="atlas" timestamp="1641017665" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="65" is-extract="false" line-id="65" simulator="atlas" timestamp="1641017665" type="out"># NEGF_MS parameter specifies that we want to compute transport
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="66" is-extract="false" line-id="66" simulator="atlas" timestamp="1641017665" type="out"># using Non Equilibrium Green's Function (NEGF) approach in the mode (subband) space, 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="67" is-extract="false" line-id="67" simulator="atlas" timestamp="1641017665" type="out"># If the crossection is not constant, ATLAS 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="68" is-extract="false" line-id="68" simulator="atlas" timestamp="1641017665" type="out"># will take into account coupling between subbands. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="69" is-extract="false" line-id="69" simulator="atlas" timestamp="1641017665" type="out"># The coupling is especially strong near wide-narrow region interface.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="70" is-extract="false" line-id="70" simulator="atlas" timestamp="1641017665" type="out"># A parameter NEGF_CMS instead of NEGF_MS will enforce coupled mode space approach. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="71" is-extract="false" line-id="71" simulator="atlas" timestamp="1641017665" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="72" is-extract="false" line-id="72" simulator="atlas" timestamp="1641017665" type="out"># Parameter EIGEN=$$ can be omitted on the MODELS statement. ATLAS will 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017665" type="out">ATLAS&gt; </text>
+
+  <text deck-line="73" is-extract="false" line-id="73" simulator="atlas" timestamp="1641017666" type="out"># automatically decide on the optimum number of subbands required. This 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="74" is-extract="false" line-id="74" simulator="atlas" timestamp="1641017666" type="out"># number may change with bias. Setting EIGEN=$$ parameter, will fix the number 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="75" is-extract="false" line-id="75" simulator="atlas" timestamp="1641017666" type="out"># of subbands to  $$, which may either cause a loss of precision (if it's too small),
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="76" is-extract="false" line-id="76" simulator="atlas" timestamp="1641017666" type="out"># or increase a computation time (if it's too large).
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="77" is-extract="false" line-id="77" simulator="atlas" timestamp="1641017666" type="out"># Note that the number of subbands taken into account  may vary along the device.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="78" is-extract="false" line-id="78" simulator="atlas" timestamp="1641017666" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="79" is-extract="false" line-id="79" simulator="atlas" timestamp="1641017666" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="80" is-extract="false" line-id="80" simulator="atlas" timestamp="1641017666" type="out"># Parameters OX.SCHRO and OX.MARGIN=$$ control wavefunction penetration into oxide.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="81" is-extract="false" line-id="81" simulator="atlas" timestamp="1641017666" type="out"># Parameter SP.SMOOTH maked and effective mass in oxide in the direction perpendicular to 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="82" is-extract="false" line-id="82" simulator="atlas" timestamp="1641017666" type="out"># the plane of the device, to be the same as that in semiconductor. This ensures that
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="83" is-extract="false" line-id="83" simulator="atlas" timestamp="1641017666" type="out"># electron density is smooth at the semiconductor-oxide interface.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="84" is-extract="false" line-id="84" simulator="atlas" timestamp="1641017666" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="85" is-extract="false" line-id="85" simulator="atlas" timestamp="1641017666" type="out"># Here, a parameter NUM.DIRECT is set to 1, which means that only one 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="86" is-extract="false" line-id="86" simulator="atlas" timestamp="1641017666" type="out"># isotropic mass is taken into account.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="87" is-extract="false" line-id="87" simulator="atlas" timestamp="1641017666" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="88" is-extract="false" line-id="88" simulator="atlas" timestamp="1641017666" type="out"># When all NUM.DIRECT=3, all three pairs of valleys (in the case of Si)
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="89" is-extract="false" line-id="89" simulator="atlas" timestamp="1641017666" type="out"># are treated independently. Note that while primed subbands have the same eigen energy due
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="90" is-extract="false" line-id="90" simulator="atlas" timestamp="1641017666" type="out"># to the same effective mass in the confinement direction, their transport 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="91" is-extract="false" line-id="91" simulator="atlas" timestamp="1641017666" type="out"># effective mass is different. Therefore, transmission and current due to primed subbands 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="92" is-extract="false" line-id="92" simulator="atlas" timestamp="1641017666" type="out"># are different.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="93" is-extract="false" line-id="93" simulator="atlas" timestamp="1641017666" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="94" is-extract="false" line-id="94" simulator="atlas" timestamp="1641017666" type="out"># A predictor-corrector scheme for Poisson convergence  is used, where after 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="95" is-extract="false" line-id="95" simulator="atlas" timestamp="1641017666" type="out"># each quantum solution (corrector), a quasi fermi level is extracted and several 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="96" is-extract="false" line-id="96" simulator="atlas" timestamp="1641017666" type="out"># iterations with classical electron density (predictor) are performed.  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017666" type="out">ATLAS&gt; </text>
+
+  <text deck-line="97" is-extract="false" line-id="97" simulator="atlas" timestamp="1641017667" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="98" is-extract="false" line-id="98" simulator="atlas" timestamp="1641017667" type="out"># NPRED.NEGF=7 (default) sets the number of predictor iterations to 7
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="99" is-extract="false" line-id="99" simulator="atlas" timestamp="1641017667" type="out"># QCRIT.NEGF=3e-3 (default) sets the potential convergece criterium in the NEGF case to 3mV 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="100" is-extract="false" line-id="100" simulator="atlas" timestamp="1641017667" type="out"># ESIZE.NEGF=2001 (default) sets the number of energy grid points to 2001. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="101" is-extract="false" line-id="101" simulator="atlas" timestamp="1641017667" type="out">#                           A nonuniform energy grid is constructed. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="102" is-extract="false" line-id="102" simulator="atlas" timestamp="1641017667" type="out">#                A larger number may improve precision in the electron density calculation 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="103" is-extract="false" line-id="103" simulator="atlas" timestamp="1641017667" type="out">#                and improve convergence, but increase the computation time.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="104" is-extract="false" line-id="104" simulator="atlas" timestamp="1641017667" type="out">#            
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="105" is-extract="false" line-id="105" simulator="atlas" timestamp="1641017667" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="106" is-extract="false" line-id="106" simulator="atlas" timestamp="1641017667" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="107" is-extract="false" line-id="107" simulator="atlas" timestamp="1641017667" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="108" is-extract="false" line-id="108" simulator="atlas" timestamp="1641017667" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017667" type="out">ATLAS&gt; </text>
+
+  <text deck-line="110" is-extract="false" line-id="110" simulator="atlas" timestamp="1641017667" type="out">models  schrodinger  negf_ms SP.Smooth  Ox.Schro Ox.Margin=0.0006         num.direct=1 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">
+Schrodinger geometry is not specified. 
+Defaulting to 1DY 
+
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="111" is-extract="false" line-id="111" simulator="atlas" timestamp="1641017668" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="112" is-extract="false" line-id="112" simulator="atlas" timestamp="1641017668" type="out">       
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="113" is-extract="false" line-id="113" simulator="atlas" timestamp="1641017668" type="out">#        
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="114" is-extract="false" line-id="114" simulator="atlas" timestamp="1641017668" type="out"># Parameter CARRIERS is set to zero which means  that drift-diffusion equations 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="115" is-extract="false" line-id="115" simulator="atlas" timestamp="1641017668" type="out"># are not solved. (NEGF equations are solved instead) 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="116" is-extract="false" line-id="116" simulator="atlas" timestamp="1641017668" type="out"># 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="117" is-extract="false" line-id="117" simulator="atlas" timestamp="1641017668" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="118" is-extract="false" line-id="118" simulator="atlas" timestamp="1641017668" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="119" is-extract="false" line-id="119" simulator="atlas" timestamp="1641017668" type="out">method carriers=0  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="120" is-extract="false" line-id="120" simulator="atlas" timestamp="1641017668" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017668" type="out">ATLAS&gt; </text>
+
+  <text deck-line="121" is-extract="false" line-id="121" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="122" is-extract="false" line-id="122" simulator="atlas" timestamp="1641017669" type="out">#  Here we specify that conduction band, valence band and three eigen 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="123" is-extract="false" line-id="123" simulator="atlas" timestamp="1641017669" type="out">#   values are stored in the .str file
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="124" is-extract="false" line-id="124" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="125" is-extract="false" line-id="125" simulator="atlas" timestamp="1641017669" type="out"># ESIZEOUT.NEGF=500 (default) sets the number of energy grid points to 500 in the output
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="126" is-extract="false" line-id="126" simulator="atlas" timestamp="1641017669" type="out"># .log file if the PROBE statements are present (see below). A uniform energy grid is used.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="127" is-extract="false" line-id="127" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="128" is-extract="false" line-id="128" simulator="atlas" timestamp="1641017669" type="out">output band.par con.band val.band eigens=6 esizeout.negf=500
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="129" is-extract="false" line-id="129" simulator="atlas" timestamp="1641017669" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="130" is-extract="false" line-id="130" simulator="atlas" timestamp="1641017669" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="131" is-extract="false" line-id="131" simulator="atlas" timestamp="1641017669" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="132" is-extract="false" line-id="132" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="133" is-extract="false" line-id="133" simulator="atlas" timestamp="1641017669" type="out"># A user can probe various energy dependent quantities, which are specific to NEGF method,
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="134" is-extract="false" line-id="134" simulator="atlas" timestamp="1641017669" type="out"># and store them in a file at each bias.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="135" is-extract="false" line-id="135" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="136" is-extract="false" line-id="136" simulator="atlas" timestamp="1641017669" type="out"># Set NEGF.LOG parameter on SOLVE or SAVE staement to save the probes.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="137" is-extract="false" line-id="137" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="138" is-extract="false" line-id="138" simulator="atlas" timestamp="1641017669" type="out"># Parameter FILENAME can be specified only once. In this case a file TransvsE$.log 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="139" is-extract="false" line-id="139" simulator="atlas" timestamp="1641017669" type="out"># will be created at each bias point, where $ is the number of the bias point.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="140" is-extract="false" line-id="140" simulator="atlas" timestamp="1641017669" type="out"># Comment lines in the file give the values of terminal bias
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="141" is-extract="false" line-id="141" simulator="atlas" timestamp="1641017669" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="142" is-extract="false" line-id="142" simulator="atlas" timestamp="1641017669" type="out"># All probes are plotted as functions of Energy. A uniform energy grid is used.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017669" type="out">ATLAS&gt; </text>
+
+  <text deck-line="143" is-extract="false" line-id="143" simulator="atlas" timestamp="1641017670" type="out"># The size of the grid is regulated in the OUTPUT statement (see above).
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="144" is-extract="false" line-id="144" simulator="atlas" timestamp="1641017670" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="145" is-extract="false" line-id="145" simulator="atlas" timestamp="1641017670" type="out"># TRANSMISSION is the number of modes that can pass through device at a particular energy.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="146" is-extract="false" line-id="146" simulator="atlas" timestamp="1641017670" type="out"># On can also separate contributions due to each pair of valleys using a parameter BAND.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="147" is-extract="false" line-id="147" simulator="atlas" timestamp="1641017670" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="148" is-extract="false" line-id="148" simulator="atlas" timestamp="1641017670" type="out"># DOSVSE is the local density of states. It can be characterized by parameters 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="149" is-extract="false" line-id="149" simulator="atlas" timestamp="1641017670" type="out"># BAND, STATE and location X
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="150" is-extract="false" line-id="150" simulator="atlas" timestamp="1641017670" type="out"># 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="151" is-extract="false" line-id="151" simulator="atlas" timestamp="1641017670" type="out"># DENSVSE is the local carrier density vs Energy. An integral of DENSVSE gives a 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="152" is-extract="false" line-id="152" simulator="atlas" timestamp="1641017670" type="out"># total carrier concentration at this location.It can be characterized by parameters 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="153" is-extract="false" line-id="153" simulator="atlas" timestamp="1641017670" type="out"># BAND, STATE and location X
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="154" is-extract="false" line-id="154" simulator="atlas" timestamp="1641017670" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="155" is-extract="false" line-id="155" simulator="atlas" timestamp="1641017670" type="out"># CURDVSE is the local current density vs Energy. An integral of CURDVSE gives a 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="156" is-extract="false" line-id="156" simulator="atlas" timestamp="1641017670" type="out"># total current density at this location. In the ballistic case, i.e. when no inelastic 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="157" is-extract="false" line-id="157" simulator="atlas" timestamp="1641017670" type="out"># phonons are present, this quatity should not change with location. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="158" is-extract="false" line-id="158" simulator="atlas" timestamp="1641017670" type="out"># It can be characterized by parameters  BAND, STATE and location X
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="159" is-extract="false" line-id="159" simulator="atlas" timestamp="1641017670" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="160" is-extract="false" line-id="160" simulator="atlas" timestamp="1641017670" type="out"># If parameters BAND or STATE are omitted, a summation is preformed over the 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="161" is-extract="false" line-id="161" simulator="atlas" timestamp="1641017670" type="out"># band or state indeces.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="162" is-extract="false" line-id="162" simulator="atlas" timestamp="1641017670" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="163" is-extract="false" line-id="163" simulator="atlas" timestamp="1641017670" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="164" is-extract="false" line-id="164" simulator="atlas" timestamp="1641017670" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017670" type="out">ATLAS&gt; </text>
+
+  <text deck-line="165" is-extract="false" line-id="165" simulator="atlas" timestamp="1641017671" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="166" is-extract="false" line-id="166" simulator="atlas" timestamp="1641017671" type="out">probe transmission  filename="quantumex12_TranvsE" 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="167" is-extract="false" line-id="167" simulator="atlas" timestamp="1641017671" type="out">probe dosvse  x=0.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="168" is-extract="false" line-id="168" simulator="atlas" timestamp="1641017671" type="out">probe dosvse  x=0.035
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="169" is-extract="false" line-id="169" simulator="atlas" timestamp="1641017671" type="out">probe curdvse x=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="170" is-extract="false" line-id="170" simulator="atlas" timestamp="1641017671" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="171" is-extract="false" line-id="171" simulator="atlas" timestamp="1641017671" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="172" is-extract="false" line-id="172" simulator="atlas" timestamp="1641017671" type="out"># Initial equilibrium solution uses only Schrodinger solver
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">ATLAS&gt; </text>
+
+  <text deck-line="173" is-extract="false" line-id="173" simulator="atlas" timestamp="1641017671" type="out">solve init
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">
+Starting module:   SPISCES                        
+
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017671" type="out">
+Starting module:   Quantum                        
+
+
+Obtaining static solution:
+
+
+init           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017672" type="out">   1    1  S   -0.124 -16.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017672" type="out">   1    2  SP  -0.301 -16.13
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017672" type="out">   1    3  SP  -0.477 -16.28
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017673" type="out">   1    4  SP  -0.602 -16.38
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017673" type="out">   1    5  SP  -0.533 -16.52
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017673" type="out">   1    6  SP  -0.382 -16.73
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017674" type="out">   1    7  SP  -0.149 -17.10
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017674" type="out">   2    1  S   -0.325 -17.43
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017674" type="out">   2    2  SP  -2.424 -20.19
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017675" type="out">   2    3  SP  -5.11* -22.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017675" type="out">   3    1  S   -1.673 -19.37
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017676" type="out">   3    2  SP  -3.587 -21.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017676" type="out">   3    3  SP  -7.39* -25.15
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017676" type="out">   4    1  S   -2.204 -19.86
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017677" type="out">   4    2  SP  -4.620 -22.36
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017677" type="out">   4    3  SP  -9.44* -27.2*
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017677" type="out">   5    1  S   -2.706 -20.34
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017678" type="out">   5    2  SP  -5.61* -23.35
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017678" type="out">   6    1  S   -3.198 -20.81
+  
+ATLAS&gt; </text>
+
+  <text deck-line="174" is-extract="false" line-id="174" simulator="atlas" timestamp="1641017678" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017678" type="out">ATLAS&gt; </text>
+
+  <text deck-line="175" is-extract="false" line-id="175" simulator="atlas" timestamp="1641017678" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017678" type="out">ATLAS&gt; </text>
+
+  <text deck-line="176" is-extract="false" line-id="176" simulator="atlas" timestamp="1641017678" type="out"># NEGF solution at zero bias
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017678" type="out">ATLAS&gt; </text>
+
+  <text deck-line="177" is-extract="false" line-id="177" simulator="atlas" timestamp="1641017678" type="out">solve  prev 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017678" type="out">
+Obtaining static solution:
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017684" type="out">   1    1  S   -0.365 -18.42
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017685" type="out">   1    2  SP  -1.154 -19.00
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017685" type="out">   1    3  SP  -2.680 -20.52
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017685" type="out">   1    4  SP  -5.61* -23.44
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017691" type="out">   2    1  S   -0.997 -18.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017691" type="out">   2    2  SP  -2.364 -20.21
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017691" type="out">   2    3  SP  -5.04* -22.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017696" type="out">   3    1  S   -1.575 -19.40
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017697" type="out">   3    2  SP  -3.486 -21.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017697" type="out">   3    3  SP  -7.25* -25.10
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017702" type="out">   4    1  S   -2.131 -19.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017703" type="out">   4    2  SP  -4.563 -22.41
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017703" type="out">   4    3  SP  -7.59* -25.51
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017708" type="out">   5    1  S   -2.677 -20.48
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017709" type="out">   5    2  SP  -5.63* -23.47
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017714" type="out">   6    1  S   -3.202 -21.01
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.435e-018
+drain          0.000e+000              1.858e-018
+gate1          0.000e+000              0.000e+000
+gate2          0.000e+000              0.000e+000
+Total                                  4.228e-019
+
+Time for bias point:  35.52 sec. 
+Total time:           56.12 sec. 
+  
+ATLAS&gt; </text>
+
+  <text deck-line="178" is-extract="false" line-id="178" simulator="atlas" timestamp="1641017714" type="out">save outf=quantumex12_init.str negf.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017714" type="out">
+Transmission file written to quantumex12_TranvsE0.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017715" type="out">
+MASTER format file written to quantumex12_init.str at Sat Jan 01 10:15:15 2022
+
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017715" type="out">ATLAS&gt; </text>
+
+  <text deck-line="179" is-extract="false" line-id="179" simulator="atlas" timestamp="1641017715" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017715" type="out">ATLAS&gt; </text>
+
+  <text deck-line="-1" is-extract="false" line-id="180" simulator="atlas" timestamp="1641017715" type="out">tonyplot quantumex12_init.str -set quantumex12_dens.set
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="181" simulator="atlas" timestamp="1641017716" type="out">tonyplot quantumex12_TranvsE0.log -set quantumex12_tran.set
+</text>
+
+  <text deck-line="182" is-extract="false" line-id="182" simulator="atlas" timestamp="1641017716" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017716" type="out">ATLAS&gt; </text>
+
+  <text deck-line="183" is-extract="false" line-id="183" simulator="atlas" timestamp="1641017716" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017716" type="out">ATLAS&gt; </text>
+
+  <text deck-line="184" is-extract="false" line-id="184" simulator="atlas" timestamp="1641017717" type="out"># This is an Drain current versus Drain voltage run.  IV characteristics is stored in
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017717" type="out">ATLAS&gt; </text>
+
+  <text deck-line="185" is-extract="false" line-id="185" simulator="atlas" timestamp="1641017717" type="out"># IVd_dg.log file. At each bias point solution is stored in dgt_vd$.str file.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017717" type="out">ATLAS&gt; </text>
+
+  <text deck-line="186" is-extract="false" line-id="186" simulator="atlas" timestamp="1641017717" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017717" type="out">ATLAS&gt; </text>
+
+  <text deck-line="187" is-extract="false" line-id="187" simulator="atlas" timestamp="1641017717" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017717" type="out">ATLAS&gt; </text>
+
+  <text deck-line="188" is-extract="false" line-id="188" simulator="atlas" timestamp="1641017717" type="out">log outf=quantumex12_IVd_vg07.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017717" type="out">ATLAS&gt; </text>
+
+  <text deck-line="189" is-extract="false" line-id="189" simulator="atlas" timestamp="1641017717" type="out">solve  v3=0.7 v2=0.0 vstep=0.05 vfinal=1.0 name=drain  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017717" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.7         
+ V(  gate2  ) = 0.7         
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017722" type="out">   1    1  S   -0.305 -16.22
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017723" type="out">   1    2  SP  -0.222 -16.29
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017723" type="out">   1    3  SP  -0.117 -16.36
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017723" type="out">   1    4  SP  -0.208 -16.46
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017724" type="out">   1    5  SP  -0.071 -16.59
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017724" type="out">   1    6  SP  -0.159 -16.76
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017724" type="out">   1    7  SP  -0.315 -17.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017731" type="out">   2    1  S   -0.138 -18.49
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017731" type="out">   2    2  SP  -0.352 -17.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017731" type="out">   2    3  SP  -1.032 -19.32
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017731" type="out">   2    4  SP  -2.483 -21.14
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017732" type="out">   2    5  SP  -5.47* -24.11
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017738" type="out">   3    1  S   -0.430 -18.85
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017738" type="out">   3    2  SP  -1.341 -19.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017739" type="out">   3    3  SP  -3.252 -21.74
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017739" type="out">   3    4  SP  -7.06* -25.57
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017745" type="out">   4    1  S   -1.401 -19.37
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017746" type="out">   4    2  SP  -3.208 -21.58
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017746" type="out">   4    3  SP  -6.93* -25.37
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017751" type="out">   5    1  S   -2.200 -20.00
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017752" type="out">   5    2  SP  -4.792 -23.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017752" type="out">   5    3  SP  -7.83* -25.56
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017757" type="out">   6    1  S   -3.022 -20.60
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000              1.005e-018
+drain          0.000e+000             -1.761e-018
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -7.564e-019
+
+Time for bias point:  40.23 sec. 
+Total time:            1.65 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017757" type="out">  
+ Warning: Projection cannot be done with
+ current bias step.  Using previous solution
+ for initial guess.
+  
+
+Obtaining static solution:
+
+ V(  drain  ) = 0.05        
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017763" type="out">   1    1  S   -0.338 -18.29
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017763" type="out">   1    2  SP  -0.941 -18.52
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017763" type="out">   1    3  SP  -1.694 -19.46
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017763" type="out">   1    4  SP  -3.197 -20.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017764" type="out">   1    5  SP  -6.28* -23.92
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017770" type="out">   2    1  S   -1.027 -18.68
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017770" type="out">   2    2  SP  -2.566 -20.29
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017770" type="out">   2    3  SP  -4.884 -23.31
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017770" type="out">   2    4  SP  -7.33* -24.79
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017776" type="out">   3    1  S   -1.879 -19.50
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017777" type="out">   3    2  SP  -3.815 -21.53
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017777" type="out">   3    3  SP  -6.34* -24.26
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017783" type="out">   4    1  S   -2.315 -19.98
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017783" type="out">   4    2  SP  -5.13* -22.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017789" type="out">   5    1  S   -3.234 -20.83
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -3.574e-004
+drain          5.000e-002              3.574e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  2.656e-018
+
+Time for bias point:  31.53 sec. 
+Total time:            2.18 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017789" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.1         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017796" type="out">   1    1  S   -1.206 -19.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017796" type="out">   1    2  SP  -2.605 -21.12
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017796" type="out">   1    3  SP  -5.43* -23.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017804" type="out">   2    1  S   -1.553 -19.78
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017804" type="out">   2    2  SP  -3.414 -21.95
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017804" type="out">   2    3  SP  -6.90* -24.40
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017812" type="out">   3    1  S   -1.959 -20.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017812" type="out">   3    2  SP  -4.064 -22.49
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017812" type="out">   3    3  SP  -6.89* -24.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017819" type="out">   4    1  S   -2.392 -20.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017820" type="out">   4    2  SP  -4.952 -23.44
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017820" type="out">   4    3  SP  -7.47* -25.22
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017827" type="out">   5    1  S   -2.891 -21.34
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017828" type="out">   5    2  SP  -6.04* -24.51
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017835" type="out">   6    1  S   -3.346 -21.72
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -6.100e-004
+drain          1.000e-001              6.100e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -5.746e-018
+
+Time for bias point:  46.66 sec. 
+Total time:            2.96 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017835" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.15        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017844" type="out">   1    1  S   -1.825 -20.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017844" type="out">   1    2  SP  -3.810 -22.22
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017845" type="out">   1    3  SP  -6.25* -24.16
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017852" type="out">   2    1  S   -2.299 -20.72
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017853" type="out">   2    2  SP  -4.849 -23.25
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017853" type="out">   2    3  SP  -7.11* -25.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017861" type="out">   3    1  S   -2.912 -20.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017861" type="out">   3    2  SP  -5.90* -24.10
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017869" type="out">   4    1  S   -2.965 -21.31
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017869" type="out">   4    2  SP  -6.00* -23.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017876" type="out">   5    1  S   -3.243 -21.41
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -7.306e-004
+drain          1.500e-001              7.306e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -1.769e-015
+
+Time for bias point:  41.01 sec. 
+Total time:            3.64 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017877" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.2         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017884" type="out">   1    1  S   -1.426 -19.74
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017885" type="out">   1    2  SP  -2.838 -21.18
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017885" type="out">   1    3  SP  -5.74* -24.07
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017893" type="out">   2    1  S   -1.648 -20.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017893" type="out">   2    2  SP  -3.287 -21.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017893" type="out">   2    3  SP  -6.64* -25.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017901" type="out">   3    1  S   -1.974 -20.43
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017901" type="out">   3    2  SP  -4.013 -22.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017901" type="out">   3    3  SP  -6.77* -24.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017909" type="out">   4    1  S   -2.397 -20.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017910" type="out">   4    2  SP  -4.937 -23.39
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017910" type="out">   4    3  SP  -7.58* -24.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017918" type="out">   5    1  S   -2.923 -21.25
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017918" type="out">   5    2  SP  -6.34* -23.67
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017926" type="out">   6    1  S   -3.384 -21.71
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017926" type="out">
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -8.036e-004
+drain          2.000e-001              8.036e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  6.288e-017
+
+Time for bias point:  48.99 sec. 
+Total time:            4.46 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017926" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.25        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017933" type="out">   1    1  S   -2.008 -19.23
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017934" type="out">   1    2  SP  -3.951 -21.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017934" type="out">   1    3  SP  -6.99* -24.15
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017942" type="out">   2    1  S   -2.559 -19.95
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017942" type="out">   2    2  SP  -5.05* -23.05
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017950" type="out">   3    1  S   -2.767 -20.75
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017950" type="out">   3    2  SP  -5.46* -23.60
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017957" type="out">   4    1  S   -2.973 -21.21
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017958" type="out">   4    2  SP  -5.90* -24.16
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017965" type="out">   5    1  S   -3.201 -21.56
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -8.485e-004
+drain          2.500e-001              8.485e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  1.691e-017
+
+Time for bias point:  39.81 sec. 
+Total time:            5.13 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017966" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.3         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017974" type="out">   1    1  S   -2.097 -19.25
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017974" type="out">   1    2  SP  -3.921 -21.84
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017974" type="out">   1    3  SP  -6.74* -23.67
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017982" type="out">   2    1  S   -2.106 -20.20
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017982" type="out">   2    2  SP  -4.158 -22.54
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017983" type="out">   2    3  SP  -7.28* -24.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017991" type="out">   3    1  S   -2.428 -20.85
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017991" type="out">   3    2  SP  -4.866 -23.27
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017991" type="out">   3    3  SP  -6.89* -24.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017999" type="out">   4    1  S   -2.792 -21.13
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641017999" type="out">   4    2  SP  -5.70* -23.76
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018007" type="out">   5    1  S   -3.271 -21.72
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -8.912e-004
+drain          3.000e-001              8.912e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018007" type="out">         0.000e+000
+Total                                  9.518e-016
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018007" type="out">
+Time for bias point:  41.83 sec. 
+Total time:            5.82 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018007" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.35        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018017" type="out">   1    1  S   -2.413 -19.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018018" type="out">   1    2  SP  -4.465 -22.14
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018018" type="out">   1    3  SP  -6.35* -23.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018027" type="out">   2    1  S   -2.920 -20.65
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018028" type="out">   2    2  SP  -5.60* -22.79
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018037" type="out">   3    1  S   -3.172 -21.07
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -9.208e-004
+drain          3.500e-001              9.208e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  6.061e-017
+
+Time for bias point:  29.31 sec. 
+Total time:            6.31 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018037" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.4         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018046" type="out">   1    1  S   -2.361 -20.05
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018046" type="out">   1    2  SP  -4.363 -22.07
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018047" type="out">   1    3  SP  -6.84* -23.78
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018056" type="out">   2    1  S   -2.702 -20.65
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018056" type="out">   2    2  SP  -5.05* -23.17
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018065" type="out">   3    1  S   -2.942 -21.09
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018066" type="out">   3    2  SP  -5.62* -23.43
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018075" type="out">   4    1  S   -3.198 -21.29
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -9.558e-004
+drain          4.000e-001              9.558e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  6.629e-015
+
+Time for bias point:  38.18 sec. 
+Total time:            6.95 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018075" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.45        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018084" type="out">   1    1  S   -2.565 -20.11
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018085" type="out">   1    2  SP  -4.712 -22.26
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018085" type="out">   1    3  SP  -7.07* -23.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018094" type="out">   2    1  S   -3.086 -20.73
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -9.827e-004
+drain          4.500e-001              9.827e-004
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  3.536e-014
+
+Time for bias point:  19.41 sec. 
+Total time:            7.28 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018095" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.5         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018104" type="out">   1    1  S   -2.542 -20.07
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018104" type="out">   1    2  SP  -4.624 -22.17
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018105" type="out">   1    3  SP  -7.29* -24.15
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018114" type="out">   2    1  S   -3.032 -20.69
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.009e-003
+drain          5.000e-001              1.009e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -1.799e-014
+
+Time for bias point:  19.46 sec. 
+Total time:            7.60 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018114" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.55        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018126" type="out">   1    1  S   -2.590 -19.63
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018126" type="out">   1    2  SP  -4.633 -22.14
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018126" type="out">   1    3  SP  -7.61* -24.50
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018138" type="out">   2    1  S   -3.095 -20.23
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018138" type="out">
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.032e-003
+drain          5.500e-001              1.032e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  2.927e-017
+
+Time for bias point:  24.18 sec. 
+Total time:            8.01 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018138" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.6         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018150" type="out">   1    1  S   -2.748 -19.59
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018150" type="out">   1    2  SP  -5.000 -22.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018151" type="out">   1    3  SP  -7.43* -24.30
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018163" type="out">   2    1  S   -3.260 -20.53
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018163" type="out">
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.052e-003
+drain          6.000e-001              1.052e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  1.205e-015
+
+Time for bias point:  24.52 sec. 
+Total time:            8.42 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018163" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.65        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018175" type="out">   1    1  S   -2.802 -20.15
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018175" type="out">   1    2  SP  -5.01* -22.40
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018187" type="out">   2    1  S   -3.302 -20.79
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.069e-003
+drain          6.500e-001              1.069e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  4.073e-015
+
+Time for bias point:  24.41 sec. 
+Total time:            8.82 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018187" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.7         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018200" type="out">   1    1  S   -2.835 -20.19
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018200" type="out">   1    2  SP  -5.04* -22.39
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018212" type="out">   2    1  S   -3.316 -20.81
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.090e-003
+drain          7.000e-001              1.090e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -6.836e-014
+
+Time for bias point:  24.50 sec. 
+Total time:            9.23 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018212" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.75        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018224" type="out">   1    1  S   -2.903 -20.24
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018225" type="out">   1    2  SP  -5.18* -22.53
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018237" type="out">   2    1  S   -3.407 -20.84
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.108e-003
+drain          7.500e-001              1.108e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  8.280e-015
+
+Time for bias point:  24.76 sec. 
+Total time:            9.65 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018237" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.8         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018249" type="out">   1    1  S   -2.967 -20.27
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018249" type="out">   1    2  SP  -5.28* -22.59
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018262" type="out">   2    1  S   -3.485 -20.87
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.126e-003
+drain          8.000e-001              1.126e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -1.851e-015
+
+Time for bias point:  24.91 sec. 
+Total time:           10.06 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018262" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.85        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018279" type="out">   1    1  S   -3.024 -20.31
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.144e-003
+drain          8.500e-001              1.144e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -4.737e-015
+
+Time for bias point:  17.62 sec. 
+Total time:           10.36 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018279" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.9         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018295" type="out">   1    1  S   -2.938 -20.19
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018295" type="out">   1    2  SP  -5.16* -22.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018310" type="out">   2    1  S   -3.446 -20.61
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.162e-003
+drain          9.000e-001              1.162e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  4.156e-015
+
+Time for bias point:  30.42 sec. 
+Total time:           10.87 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018310" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0.95        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018325" type="out">   1    1  S   -3.170 -20.35
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.180e-003
+drain          9.500e-001              1.180e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                  1.739e-016
+
+Time for bias point:  15.10 sec. 
+Total time:           11.12 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018325" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 1           
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018340" type="out">   1    1  S   -3.133 -20.26
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.195e-003
+drain          1.000e+000              1.195e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -2.778e-015
+
+Time for bias point:  15.01 sec. 
+Total time:           11.37 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018340" type="out">ATLAS&gt; </text>
+
+  <text deck-line="190" is-extract="false" line-id="190" simulator="atlas" timestamp="1641018340" type="out">log off
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018340" type="out">ATLAS&gt; </text>
+
+  <text deck-line="191" is-extract="false" line-id="191" simulator="atlas" timestamp="1641018340" type="out">save outf=quantumex12_vd1_vg07.str negf.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018340" type="out">
+Transmission file written to quantumex12_TranvsE1.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018342" type="out">
+MASTER format file written to quantumex12_vd1_vg07.str at Sat Jan 01 10:25:41 2022
+
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018342" type="out">ATLAS&gt; </text>
+
+  <text deck-line="192" is-extract="false" line-id="192" simulator="atlas" timestamp="1641018342" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018342" type="out">ATLAS&gt; </text>
+
+  <text deck-line="-1" is-extract="false" line-id="193" simulator="atlas" timestamp="1641018342" type="out">tonyplot quantumex12_vd1_vg07.str -set quantumex12_dens.set
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="194" simulator="atlas" timestamp="1641018342" type="out">tonyplot quantumex12_IVd_vg07.log -set quantumex12_IVd.set
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="195" simulator="atlas" timestamp="1641018342" type="out">tonyplot quantumex12_TranvsE1.log -set quantumex12_tran.set
+</text>
+
+  <text deck-line="196" is-extract="false" line-id="196" simulator="atlas" timestamp="1641018343" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018343" type="out">ATLAS&gt; </text>
+
+  <text deck-line="197" is-extract="false" line-id="197" simulator="atlas" timestamp="1641018343" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018343" type="out">ATLAS&gt; </text>
+
+  <text deck-line="198" is-extract="false" line-id="198" simulator="atlas" timestamp="1641018343" type="out">solve init
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018343" type="out">
+Obtaining static solution:
+
+ V(  drain  ) = 0           
+ V(  gate1  ) = 0           
+ V(  gate2  ) = 0           
+
+
+init           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018344" type="out">   1    1  S   -0.124 -16.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018344" type="out">   1    2  SP  -0.301 -16.13
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018344" type="out">   1    3  SP  -0.477 -16.28
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018345" type="out">   1    4  SP  -0.602 -16.38
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018345" type="out">   1    5  SP  -0.533 -16.52
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018345" type="out">   1    6  SP  -0.382 -16.73
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018345" type="out">   1    7  SP  -0.149 -17.10
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018346" type="out">   2    1  S   -0.325 -17.43
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018346" type="out">   2    2  SP  -2.424 -20.19
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018347" type="out">   2    3  SP  -5.11* -22.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018347" type="out">   3    1  S   -1.673 -19.37
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018347" type="out">   3    2  SP  -3.587 -21.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018348" type="out">   3    3  SP  -7.39* -25.15
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018348" type="out">   4    1  S   -2.204 -19.86
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018348" type="out">   4    2  SP  -4.620 -22.36
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018349" type="out">   4    3  SP  -9.44* -27.2*
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018349" type="out">   5    1  S   -2.706 -20.34
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018350" type="out">   5    2  SP  -5.61* -23.35
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018350" type="out">   6    1  S   -3.198 -20.81
+  
+ATLAS&gt; </text>
+
+  <text deck-line="199" is-extract="false" line-id="199" simulator="atlas" timestamp="1641018350" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018350" type="out">ATLAS&gt; </text>
+
+  <text deck-line="200" is-extract="false" line-id="200" simulator="atlas" timestamp="1641018350" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018350" type="out">ATLAS&gt; </text>
+
+  <text deck-line="201" is-extract="false" line-id="201" simulator="atlas" timestamp="1641018350" type="out"># This is an Drain current versus Gate voltage run.  IV characteristics is stored in
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018350" type="out">ATLAS&gt; </text>
+
+  <text deck-line="202" is-extract="false" line-id="202" simulator="atlas" timestamp="1641018351" type="out"># .log file. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="203" is-extract="false" line-id="203" simulator="atlas" timestamp="1641018351" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="204" is-extract="false" line-id="204" simulator="atlas" timestamp="1641018351" type="out"># Quantities of interest are potential, carrier density, current density profiles,
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="205" is-extract="false" line-id="205" simulator="atlas" timestamp="1641018351" type="out"># bound state energies and wavefunctions.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="206" is-extract="false" line-id="206" simulator="atlas" timestamp="1641018351" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="207" is-extract="false" line-id="207" simulator="atlas" timestamp="1641018351" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="208" is-extract="false" line-id="208" simulator="atlas" timestamp="1641018351" type="out"># Warning: usually a convergence is poor when the device open, i.e. 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="209" is-extract="false" line-id="209" simulator="atlas" timestamp="1641018351" type="out"># there is no injection barrier.
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="210" is-extract="false" line-id="210" simulator="atlas" timestamp="1641018351" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="211" is-extract="false" line-id="211" simulator="atlas" timestamp="1641018351" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018351" type="out">ATLAS&gt; </text>
+
+  <text deck-line="212" is-extract="false" line-id="212" simulator="atlas" timestamp="1641018352" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018352" type="out">ATLAS&gt; </text>
+
+  <text deck-line="213" is-extract="false" line-id="213" simulator="atlas" timestamp="1641018352" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018352" type="out">ATLAS&gt; </text>
+
+  <text deck-line="214" is-extract="false" line-id="214" simulator="atlas" timestamp="1641018352" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018352" type="out">ATLAS&gt; </text>
+
+  <text deck-line="215" is-extract="false" line-id="215" simulator="atlas" timestamp="1641018352" type="out">log outf=quantumex12_IVg_vd06.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018352" type="out">ATLAS&gt; </text>
+
+  <text deck-line="216" is-extract="false" line-id="216" simulator="atlas" timestamp="1641018352" type="out">solve  v2=0.6 v3=0.0 vstep=0.05 vfinal=1.0 name=gate1 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018352" type="out">  
+ Warning: Projection cannot be done with
+ current bias step.  Using previous solution
+ for initial guess.
+  
+
+Obtaining static solution:
+
+ V(  drain  ) = 0.6         
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018361" type="out">   1    1  S   -0.494 -18.24
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018361" type="out">   1    2  SP  -0.615 -17.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018362" type="out">   1    3  SP  -0.709 -16.76
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018362" type="out">   1    4  SP  -0.787 -16.58
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018362" type="out">   1    5  SP  -0.852 -16.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018362" type="out">   1    6  SP  -0.909 -16.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018363" type="out">   1    7  SP  -0.694 -16.85
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018377" type="out">   2    1  S   -0.098 -16.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018377" type="out">   2    2  SP  -0.558 -16.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018378" type="out">   2    3  SP  -1.007 -17.28
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018378" type="out">   2    4  SP  -7.45* -24.22
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018390" type="out">   3    1  S   -1.575 -19.40
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018391" type="out">   3    2  SP  -4.203 -21.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018391" type="out">   3    3  SP  -7.14* -23.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018403" type="out">   4    1  S   -2.132 -19.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018404" type="out">   4    2  SP  -4.566 -22.41
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018404" type="out">   4    3  SP  -7.61* -24.38
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018416" type="out">   5    1  S   -2.673 -20.48
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018416" type="out">   5    2  SP  -6.32* -23.46
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018429" type="out">   6    1  S   -3.749 -20.91
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -2.036e-011
+drain          6.000e-001              2.036e-011
+gate1          0.000e+000              0.000e+000
+gate2          0.000e+000              0.000e+000
+Total                                 -5.028e-018
+
+Time for bias point:   1.28 min. 
+Total time:           12.85 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018429" type="out">  
+ Warning: Projection cannot be done with
+ current bias step.  Using previous solution
+ for initial guess.
+  
+
+Obtaining static solution:
+
+ V(  gate1  ) = 0.05        
+ V(  gate2  ) = 0.05        
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018441" type="out">   1    1  S   -0.975 -17.36
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018441" type="out">   1    2  SP  -1.381 -20.30
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018441" type="out">   1    3  SP  -3.603 -22.46
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018442" type="out">   1    4  SP  -8.14* -26.5*
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018454" type="out">   2    1  S   -1.008 -19.80
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018454" type="out">   2    2  SP  -2.998 -21.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018455" type="out">   2    3  SP  -8.26* -25.09
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018467" type="out">   3    1  S   -1.880 -20.38
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018467" type="out">   3    2  SP  -4.548 -23.17
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018467" type="out">   3    3  SP  -6.93* -24.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018480" type="out">   4    1  S   -3.790 -20.94
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.072e-010
+drain          6.000e-001              1.072e-010
+gate1          5.000e-002              0.000e+000
+gate2          5.000e-002              0.000e+000
+Total                                 -3.077e-019
+
+Time for bias point:  50.69 sec. 
+Total time:           13.69 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018480" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.1         
+ V(  gate2  ) = 0.1         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018492" type="out">   1    1  S   -1.621 -19.95
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018492" type="out">   1    2  SP  -3.800 -22.30
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018492" type="out">   1    3  SP  -7.85* -24.64
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018505" type="out">   2    1  S   -2.842 -20.75
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018505" type="out">   2    2  SP  -5.79* -23.73
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018518" type="out">   3    1  S   -3.298 -21.41
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -5.589e-010
+drain          6.000e-001              5.589e-010
+gate1          1.000e-001              0.000e+000
+gate2          1.000e-001              0.000e+000
+Total                                  2.651e-017
+
+Time for bias point:  38.26 sec. 
+Total time:           14.33 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018518" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.15        
+ V(  gate2  ) = 0.15        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018532" type="out">   1    1  S   -1.463 -20.04
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018532" type="out">   1    2  SP  -3.583 -22.19
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018532" type="out">   1    3  SP  -6.66* -24.62
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018546" type="out">   2    1  S   -2.756 -20.64
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018546" type="out">   2    2  SP  -5.75* -23.67
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018558" type="out">   3    1  S   -3.191 -21.47
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -2.871e-009
+drain          6.000e-001              2.871e-009
+gate1          1.500e-001              0.000e+000
+gate2          1.500e-001              0.000e+000
+Total                                 -3.377e-017
+
+Time for bias point:  40.23 sec. 
+Total time:           15.00 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018558" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.2         
+ V(  gate2  ) = 0.2         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018570" type="out">   1    1  S   -1.563 -20.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018571" type="out">   1    2  SP  -3.370 -22.13
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018571" type="out">   1    3  SP  -7.82* -24.64
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018583" type="out">   2    1  S   -2.720 -20.59
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018583" type="out">   2    2  SP  -6.89* -23.74
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018595" type="out">   3    1  S   -3.226 -21.43
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.451e-008
+drain          6.000e-001              1.451e-008
+gate1          2.000e-001              0.000e+000
+gate2          2.000e-001              0.000e+000
+Total                                 -1.452e-016
+
+Time for bias point:  37.12 sec. 
+Total time:           15.62 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018595" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.25        
+ V(  gate2  ) = 0.25        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018607" type="out">   1    1  S   -1.424 -19.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018608" type="out">   1    2  SP  -3.477 -22.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018608" type="out">   1    3  SP  -6.81* -24.77
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018620" type="out">   2    1  S   -2.698 -20.54
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018620" type="out">   2    2  SP  -6.88* -23.60
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018632" type="out">   3    1  S   -4.056 -21.19
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -7.144e-008
+drain          6.000e-001              7.144e-008
+gate1          2.500e-001              0.000e+000
+gate2          2.500e-001              0.000e+000
+Total                                  3.640e-017
+
+Time for bias point:  36.89 sec. 
+Total time:           16.24 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018632" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.3         
+ V(  gate2  ) = 0.3         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018644" type="out">   1    1  S   -1.217 -19.96
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018645" type="out">   1    2  SP  -3.231 -22.00
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018645" type="out">   1    3  SP  -7.90* -24.72
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018657" type="out">   2    1  S   -2.687 -20.51
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018657" type="out">   2    2  SP  -6.03* -23.84
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018669" type="out">   3    1  S   -3.014 -21.36
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -3.420e-007
+drain          6.000e-001              3.420e-007
+gate1          3.000e-001              0.000e+000
+gate2          3.000e-001              0.000e+000
+Total                                 -1.957e-014
+
+Time for bias point:  36.95 sec. 
+Total time:           16.86 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018669" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.35        
+ V(  gate2  ) = 0.35        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018681" type="out">   1    1  S   -1.134 -19.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018682" type="out">   1    2  SP  -3.098 -21.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018682" type="out">   1    3  SP  -6.81* -24.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018694" type="out">   2    1  S   -2.628 -20.47
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018694" type="out">   2    2  SP  -5.93* -23.63
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018706" type="out">   3    1  S   -2.847 -21.32
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018706" type="out">   3    2  SP  -6.46* -24.24
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018718" type="out">   4    1  S   -4.626 -21.73
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.572e-006
+drain          6.000e-001              1.572e-006
+gate1          3.500e-001              0.000e+000
+gate2          3.500e-001              0.000e+000
+Total                                  7.234e-015
+
+Time for bias point:  48.88 sec. 
+Total time:           17.67 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018718" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.4         
+ V(  gate2  ) = 0.4         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018730" type="out">   1    1  S   -1.070 -19.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018731" type="out">   1    2  SP  -2.968 -21.83
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018731" type="out">   1    3  SP  -7.61* -24.42
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018743" type="out">   2    1  S   -2.586 -20.42
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018743" type="out">   2    2  SP  -5.80* -23.66
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018755" type="out">   3    1  S   -2.897 -21.28
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018755" type="out">   3    2  SP  -6.87* -23.68
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018768" type="out">   4    1  S   -3.950 -21.70
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -6.509e-006
+drain          6.000e-001              6.509e-006
+gate1          4.000e-001              0.000e+000
+gate2          4.000e-001              0.000e+000
+Total                                 -4.374e-014
+
+Time for bias point:  49.16 sec. 
+Total time:           18.49 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018768" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.45        
+ V(  gate2  ) = 0.45        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018780" type="out">   1    1  S   -0.985 -19.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018780" type="out">   1    2  SP  -2.794 -21.71
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018780" type="out">   1    3  SP  -7.56* -24.47
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018792" type="out">   2    1  S   -2.571 -20.39
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018792" type="out">   2    2  SP  -5.08* -23.60
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018804" type="out">   3    1  S   -2.810 -21.17
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018805" type="out">   3    2  SP  -6.88* -23.74
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018817" type="out">   4    1  S   -4.192 -21.29
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -2.317e-005
+drain          6.000e-001              2.317e-005
+gate1          4.500e-001              0.000e+000
+gate2          4.500e-001              0.000e+000
+Total                                  3.896e-013
+
+Time for bias point:  49.30 sec. 
+Total time:           19.32 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018817" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.5         
+ V(  gate2  ) = 0.5         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018829" type="out">   1    1  S   -0.886 -19.92
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018830" type="out">   1    2  SP  -2.587 -21.61
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018830" type="out">   1    3  SP  -6.04* -24.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018842" type="out">   2    1  S   -1.968 -20.43
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018842" type="out">   2    2  SP  -4.834 -23.62
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018843" type="out">   2    3  SP  -6.88* -24.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018854" type="out">   3    1  S   -2.841 -21.31
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018855" type="out">   3    2  SP  -6.71* -23.59
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018867" type="out">   4    1  S   -4.025 -21.12
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -7.074e-005
+drain          6.000e-001              7.074e-005
+gate1          5.000e-001              0.000e+000
+gate2          5.000e-001              0.000e+000
+Total                                 -1.454e-013
+
+Time for bias point:  50.11 sec. 
+Total time:           20.15 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018867" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.55        
+ V(  gate2  ) = 0.55        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018879" type="out">   1    1  S   -1.105 -19.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018879" type="out">   1    2  SP  -2.671 -21.62
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018880" type="out">   1    3  SP  -5.96* -24.27
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018892" type="out">   2    1  S   -1.900 -20.69
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018892" type="out">   2    2  SP  -4.471 -23.27
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018892" type="out">   2    3  SP  -6.76* -24.66
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018904" type="out">   3    1  S   -3.215 -21.15
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.791e-004
+drain          6.000e-001              1.791e-004
+gate1          5.500e-001              0.000e+000
+gate2          5.500e-001              0.000e+000
+Total                                  5.635e-016
+
+Time for bias point:  37.18 sec. 
+Total time:           20.77 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018904" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.6         
+ V(  gate2  ) = 0.6         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018916" type="out">   1    1  S   -1.534 -19.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018917" type="out">   1    2  SP  -3.110 -21.77
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018917" type="out">   1    3  SP  -6.42* -24.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018929" type="out">   2    1  S   -1.917 -20.30
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018929" type="out">   2    2  SP  -4.189 -22.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018930" type="out">   2    3  SP  -7.91* -24.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018942" type="out">   3    1  S   -2.993 -20.82
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018942" type="out">   3    2  SP  -6.24* -24.16
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018954" type="out">   4    1  S   -3.846 -21.61
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -3.712e-004
+drain          6.000e-001              3.712e-004
+gate1          6.000e-001              0.000e+000
+gate2          6.000e-001              0.000e+000
+Total                                 -4.437e-012
+
+Time for bias point:  49.45 sec. 
+Total time:           21.60 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018954" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.65        
+ V(  gate2  ) = 0.65        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018966" type="out">   1    1  S   -1.932 -19.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018966" type="out">   1    2  SP  -3.648 -22.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018966" type="out">   1    3  SP  -6.26* -24.18
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018978" type="out">   2    1  S   -2.013 -20.04
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018979" type="out">   2    2  SP  -4.037 -22.55
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018979" type="out">   2    3  SP  -7.51* -25.07
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018991" type="out">   3    1  S   -2.885 -20.81
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641018991" type="out">   3    2  SP  -5.97* -23.82
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019003" type="out">   4    1  S   -3.062 -21.43
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -6.631e-004
+drain          6.000e-001              6.631e-004
+gate1          6.500e-001              0.000e+000
+gate2          6.500e-001              0.000e+000
+Total                                  1.113e-014
+
+Time for bias point:  49.11 sec. 
+Total time:           22.42 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019003" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.7         
+ V(  gate2  ) = 0.7         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019015" type="out">   1    1  S   -1.835 -19.73
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019015" type="out">   1    2  SP  -4.430 -22.05
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019016" type="out">   1    3  SP  -7.80* -24.57
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019028" type="out">   2    1  S   -2.279 -20.16
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019028" type="out">   2    2  SP  -4.285 -22.62
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019028" type="out">   2    3  SP  -7.98* -24.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019040" type="out">   3    1  S   -2.780 -20.88
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019040" type="out">   3    2  SP  -5.47* -23.32
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019052" type="out">   4    1  S   -3.066 -21.10
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019052" type="out">
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.051e-003
+drain          6.000e-001              1.051e-003
+gate1          7.000e-001              0.000e+000
+gate2          7.000e-001              0.000e+000
+Total                                 -1.041e-017
+
+Time for bias point:  48.96 sec. 
+Total time:           23.24 min. 
+  
+
+Obtaining static solution:
+
+ V(  gate1  ) = 0.75        
+ V(  gate2  ) </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019052" type="out">= 0.75        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019064" type="out">   1    1  S   -1.972 -19.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019064" type="out">   1    2  SP  -4.214 -22.30
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019065" type="out">   1    3  SP  -6.50* -24.36
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019077" type="out">   2    1  S   -2.491 -20.47
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019077" type="out">   2    2  SP  -4.613 -22.78
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019077" type="out">   2    3  SP  -8.20* -25.05
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019089" type="out">   3    1  S   -2.778 -20.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019089" type="out">   3    2  SP  -5.29* -23.51
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019101" type="out">   4    1  S   -3.079 -21.32
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -1.521e-003
+drain          6.000e-001              1.521e-003
+gate1          7.500e-001              0.000e+000
+gate2          7.500e-001              0.000e+000
+Total                                 -4.192e-016
+
+Time for bias point:  49.15 sec. 
+Total time:           24.06 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019101" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.8         
+ V(  gate2  ) = 0.8         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019113" type="out">   1    1  S   -2.126 -20.06
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019113" type="out">   1    2  SP  -4.503 -22.64
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019114" type="out">   1    3  SP  -7.58* -24.44
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019126" type="out">   2    1  S   -2.742 -20.74
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019126" type="out">   2    2  SP  -4.969 -22.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019126" type="out">   2    3  SP  -7.26* -25.05
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019138" type="out">   3    1  S   -2.843 -20.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019138" type="out">   3    2  SP  -5.31* -23.39
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019150" type="out">   4    1  S   -3.076 -21.07
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -2.066e-003
+drain          6.000e-001              2.066e-003
+gate1          8.000e-001              0.000e+000
+gate2          8.000e-001              0.000e+000
+Total                                 -1.644e-016
+
+Time for bias point:  48.87 sec. 
+Total time:           24.87 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019150" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.85        
+ V(  gate2  ) = 0.85        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019163" type="out">   1    1  S   -3.077 -20.27
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -2.653e-003
+drain          6.000e-001              2.653e-003
+gate1          8.500e-001              0.000e+000
+gate2          8.500e-001              0.000e+000
+Total                                  2.745e-016
+
+Time for bias point:  12.87 sec. 
+Total time:           25.09 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019163" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 0.9         
+ V(  gate2  ) = 0.9         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019177" type="out">   1    1  S   -2.711 -20.20
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019177" type="out">   1    2  SP  -4.742 -22.37
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019177" type="out">   1    3  SP  -6.90* -24.61
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019190" type="out">   2    1  S   -2.635 -20.46
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019190" type="out">   2    2  SP  -4.736 -22.58
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019191" type="out">   2    3  SP  -7.21* -25.03
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019203" type="out">   3    1  S   -2.775 -20.64
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019203" type="out">   3    2  SP  -5.08* -22.96
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019216" type="out">   4    1  S   -2.884 -20.79
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019216" type="out">   4    2  SP  -5.38* -23.29
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019229" type="out">   5    1  S   -2.989 -20.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019229" type="out">   5    2  SP  -5.63* -23.57
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019243" type="out">   6    1  S   -3.136 -21.08
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -3.347e-003
+drain          6.000e-001              3.347e-003
+gate1          9.000e-001              0.000e+000
+gate2          9.000e-001              0.000e+000
+Total                                  3.860e-017
+
+Time for bias point:   1.32 min. 
+Total time:           26.41 min. 
+  
+
+Obtaining static solution:
+
+ V(  gate1  ) </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019243" type="out">= 0.95        
+ V(  gate2  ) = 0.95        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019256" type="out">   1    1  S   -2.246 -20.11
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019256" type="out">   1    2  SP  -5.04* -22.88
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019268" type="out">   2    1  S   -2.603 -20.44
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019269" type="out">   2    2  SP  -5.45* -23.47
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019281" type="out">   3    1  S   -2.848 -20.72
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019281" type="out">   3    2  SP  -6.30* -24.08
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019293" type="out">   4    1  S   -3.328 -21.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019293" type="out">
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -4.051e-003
+drain          6.000e-001              4.051e-003
+gate1          9.500e-001              0.000e+000
+gate2          9.500e-001              0.000e+000
+Total                                 -2.602e-018
+
+Time for bias point:  50.65 sec. 
+Total time:           27.26 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019293" type="out">
+Obtaining static solution:
+
+ V(  gate1  ) = 1           
+ V(  gate2  ) = 1           
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019306" type="out">   1    1  S   -2.021 -19.87
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019306" type="out">   1    2  SP  -4.600 -22.39
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019306" type="out">   1    3  SP  -6.91* -24.76
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019318" type="out">   2    1  S   -3.001 -20.27
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+source         0.000e+000             -4.881e-003
+drain          6.000e-001              4.881e-003
+gate1          1.000e+000              0.000e+000
+gate2          1.000e+000              0.000e+000
+Total                                 -1.128e-017
+
+Time for bias point:  24.71 sec. 
+Total time:           27.67 min. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019318" type="out">ATLAS&gt; </text>
+
+  <text deck-line="217" is-extract="false" line-id="217" simulator="atlas" timestamp="1641019318" type="out">log off
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019318" type="out">ATLAS&gt; </text>
+
+  <text deck-line="218" is-extract="false" line-id="218" simulator="atlas" timestamp="1641019318" type="out">save outf=quantumex12_vd06_vg1.str negf.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019318" type="out">
+Transmission file written to quantumex12_TranvsE2.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019319" type="out">
+MASTER format file written to quantumex12_vd06_vg1.str at Sat Jan 01 10:41:59 2022
+
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019319" type="out">ATLAS&gt; </text>
+
+  <text deck-line="219" is-extract="false" line-id="219" simulator="atlas" timestamp="1641019320" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019320" type="out">ATLAS&gt; </text>
+
+  <text deck-line="-1" is-extract="false" line-id="220" simulator="atlas" timestamp="1641019320" type="out">tonyplot quantumex12_vd06_vg1.str -set quantumex12_dens.set
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="221" simulator="atlas" timestamp="1641019320" type="out">tonyplot quantumex12_IVg_vd06.log -set quantumex12_IVg.set
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="222" simulator="atlas" timestamp="1641019320" type="out">tonyplot quantumex12_TranvsE2.log -set quantumex12_tran.set
+</text>
+
+  <text deck-line="223" is-extract="false" line-id="223" simulator="atlas" timestamp="1641019321" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019321" type="out">ATLAS&gt; </text>
+
+  <text deck-line="224" is-extract="false" line-id="224" simulator="atlas" timestamp="1641019321" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019321" type="out">ATLAS&gt; </text>
+
+  <text deck-line="225" is-extract="false" line-id="225" simulator="atlas" timestamp="1641019321" type="out">exit
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641019321" type="out">
+ATLAS version 5.26.1.R finished at Sat Jan 01 10:42:01 2022
+</text>
+
+</rto>

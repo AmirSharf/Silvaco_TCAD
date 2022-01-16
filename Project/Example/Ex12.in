@@ -1,0 +1,225 @@
+go atlas
+mesh diag.flip
+
+x.m l=0.00     s=0.00025
+x.m l=0.035    s=0.00025
+
+y.m l= -0.0045   s=0.0001
+y.m l= -0.0015   s=0.0001
+y.m l= -0.0005   s=0.0001
+y.m l=  0.0005   s=0.0001
+y.m l=  0.0015   s=0.0001
+y.m l=  0.0045   s=0.0001
+
+
+#  Here we consider a simple double gate transistor with flared up 
+#  source and drain extensions
+#  Device length is 35 nm, channel thickness is 1 nm, gate oxide is 1 nm
+#  gate length is 10nm. Source and drain extension thickness is 5nm
+
+
+region      num=2  silicon
+region      num=1  x.min=0.01     x.max=0.025     y.min= 0.0015  y.max=0.0045  sio2
+region      num=1  x.min=0.01     x.max=0.025     y.min=-0.0045  y.max=-0.0015  sio2
+
+
+#   Only two carrier injecting contacts (source and drain) are supported in ATLAS. 
+#   There can be any number of gates.
+#
+
+
+electrode   num=1 name= source x.max=0     y.min= -0.0045 y.max=0.0045 
+electrode   num=2 name= drain  x.min=0.035 y.min= -0.0045 y.max=0.0045 
+electrode   num=3 name=gate1  x.min=0.0125 x.max=0.0225 y.min=-0.0045 y.max=-0.0025 
+electrode   num=4 name=gate2  x.min=0.0125 x.max=0.0225 y.min= 0.0025 y.max=0.0045 
+
+
+
+#
+# Due to a ballistic nature of transport, there is no voltage 
+# drop near the source and drain contacts. Moreover, the potential 
+# in the source and drain has to be allowed to float because  the number 
+# of electrons reflected backward and thus total carrier concentration in  contacts
+# can change with bias.
+#
+# For these reasons we use REFLECT on the CONTACT statement to apply 
+# von Neumann boundary conditions for potential. Note that Fermi levels 
+# in contacts are fixed.
+#
+contact name=source  reflect
+contact name=drain   reflect
+contact name=gate1   workfun=4.7 
+contact name=gate2   workfun=4.7 common=gate1
+
+
+doping region=2  n.type uniform conc=1.0E20 x.max=0.0125 
+doping region=2  n.type uniform conc=1.0E20 x.min=0.0225
+doping region=2  p.type uniform conc=1.0E15 x.min=0.0125 x.max=0.0225
+
+
+#
+# SCHRODINGER  parameter on the MODELS statement
+# will tell ATLAS that this is a quantum solution. A Schrodinger 
+# equation will be solved in each slice of the device.
+#
+# NEGF_MS parameter specifies that we want to compute transport
+# using Non Equilibrium Green's Function (NEGF) approach in the mode (subband) space, 
+# If the crossection is not constant, ATLAS 
+# will take into account coupling between subbands. 
+# The coupling is especially strong near wide-narrow region interface.
+# A parameter NEGF_CMS instead of NEGF_MS will enforce coupled mode space approach. 
+#
+# Parameter EIGEN=$$ can be omitted on the MODELS statement. ATLAS will 
+# automatically decide on the optimum number of subbands required. This 
+# number may change with bias. Setting EIGEN=$$ parameter, will fix the number 
+# of subbands to  $$, which may either cause a loss of precision (if it's too small),
+# or increase a computation time (if it's too large).
+# Note that the number of subbands taken into account  may vary along the device.
+#
+#
+# Parameters OX.SCHRO and OX.MARGIN=$$ control wavefunction penetration into oxide.
+# Parameter SP.SMOOTH maked and effective mass in oxide in the direction perpendicular to 
+# the plane of the device, to be the same as that in semiconductor. This ensures that
+# electron density is smooth at the semiconductor-oxide interface.
+#
+# Here, a parameter NUM.DIRECT is set to 1, which means that only one 
+# isotropic mass is taken into account.
+#
+# When all NUM.DIRECT=3, all three pairs of valleys (in the case of Si)
+# are treated independently. Note that while primed subbands have the same eigen energy due
+# to the same effective mass in the confinement direction, their transport 
+# effective mass is different. Therefore, transmission and current due to primed subbands 
+# are different.
+#
+# A predictor-corrector scheme for Poisson convergence  is used, where after 
+# each quantum solution (corrector), a quasi fermi level is extracted and several 
+# iterations with classical electron density (predictor) are performed.  
+#
+# NPRED.NEGF=7 (default) sets the number of predictor iterations to 7
+# QCRIT.NEGF=3e-3 (default) sets the potential convergece criterium in the NEGF case to 3mV 
+# ESIZE.NEGF=2001 (default) sets the number of energy grid points to 2001. 
+#                           A nonuniform energy grid is constructed. 
+#                A larger number may improve precision in the electron density calculation 
+#                and improve convergence, but increase the computation time.
+#            
+#
+
+
+
+models  schrodinger  negf_ms SP.Smooth  Ox.Schro Ox.Margin=0.0006 \
+        num.direct=1 
+
+       
+#        
+# Parameter CARRIERS is set to zero which means  that drift-diffusion equations 
+# are not solved. (NEGF equations are solved instead) 
+# 
+#
+
+method carriers=0  
+
+#
+#  Here we specify that conduction band, valence band and three eigen 
+#   values are stored in the .str file
+#
+# ESIZEOUT.NEGF=500 (default) sets the number of energy grid points to 500 in the output
+# .log file if the PROBE statements are present (see below). A uniform energy grid is used.
+#
+output band.par con.band val.band eigens=6 esizeout.negf=500
+
+
+
+#
+# A user can probe various energy dependent quantities, which are specific to NEGF method,
+# and store them in a file at each bias.
+#
+# Set NEGF.LOG parameter on SOLVE or SAVE staement to save the probes.
+#
+# Parameter FILENAME can be specified only once. In this case a file TransvsE$.log 
+# will be created at each bias point, where $ is the number of the bias point.
+# Comment lines in the file give the values of terminal bias
+#
+# All probes are plotted as functions of Energy. A uniform energy grid is used.
+# The size of the grid is regulated in the OUTPUT statement (see above).
+#
+# TRANSMISSION is the number of modes that can pass through device at a particular energy.
+# On can also separate contributions due to each pair of valleys using a parameter BAND.
+#
+# DOSVSE is the local density of states. It can be characterized by parameters 
+# BAND, STATE and location X
+# 
+# DENSVSE is the local carrier density vs Energy. An integral of DENSVSE gives a 
+# total carrier concentration at this location.It can be characterized by parameters 
+# BAND, STATE and location X
+#
+# CURDVSE is the local current density vs Energy. An integral of CURDVSE gives a 
+# total current density at this location. In the ballistic case, i.e. when no inelastic 
+# phonons are present, this quatity should not change with location. 
+# It can be characterized by parameters  BAND, STATE and location X
+#
+# If parameters BAND or STATE are omitted, a summation is preformed over the 
+# band or state indeces.
+#
+#
+
+
+probe transmission  filename="quantumex12_TranvsE" 
+probe dosvse  x=0.0
+probe dosvse  x=0.035
+probe curdvse x=0.01
+
+
+# Initial equilibrium solution uses only Schrodinger solver
+solve init
+
+
+# NEGF solution at zero bias
+solve  prev 
+save outf=quantumex12_init.str negf.log
+
+tonyplot quantumex12_init.str -set quantumex12_dens.set
+tonyplot quantumex12_TranvsE0.log -set quantumex12_tran.set
+
+#
+# This is an Drain current versus Drain voltage run.  IV characteristics is stored in
+# IVd_dg.log file. At each bias point solution is stored in dgt_vd$.str file.
+#
+
+log outf=quantumex12_IVd_vg07.log
+solve  v3=0.7 v2=0.0 vstep=0.05 vfinal=1.0 name=drain  
+log off
+save outf=quantumex12_vd1_vg07.str negf.log
+
+tonyplot quantumex12_vd1_vg07.str -set quantumex12_dens.set
+tonyplot quantumex12_IVd_vg07.log -set quantumex12_IVd.set
+tonyplot quantumex12_TranvsE1.log -set quantumex12_tran.set
+
+
+solve init
+
+#
+# This is an Drain current versus Gate voltage run.  IV characteristics is stored in
+# .log file. 
+#
+# Quantities of interest are potential, carrier density, current density profiles,
+# bound state energies and wavefunctions.
+#
+#
+# Warning: usually a convergence is poor when the device open, i.e. 
+# there is no injection barrier.
+#
+#
+
+
+
+log outf=quantumex12_IVg_vd06.log
+solve  v2=0.6 v3=0.0 vstep=0.05 vfinal=1.0 name=gate1 
+log off
+save outf=quantumex12_vd06_vg1.str negf.log
+
+tonyplot quantumex12_vd06_vg1.str -set quantumex12_dens.set
+tonyplot quantumex12_IVg_vd06.log -set quantumex12_IVg.set
+tonyplot quantumex12_TranvsE2.log -set quantumex12_tran.set
+
+
+exit

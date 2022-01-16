@@ -1,0 +1,53 @@
+# (c) Silvaco Inc., 2018
+go atlas
+
+mesh space.mult=1.0 
+x.mesh location=0.0 spacing=0.5
+x.mesh location=1.0 spacing=0.5
+
+
+y.mesh loc=0 spacing=0.1
+y.mesh loc=0.9  s=0.05
+y.mesh loc=0.95 s=0.001
+y.mesh loc=1.05 s=0.001
+y.mesh loc=1.1  s=0.05
+y.mesh loc=2 spacing=0.1
+
+region  num=1  material=silicon
+
+elec  name=anode   top
+elec  name=cathode  bottom  
+
+qtregion number=1 pts.normal=3 pts.tunnel=131 x1=0.0 y1=0.95 x2=1.0 y2=0.95 \
+x3=1.0 y3=1.05 x4=0.0 y4=1.05 
+
+doping uniform  p.type conc=2e20 y.max=1.0
+
+doping uniform  n.type conc=2e20 y.min=1.0
+
+models temperature=200 srh fermi ni.fermi print bbt.nonlocal bbt.nlderivs 
+
+output band.temp traps u.srh
+
+method climit=1.0 dvmax=0.005
+solve init
+
+log outf=quantumex10_reverse.log
+
+solve name=anode vanode=-0.0 vstep=-0.01 vfinal=-0.05
+solve name=anode vanode=-0.05 vstep=-0.05 vfinal=-0.2
+solve name=anode vanode=-0.25  vstep=-0.05 vfinal=-0.5
+log off
+
+solve init
+
+log outf=quantumex10_forward.log
+
+solve name=anode vanode=0.0 vstep=0.005 vfinal=0.2
+solve name=anode vanode=0.205 vstep=0.005 vfinal=0.35
+solve name=anode vanode=0.375  vstep=0.025 vfinal=1.2
+
+tonyplot -overlay quantumex10_forward.log quantumex10_reverse.log
+save outf = structure.str
+tonyplot structure.str
+exit

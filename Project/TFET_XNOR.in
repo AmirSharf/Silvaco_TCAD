@@ -1,0 +1,52 @@
+go atlas
+mesh space.mult=1.0
+
+#meshing
+x.mesh loc=0.0 spac=0.001
+x.mesh loc=0.080 spac=0.001
+x.mesh loc=0.100 spac=0.0001
+x.mesh loc=0.150 spac=0.001
+x.mesh loc=0.200 spac=0.0001
+x.mesh loc=0.220 spac=0.001
+x.mesh loc=0.300 spac=0.001
+
+y.mesh loc=0.0 spac=0.001
+y.mesh loc=0.002 spac=0.001
+y.mesh loc=0.004 spac=0.001
+y.mesh loc=0.014 spac=0.001
+y.mesh loc=0.016 spac=0.001
+y.mesh loc=0.018 spac=0.001
+
+region num=1 material=oxide
+region num=2 y.min=0.002 y.max=0.004 material=hfo2
+region num=3 y.min=0.004 y.max=0.014 material=silicon
+region num=2 y.min=0.014 y.max=0.016 material=hfo2
+region num=4 x.min=0.0 x.max=0.080 y.min=0.0 y.max=0.002 material = air
+region num=4 x.min=0.0 x.max=0.080 y.min=0.016 y.max=0.018 material = air
+region num=4 x.min=0.220 x.max=0.300 y.min=0.0 y.max=0.002 material = air
+region num=4 x.min=0.220 x.max=0.300 y.min=0.016 y.max=0.018 material = air
+
+electrode name=drain x.min=0.0 x.max=0.075 y.min=0.004 y.max=0.004
+electrode name=gateTopL x.min=0.080 x.max=0.150 y.min=0.0 y.max=0.0
+electrode name=gateTopR x.min=0.150 x.max=0.220 y.min=0.0 y.max=0.0
+electrode name=gateBottomL x.min=0.080 x.max=0.150 y.min=0.018 y.max=0.018
+electrode name=gateBottomR x.min=0.150 x.max=0.220 y.min=0.018 y.max=0.018
+electrode name=source x.min=0.225 x.max=0.300 y.min=0.004 y.max=0.004
+
+doping uniform n.type conc=1e20 x.min=0.0 x.max=0.100 reg=3
+doping uniform n.type conc=1e17 x.min=0.100 x.max=0.200 reg=3
+doping uniform p.type conc=1e20 x.min=0.200 x.max=0.300 reg=3
+
+contact name=gateTopL p.poly workfunc=4.5 common=gateTopR
+contact name=gateBottomL p.poly workfunc=4.9 common=gateBottomR
+contact name=drain n.poly
+contact name= source p.poly
+
+#model
+models bbt.nonlocal fermi srh
+model cvt
+output val.band con.band qfn qfp e.field j.electron j.hole j.conduction j.total ex.field ey.field flowline e.mobility h.mobility qss e.temp h.temp j.disp
+
+save outf=TFET_XNOR.str
+tonyplot TFET_XNOR.str
+quit

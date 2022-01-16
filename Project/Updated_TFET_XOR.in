@@ -1,0 +1,156 @@
+go atlas
+mesh space.mult=1.0
+
+x.mesh loc=0.0 spac=0.0025
+x.mesh loc=0.025 spac=0.00005
+x.mesh loc=0.035 spac=0.0025
+x.mesh loc=0.0815 spac=0.00005
+x.mesh loc=0.0835 spac=0.0025
+x.mesh loc=0.130 spac=0.00005
+x.mesh loc=0.140 spac=0.0025
+x.mesh loc=0.160 spac=0.00005
+x.mesh loc=0.170 spac=0.0025
+x.mesh loc=0.2165 spac=0.00005
+x.mesh loc=0.2175 spac=0.00005
+x.mesh loc=0.2185 spac=0.00005
+x.mesh loc=0.2325 spac=0.0025
+x.mesh loc=0.265 spac=0.00005
+x.mesh loc=0.275 spac=0.0025
+x.mesh loc=0.300 spac=0.0025
+
+y.mesh loc=0.0 spac=0.01
+y.mesh loc=0.002 spac=0.01
+y.mesh loc=0.012 spac=0.01
+y.mesh loc=0.014 spac=0.01
+
+#Define non Local BTB tunneling
+qtx.mesh loc=0.0815 spac=0.0001
+qtx.mesh loc=0.0825 spac=0.0001
+qtx.mesh loc=0.0835 spac=0.0001
+qtx.mesh loc=0.2165 spac=0.0001
+qtx.mesh loc=0.2175 spac=0.0001
+qtx.mesh loc=0.2185 spac=0.0001
+
+qty.mesh loc=0.002  spac=0.0001
+qty.mesh loc=0.012 spac=0.0001
+
+
+region num=2 y.min=0.002 y.max=0.012 material=silicon
+region num=1 y.min=0.0 y.max=0.002 material=hfo2
+region num=3 y.min=0.012 y.max=0.014 material=hfo2
+
+#Electrode 
+electrode name=drain x.min=0.0 x.max=0.030 y.min=0.002 y.max=0.002
+
+electrode name=gate x.min=0.030 x.max=0.080 y.min=0.0 y.max=0.0
+electrode name=gateLBA x.min=0.030 x.max=0.080 y.min=0.014 y.max=0.014
+
+electrode name=substrate x.min=0.085 x.max=0.135 y.min=0.0 y.max=0.0
+electrode name=gateLBB x.min=0.085 x.max=0.135 y.min=0.014 y.max=0.014
+
+electrode name=source x.min=0.135 x.max=0.165 y.min=0.002 y.max=0.002
+
+electrode name=gateRTA x.min=0.165 x.max=0.215 y.min=0.0 y.max=0.0
+electrode name=gateRBA x.min=0.165 x.max=0.215 y.min=0.014 y.max=0.014
+
+electrode name=gateRTB x.min=0.220 x.max=0.270 y.min=0.0 y.max=0.0
+electrode name=gateRBB x.min=0.220 x.max=0.270 y.min=0.014 y.max=0.014
+
+electrode name=drain1 x.min=0.270 x.max=0.300 y.min=0.002 y.max=0.002
+
+#Doping
+doping uniform n.type conc=1e18 x.min=0.0 x.max=0.030 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.030 x.max=0.0825 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.0825 x.max=0.135 reg=2
+
+doping uniform p.type conc=1e18 x.min=0.135 x.max=0.165 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.165 x.max=0.2175 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.2175 x.max=0.270 reg=2
+
+doping uniform n.type conc=1e18 x.min=0.270 x.max=0.300 reg=2
+
+interf qf=3e10 y.min=0.002 y.max=0.012
+interf qf=1e11 y.min=0.012
+
+# Contact
+contact name=gate n.poly workfunc=5.4
+contact name=gateLBA p.poly workfunc=5.4 common= gate
+contact name=gateRTA p.poly workfunc=5.4
+contact name=gateRBA p.poly workfunc=5.4 common= gateRTA
+contact name=gateLBA p.poly workfunc=5.4 common=gateRBA
+
+contact name=substrate p.poly workfunc=4.3
+contact name=gateLBB p.poly workfunc=4.3 common= substrate
+contact name=gateRBB p.poly workfunc=4.3
+contact name=gateRTB p.poly workfunc=4.3 common= gateRBB
+contact name=gateLBB p.poly workfunc=4.3 common=gateRBB
+
+contact name=drain n.poly
+contact name=drain1 n.poly common=drain
+contact name=source p.poly
+
+models bbt.nonlocal fermi srh 
+models cvt
+method newton trap itlimit=25 maxtrap=6
+solve init
+
+
+#Applying bias for simulation
+solve vsource=0.0
+solve vgate=0.0
+solve vsubstrate=0.0
+output val.band con.band charge e.lines
+save outf=test_vd_xor.str
+tonyplot test_vd_xor.str
+
+#In order to improve convergence, drain voltage is increased gradually
+#solve vdrain=0.03125
+#solve vdrain=0.0625
+#solve vdrain=0.125
+#solve vdrain=0.25
+#solve vdrain=0.5
+#solve vdrain=1.00
+solve vdrain=0.05 
+solve vdrain=0.10 
+solve vdrain=0.125 
+solve vdrain=0.15 
+solve vdrain=0.20 
+solve vdrain=0.30
+
+output val.band con.band charge e.lines
+save outf=test_00_xor.str
+tonyplot test_00_xor.str
+#Simulating the transfer characteristics the right gate biased at 0 V.The left gate is varied from 0 to 1.0 V
+log outf=./transfer_X0_xor.log master
+solve vgate=0.0 vstep=0.01 name=gate vfinal=1.0
+output val.band con.band charge e.lines
+save outf=test_10_xor.str
+
+
+#A temporary file
+log outf=./temp_xor.log master
+solve vsubstrate=0.0
+solve vsubstrate=0.2
+solve vsubstrate=0.4
+solve vsubstrate=0.8
+solve vsubstrate=1.0
+
+#Simulating the transfer characteristics the right gate biased at 1.0 V. The left gate is varied from 0 to 1.0 V
+log outf=./transfer_X1_xor.log master
+output val.band con.band charge e.lines
+save outf=test_01_xor.str
+tonyplot test_01_xor.str
+tonyplot test_10_xor.str
+solve vgate=0.0 vstep=0.01 name=gate vfinal=1.0
+output val.band con.band charge e.lines
+save outf=test_11_xor.str
+tonyplot test_11_xor.str
+tonyplot ./transfer_X0_xor.log
+tonyplot ./transfer_X1_xor.log
+tonyplot ./temp_xor.log
+quit
+

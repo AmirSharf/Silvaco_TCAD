@@ -1,0 +1,5814 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE rto SYSTEM "rto.dtd">
+<rto>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="deckbuild" timestamp="1640783244" type="out">
+*** this is deckbuild version 4.6.2.R ***
+
+</text>
+
+  <text deck-line="1" is-extract="false" line-id="1" simulator="atlas" timestamp="1640783245" type="out">go atlas
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783245" type="out">
+
+                                   A T L A S
+
+            Version:  atlas 5.26.1.R (Tue May  8 01:53:16 PDT 2018)
+
+                           Copyright (c) 1984 - 2018
+                        Silvaco Inc. All rights reserved
+
+    We acknowledge the contribution of the following collaborative partners:
+
+                              Stanford University
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783247" type="out">
+
+
+               ======================================================
+
+                  ATLAS                           : enabled
+
+                  S-PISCES                        : enabled
+
+                  BLAZE                           : enabled
+
+                  GIGA                            : enabled
+
+                  LUMINOUS                        : enabled
+
+                  LED                             : enabled
+
+                  TFT                             : en</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783247" type="out">abled
+
+                  ORGANIC DISPLAY                 : enabled
+
+                  ORGANIC SOLAR                   : enabled
+
+                  MIXEDMODE                       : enabled
+
+                  LASER                           : enabled
+
+                  VCSEL                           : enabled
+
+                  FERRO                           : enabled
+
+                  QUANTUM                         : enabled
+
+                  NOISE                           : enabled
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783247" type="out">
+                  REM                             : enabled
+
+                  MAGNETIC                        : enabled
+
+                  DEVICE3D                        : enabled
+
+                  THERMAL3D                       : enabled
+
+                  GIGA3D                          : enabled
+
+                  MIXEDMODE3D                     : enabled
+
+                  TFT3D                           : enabled
+
+                  QUANTUM3D                       : enabled
+
+     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783247" type="out">             LUMINOUS3D                      : enabled
+
+                  REM3D                           : enabled
+
+                  MAGNETIC3D                      : enabled
+
+                  LED3D                           : enabled
+
+                  LASER3D                         : enabled
+
+                  MIXEDMODE XL                    : enabled
+
+                  S-PISCES BUNDLE                 : enabled
+
+                  BLAZE BUNDLE                    : enabled
+
+            </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783247" type="out">      TFT BUNDLE                      : enabled
+
+                  ORGANIC BUNDLE                  : enabled
+
+                  DEVICE3D BUNDLE                 : enabled
+
+                  TFT3D BUNDLE                    : enabled
+
+               ======================================================
+
+                           Wed Dec 29 17:07:27 2021
+
+                       Executing on host: DESKTOP-NV769LF
+                  Current SFLM Server: DESKTOP-NV769LF:3162/
+
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="2" is-extract="false" line-id="2" simulator="atlas" timestamp="1640783247" type="out">mesh
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783248" type="out">	####################################################
+	######                                        ######
+	######           Running on 1 CPU             ######
+	######            4 CPUs available            ######
+	######                                        ######
+	####################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783248" type="out">ATLAS&gt; </text>
+
+  <text deck-line="3" is-extract="false" line-id="3" simulator="atlas" timestamp="1640783248" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783248" type="out">ATLAS&gt; </text>
+
+  <text deck-line="4" is-extract="false" line-id="4" simulator="atlas" timestamp="1640783248" type="out">x.m l=0.0 s=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783248" type="out">ATLAS&gt; </text>
+
+  <text deck-line="5" is-extract="false" line-id="5" simulator="atlas" timestamp="1640783248" type="out">x.m l=1.0 s=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783248" type="out">ATLAS&gt; </text>
+
+  <text deck-line="6" is-extract="false" line-id="6" simulator="atlas" timestamp="1640783249" type="out">	
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="7" is-extract="false" line-id="7" simulator="atlas" timestamp="1640783249" type="out">y.m l=-0.002 s=0.00004
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="8" is-extract="false" line-id="8" simulator="atlas" timestamp="1640783249" type="out">y.m l=0.0    s=0.00004
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="9" is-extract="false" line-id="9" simulator="atlas" timestamp="1640783249" type="out">y.m l=0.1    s=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="10" is-extract="false" line-id="10" simulator="atlas" timestamp="1640783249" type="out">y.m l=1      s=0.05
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="11" is-extract="false" line-id="11" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="12" is-extract="false" line-id="12" simulator="atlas" timestamp="1640783249" type="out">region num=1 Silicon x.min=0.0 x.max=1.0 y.min=0 y.max=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="13" is-extract="false" line-id="13" simulator="atlas" timestamp="1640783249" type="out">region num=2 SiO2    y.max=0.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="14" is-extract="false" line-id="14" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="15" is-extract="false" line-id="15" simulator="atlas" timestamp="1640783249" type="out">elec num=1 name=gate y.max=-0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out"> 
+Electrode #1
+Name: gate                
+ Number of boundary nodes: 2
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  1.000e+000 
+ y -2.000e-003  -2.000e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="16" is-extract="false" line-id="16" simulator="atlas" timestamp="1640783249" type="out">elec num=2 name=substrate y.min=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out"> 
+Electrode #2
+Name: substrate           
+ Number of boundary nodes: 2
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  1.000e+000 
+ y 1.000e+000  1.000e+000 
+
+ATLAS&gt; </text>
+
+  <text deck-line="17" is-extract="false" line-id="17" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="18" is-extract="false" line-id="18" simulator="atlas" timestamp="1640783249" type="out">contact name=gate aluminum
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">
+Mesh
+ Type:               non-cylindrical
+ Total grid points:  914
+ Total triangles  :  912
+ Obtuse triangles :  0  (0 %)
+ATLAS&gt; </text>
+
+  <text deck-line="19" is-extract="false" line-id="19" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="20" is-extract="false" line-id="20" simulator="atlas" timestamp="1640783249" type="out">doping conc=1e18 unif p.type
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">  
+ Warning: Statement out of order. Structure 
+ creation statements (MESH, X.MESH, Y.MESH, REGION,
+ ELECTRODE and DOPING) preceed all output, contact,
+ material, models or solution control statements.
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="21" is-extract="false" line-id="21" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="22" is-extract="false" line-id="22" simulator="atlas" timestamp="1640783249" type="out">models srh fermi ni.fermi
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="23" is-extract="false" line-id="23" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="24" is-extract="false" line-id="24" simulator="atlas" timestamp="1640783249" type="out">method dvlimit=1.0 carriers=0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="25" is-extract="false" line-id="25" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="26" is-extract="false" line-id="26" simulator="atlas" timestamp="1640783249" type="out">solve init
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">
+Starting module:   SPISCES                        
+
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">
+Obtaining static solution:
+
+
+init           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">   1    1  G   0.000 -12.36
+   1    2  G  -0.103 -16.30
+   1    3  G  -0.741 -16.67
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">   1    4  G  -1.397 -17.04
+   1    5  G  -2.328 -17.76
+   1    6  G  -3.941 -19.22
+   1    7  G  -7.02* -22.21
+  
+ATLAS&gt; </text>
+
+  <text deck-line="27" is-extract="false" line-id="27" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="28" is-extract="false" line-id="28" simulator="atlas" timestamp="1640783249" type="out">solve vgate=-3.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -3          
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">   1    1  G  -0.272 -11.89
+   1    2  G  -0.319 -12.06
+   1    3  G  -0.479 -12.36
+   1    4  G  -1.229 -15.04
+   1    5  G  -1.479 -15.64
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">   1    6  G  -1.631 -16.16
+   1    7  G  -1.884 -16.72
+   1    8  G  -2.511 -17.49
+   1    9  G  -3.891 -18.88
+   1   10  G  -6.69* -21.67
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.000e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.12 sec. 
+Total time:            2.47 sec. 
+  
+ATLAS&gt; </text>
+
+  <text deck-line="29" is-extract="false" line-id="29" simulator="atlas" timestamp="1640783249" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783249" type="out">ATLAS&gt; </text>
+
+  <text deck-line="30" is-extract="false" line-id="30" simulator="atlas" timestamp="1640783249" type="out">log outfile=CV.log
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">ATLAS&gt; </text>
+
+  <text deck-line="31" is-extract="false" line-id="31" simulator="atlas" timestamp="1640783250" type="out">solve name=gate vgate=-3.0 vstep=0.03 vfinal=3.0 qscv 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+Obtaining static solution:
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    1  G  -12.3* -27.2*
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.000e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.02 sec. 
+Total time:            2.58 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.97       
+
+
+prev           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    1  G  -1.988 -13.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    2  G  -5.34* -19.31
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.970e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            2.70 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.94       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+---------------------------
+   1    1  G  -4.613 -18.56
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    2  G  -4.821 -18.75
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    3  G  -9.41* -23.67
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.940e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.20 sec. 
+Total time:            2.92 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.91       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+---------------------------
+   1    1  G  -4.603 -18.55
+   1    2  G  -4.812 -18.74
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    3  G  -9.38* -23.65
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.910e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:            3.03 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.88       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+---------------------------
+   1    1  G  -4.593 -18.54
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    2  G  -4.802 -18.73
+   1    3  G  -9.36* -23.63
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.880e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            3.09 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.85       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    1  G  -4.583 -18.54
+   1    2  G  -4.793 -18.73
+   1    3  G  -9.34* -23.61
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.850e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.12 sec. 
+Total time:            3.25 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.82       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.572 -18.53
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">   1    2  G  -4.784 -18.72
+   1    3  G  -9.31* -23.59
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.820e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            3.34 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783250" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.79       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.562 -18.53
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    2  G  -4.774 -18.72
+   1    3  G  -9.29* -23.57
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.790e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.12 sec. 
+Total time:            3.50 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.76       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.551 -18.52
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    2  G  -4.764 -18.71
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    3  G  -9.26* -23.55
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.760e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            3.56 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.73       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">
+---------------------------
+   1    1  G  -4.540 -18.51
+   1    2  G  -4.754 -18.71
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    3  G  -9.23* -23.53
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.730e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            3.62 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.7        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">
+---------------------------
+   1    1  G  -4.529 -18.51
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    2  G  -4.744 -18.70
+   1    3  G  -9.21* -23.50
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.700e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            3.68 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.67       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    1  G  -4.517 -18.50
+   1    2  G  -4.734 -18.69
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    3  G  -9.18* -23.48
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.670e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            3.97 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.64       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    1  G  -4.506 -18.49
+   1    2  G  -4.724 -18.69
+   1    3  G  -9.15* -23.46
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.640e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:            4.24 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.61       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    1  G  -4.494 -18.49
+   1    2  G  -4.713 -18.68
+   1    3  G  -9.12* -23.43
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.610e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            4.29 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.58       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.482 -18.48
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    2  G  -4.703 -18.67
+   1    3  G  -9.10* -23.41
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.580e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            4.34 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.55       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.469 -18.47
+   1    2  G  -4.692 -18.67
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783251" type="out">   1    3  G  -9.07* -23.38
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.550e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            4.39 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.52       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.457 -18.46
+   1    2  G  -4.681 -18.66
+   1    3  G  -9.04* -23.36
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.520e+000             </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out"> 0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            4.54 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.49       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.444 -18.46
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    2  G  -4.670 -18.65
+   1    3  G  -9.01* -23.33
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.490e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:            4.64 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.46       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.431 -18.45
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    2  G  -4.658 -18.65
+   1    3  G  -8.98* -23.31
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.460e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            4.72 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.43       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    1  G  -4.417 -18.44
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    2  G  -4.647 -18.64
+   1    3  G  -8.95* -23.28
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.430e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:            4.83 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.4        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.404 -18.43
+   1    2  G  -4.635 -18.63
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    3  G  -8.92* -23.25
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.400e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            4.89 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.37       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+---------------------------
+   1    1  G  -4.390 -18.42
+   1    2  G  -4.623 -18.63
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    3  G  -8.88* -23.23
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.370e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            4.95 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.34       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+---------------------------
+   1    1  G  -4.375 -18.41
+   1    2  G  -4.611 -18.62
+   1    3  G  -8.85* -23.20
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.340e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            5.00 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.31       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    1  G  -4.360 -18.41
+   1    2  G  -4.599 -18.61
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    3  G  -8.82* -23.17
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.310e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            5.13 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.28       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783252" type="out">   1    1  G  -4.345 -18.40
+   1    2  G  -4.586 -18.60
+   1    3  G  -8.78* -23.14
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.280e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            5.41 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.25       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.330 -18.39
+   1    2  G  -4.573 -18.60
+   1    3  G  -8.75* -23.11
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.250e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            5.55 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.22       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.314 -18.38
+   1    2  G  -4.560 -18.59
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    3  G  -8.71* -23.08
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.220e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            5.66 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.19       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    1  G  -4.297 -18.37
+   1    2  G  -4.547 -18.58
+   1    3  G  -8.68* -23.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.190e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            5.72 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.16       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.281 -18.36
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    2  G  -4.533 -18.57
+   1    3  G  -8.64* -23.02
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.160e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            5.77 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.13       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.263 -18.35
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    2  G  -4.519 -18.56
+   1    3  G  -8.60* -22.99
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.130e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            5.84 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.1        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    1  G  -4.246 -18.34
+   1    2  G  -4.505 -18.56
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    3  G  -8.56* -22.95
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.100e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            5.95 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.07       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+---------------------------
+   1    1  G  -4.226 -18.33
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    2  G  -4.491 -18.55
+   1    3  G  -8.52* -22.92
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.070e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            6.02 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -2.04       
+
+
+proj   </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">        psi    psi 
+direct       </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    1  G  -4.207 -18.32
+   1    2  G  -4.477 -18.54
+   1    3  G  -8.48* -22.88
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.040e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:            6.12 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -2.01       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    1  G  -4.187 -18.30
+   1    2  G  -4.462 -18.53
+   1    3  G  -8.44* -22.85
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.010e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            6.24 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.98       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.167 -18.29
+   1    2  G  -4.447 -18.52
+   1    3  G  -8.40* -22.81
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.980e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            6.</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">32 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.95       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.146 -18.28
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    2  G  -4.431 -18.51
+   1    3  G  -8.36* -22.78
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.950e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            6.40 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.92       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783253" type="out">   1    1  G  -4.125 -18.27
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    2  G  -4.416 -18.51
+   1    3  G  -8.31* -22.74
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.920e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.11 sec. 
+Total time:            6.54 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.89       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    1  G  -4.102 -18.26
+   1    2  G  -4.400 -18.50
+   1    3  G  -8.27* -22.70
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.890e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:            6.78 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.86       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -4.079 -18.24
+   1    2  G  -4.384 -18.49
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    3  G  -8.22* -22.67
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.860e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:            6.95 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.83       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    1  G  -4.055 -18.23
+   1    2  G  -4.367 -18.48
+   1    3  G  -8.18* -22.63
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.830e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:            7.10 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.8        
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    1  G  -4.030 -18.21
+   1    2  G  -4.351 -18.47
+   1    3  G  -8.13* -22.59
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.800e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            7.17 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.77       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    1  G  -4.004 -18.20
+   1    2  G  -4.334 -18.47
+   1    3  G  -8.08* -22.55
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.770e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            7.23 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.74       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    1  G  -3.977 -18.19
+   1    2  G  -4.317 -18.46
+   1    3  G  -8.03* -22.51
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.740e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:            7.36 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.71       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    1  G  -3.949 -18.17
+   1    2  G  -4.300 -18.45
+   1    3  G  -7.98* -22.47
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.710e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            7.42 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.68       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.920 -18.15
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">   1    2  G  -4.283 -18.45
+   1    3  G  -7.93* -22.43
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.680e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            7.47 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.65       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783254" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.889 -18.14
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">   1    2  G  -4.265 -18.44
+   1    3  G  -7.88* -22.39
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.650e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            7.53 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.62       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">   1    1  G  -3.857 -18.12
+   1    2  G  -4.248 -18.44
+   1    3  G  -7.82* -22.35
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.620e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.11 sec. 
+Total time:            7.67 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.59       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">   1    1  G  -3.822 -18.10
+   1    2  G  -4.231 -18.43
+   1    3  G  -7.77* -22.31
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.590e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            7.74 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.56       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.786 -18.09
+   1    2  G  -4.213 -18.43
+   1    3  G  -7.72* -22.27
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.560e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            7.81 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.53       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.749 -18.07
+   1    2  G  -4.197 -18.43
+   1    3  G  -7.67* -22.24
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.530e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            8.01 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.5        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.709 -18.05
+   1    2  G  -4.182 -18.44
+   1    3  G  -7.62* -22.21
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.500e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            8.20 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.47       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.668 -18.03
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">   1    2  G  -4.168 -18.44
+   1    3  G  -7.57* -22.18
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.470e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            8.31 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.44       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.624 -18.02
+   1    2  G  -4.155 -18.46
+   1    3  G  -7.52* -22.16
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.440e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            8.37 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.41       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.577 -18.00
+   1    2  G  -4.144 -18.47
+   1    3  G  -7.48* -22.15
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.410e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            8.43 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.38       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.528 -17.98
+   1    2  G  -4.137 -18.50
+   1    3  G  -7.45* -22.14
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.380e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783255" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            8.49 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.35       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">   1    1  G  -3.477 -17.97
+   1    2  G  -4.133 -18.53
+   1    3  G  -7.42* -22.15
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.350e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:            8.61 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.32       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.422 -17.96
+   1    2  G  -4.134 -18.57
+   1    3  G  -7.41* -22.18
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.320e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                         </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">         0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            8.68 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.29       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.366 -17.95
+   1    2  G  -4.142 -18.63
+   1    3  G  -7.41* -22.23
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.290e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            8.73 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.26       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.306 -17.95
+   1    2  G  -4.158 -18.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">   1    3  G  -7.44* -22.31
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.260e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:            8.85 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.23       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.246 -17.95
+   1    2  G  -4.186 -18.80
+   1    3  G  -7.49* -22.43
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.230e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            8.91 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.2        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.185 -17.97
+   1    2  G  -4.228 -18.92
+   1    3  G  -7.57* -22.60
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.200e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            8.98 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.17       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.124 -17.99
+   1    2  G  -4.288 -19.07
+   1    3  G  -7.70* -22.82
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.170e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            9.03 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.14       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">   1    1  G  -3.065 -18.03
+   1    2  G  -4.370 -19.25
+   1    3  G  -7.88* -23.10
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.140e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.11 sec. 
+Total time:            9.16 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.11       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.011 -18.08
+   1    2  G  -4.480 -19.48
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">   1    3  G  -8.12* -23.44
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.110e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:            9.32 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -1.08       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out">   1    1  G  -2.965 -18.16
+   1    2  G  -4.622 -19.76
+   1    3  G  -8.43* -23.85
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.080e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:            9.44 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.05       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783256" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    1  G  -2.928 -18.26
+   1    2  G  -4.803 -20.09
+   1    3  G  -8.82* -24.31
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.050e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:            9.51 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -1.02       
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    1  G  -2.903 -18.38
+   1    2  G  -5.03* -20.48
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.020e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            9.56 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.99       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.892 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">-18.51
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    2  G  -5.30* -20.88
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -9.900e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:            9.62 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.96       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    1  G  -2.894 -18.59
+   1    2  G  -5.60* -21.25
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -9.600e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.07 sec. 
+Total time:            9.72 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.93       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.906 -18.64
+   1    2  G  -5.92* -21.61
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -9.300e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">point:   0.03 sec. 
+Total time:            9.78 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.9        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.928 -18.68
+   1    2  G  -6.15* -21.74
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -9.000e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">point:   0.03 sec. 
+Total time:            9.83 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.87       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.955 -18.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    2  G  -6.17* -21.60
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -8.700e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.02 sec. 
+Total time:            9.87 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.84       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+---------------------------
+   1    1  G  -2.985 -18.72
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    2  G  -6.09* -21.46
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -8.400e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:            9.97 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.81       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.016 -18.73
+   1    2  G  -6.01* -21.36
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -8.100e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">point:   0.02 sec. 
+Total time:           10.02 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.78       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    1  G  -3.045 -18.75
+   1    2  G  -5.95* -21.29
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -7.800e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.02 sec. 
+Total time:           10.07 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.75       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.074 -18.76
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    2  G  -5.91* -21.24
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -7.500e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           10.12 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.72       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+---------------------------
+   1    1  G  -3.101 -18.77
+   1    2  G  -5.88* -21.20
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -7.200e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           10.17 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.69       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    1  G  -3.127 -18.78
+   1    2  G  -5.86* -21.16
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -6.900e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           10.28 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.66       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.151 -18.79
+   1    2  G  -5.84* -21.14
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -6.600e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">point:   0.02 sec. 
+Total time:           10.34 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.63       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">   1    1  G  -3.174 -18.80
+   1    2  G  -5.83* -21.12
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -6.300e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           10.38 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.6        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.195 -18.81
+   1    2  G  -5.83* -21.11
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -6.000e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.02 sec. 
+Total time:           10.42 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.57       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.216 -18.81
+   1    2  G  -5.82* -21.10
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -5.700e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783257" type="out">point:   0.02 sec. 
+Total time:           10.47 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.54       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    1  G  -3.236 -18.82
+   1    2  G  -5.82* -21.09
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -5.400e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           10.69 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.51       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.254 -18.83
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    2  G  -5.82* -21.08
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -5.100e-001              0.000e+000
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">substrate      0.000e+000              </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           10.74 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.48       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    1  G  -3.271 -18.84
+   1    2  G  -5.83* -21.07
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -4.800e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           10.82 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.45       
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    1  G  -3.289 -18.85
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    2  G  -5.83* -21.07
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -4.500e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           10.88 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.42       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    1  G  -3.305 -18.85
+   1    2  G  -5.83* -21.06
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -4.200e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           10.99 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.39       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.321 -18.86
+   1    2  G  -5.84* -21.06
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.900e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">point:   0.03 sec. 
+Total time:           11.04 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.36       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.336 -18.87
+   1    2  G  -5.84* -21.06
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.600e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">point:   0.03 sec. 
+Total time:           11.08 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.33       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    1  G  -3.350 -18.87
+   1    2  G  -5.85* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.300e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           11.14 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.3        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.364 -18.88
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    2  G  -5.85* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.000e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           11.21 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.27       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.378 -18.88
+   1    2  G  -5.86* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.700e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">point:   0.03 sec. 
+Total time:           11.34 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.24       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.390 -18.89
+   1    2  G  -5.86* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.400e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">point:   0.03 sec. 
+Total time:           11.40 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.21       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783258" type="out">   1    1  G  -3.404 -18.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    2  G  -5.87* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -2.100e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           11.51 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.18       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+---------------------------
+   1    1  G  -3.415 -18.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    2  G  -5.87* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.800e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           11.56 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.15       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+---------------------------
+   1    1  G  -3.427 -18.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    2  G  -5.88* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.500e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           11.63 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.12       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+---------------------------
+   1    1  G  -3.440 -18.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    2  G  -5.89* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -1.200e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           11.68 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = -0.09       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -3.451 -18.92
+   1    2  G  -5.89* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -9.000e-002              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           11.79 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.06       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.462 -18.92
+   1    2  G  -5.90* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -6.000e-002              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">point:   0.03 sec. 
+Total time:           11.85 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -0.03       
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -3.473 -18.92
+   1    2  G  -5.90* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -3.000e-002              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           12.10 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = -4.17894e-015
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.486 -18.93
+   1    2  G  -5.91* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate          -4.179e-015              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out"> point:   0.03 sec. 
+Total time:           12.16 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.03        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -3.502 -18.93
+   1    2  G  -5.91* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           3.000e-002              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           12.21 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.06        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -3.529 -18.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    2  G  -5.91* -21.05
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           6.000e-002              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           12.26 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.09        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+---------------------------
+   1    1  G  -3.580 -18.95
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    2  G  -5.90* -21.04
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           9.000e-002              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.07 sec. 
+Total time:           12.34 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.12        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -2.719 -18.57
+   1    2  G  -5.90* -21.02
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.200e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           12.40 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.15        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -2.239 -18.17
+   1    2  G  -4.781 -20.41
+   1    3  G  -10.9* -25.97
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.500e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           12.47 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.18        
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783259" type="out">   1    1  G  -1.938 -17.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    2  G  -2.479 -17.95
+   1    3  G  -5.72* -21.67
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.800e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           12.52 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.21        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.037 -17.70
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    2  G  -1.582 -17.31
+   1    3  G  -3.778 -19.74
+   1    4  G  -7.80* -23.79
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.100e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           12.64 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.24        
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    1  G  -1.883 -17.42
+   1    2  G  -1.372 -17.09
+   1    3  G  -3.432 -19.37
+   1    4  G  -7.04* -23.01
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.400e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           12.73 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.27        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -1.836 -17.24
+   1    2  G  -1.249 -16.97
+   1    3  G  -3.385 -19.31
+   1    4  G  -6.97* -22.91
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.700e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total    </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">                              0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           12.80 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.3         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    1  G  -1.887 -17.13
+   1    2  G  -1.263 -16.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    3  G  -3.531 -19.42
+   1    4  G  -7.30* -23.21
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           3.000e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           12.94 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.33        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    1  G  -1.963 -17.08
+   1    2  G  -1.403 -16.90
+   1    3  G  -3.745 -19.63
+   1    4  G  -7.83* -23.71
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           3.300e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           13.03 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.36        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.051 -17.06
+   1    2  G  -1.543 -16.91
+   1    3  G  -3.994 -19.86
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    4  G  -8.43* -24.27
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           3.600e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           13.10 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.39        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    1  G  -2.149 -17.07
+   1    2  G  -1.681 -16.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    3  G  -4.194 -20.11
+   1    4  G  -9.04* -24.86
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           3.900e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.11 sec. 
+Total time:           13.24 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.42        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    1  G  -2.239 -17.09
+   1    2  G  -1.791 -16.98
+   1    3  G  -4.351 -20.31
+   1    4  G  -9.54* -25.35
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           4.200e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           13.40 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.45        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783260" type="out">   1    1  G  -2.303 -17.07
+   1    2  G  -1.917 -17.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    3  G  -4.603 -20.56
+   1    4  G  -10.1* -25.93
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           4.500e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.12 sec. 
+Total time:           13.54 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.48        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    1  G  -2.382 -17.06
+   1    2  G  -1.998 -17.01
+   1    3  G  -4.809 -20.71
+   1    4  G  -10.6* -26.3*
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           4.800e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           13.63 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.51        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    1  G  -2.475 -17.04
+   1    2  G  -2.134 -17.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    3  G  -4.982 -20.85
+   1    4  G  -10.9* -26.7*
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           5.100e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.13 sec. 
+Total time:           13.89 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.54        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    1  G  -2.539 -17.04
+   1    2  G  -2.265 -17.00
+   1    3  G  -5.16* -20.99
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           5.400e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           13.95 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.57        
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.590 -17.03
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    2  G  -2.391 -17.00
+   1    3  G  -5.36* -21.15
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           5.700e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           14.01 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.6         
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    1  G  -2.609 -17.02
+   1    2  G  -2.516 -17.00
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    3  G  -5.62* -21.32
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           6.000e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           14.12 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.63        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+---------------------------
+   1    1  G  -2.615 -17.02
+   1    2  G  -2.647 -16.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">   1    3  G  -5.96* -21.52
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           6.300e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           14.17 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.66        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+---------------------------
+   1    1  G  -2.621 -17.01
+   1    2  G  -2.758 -16.99
+   1    3  G  -6.26* -21.70
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           6.600e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           14.23 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.69        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.704 -17.01
+   1    2  G  -2.788 -16.99
+   1    3  G  -6.32* -21.70
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           6.900e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           14.28 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.72        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.809 -17.00
+   1    2  G  -2.814 -16.98
+   1    3  G  -6.37* -21.71
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           7.200e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           14.36 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.75        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.889 -17.00
+   1    2  G  -2.839 -16.98
+   1    3  G  -6.41* -21.71
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           7.500e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           14.41 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783261" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.78        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -2.967 -16.99
+   1    2  G  -2.861 -16.98
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.45* -21.72
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           7.800e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           14.49 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.81        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.044 -16.99
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    2  G  -2.882 -16.98
+   1    3  G  -6.49* -21.73
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           8.100e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           14.65 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 0.84        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.141 -16.99
+   1    2  G  -2.901 -16.98
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.53* -21.73
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           8.400e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           14.79 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.87        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    1  G  -3.217 -16.99
+   1    2  G  -2.920 -16.97
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.57* -21.74
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           8.700e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           14.91 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.9         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+---------------------------
+   1    1  G  -3.292 -16.98
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    2  G  -2.937 -16.97
+   1    3  G  -6.60* -21.75
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           9.000e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           14.97 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.93        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.363 -16.98
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    2  G  -2.953 -16.97
+   1    3  G  -6.63* -21.75
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           9.300e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           15.03 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.96        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.326 -16.98
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    2  G  -2.968 -16.97
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.67* -21.76
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           9.600e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           15.15 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 0.99        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+---------------------------
+   1    1  G  -3.299 -16.98
+   1    2  G  -2.982 -16.97
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.70* -21.76
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           9.900e-001              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           15.21 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.02        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+---------------------------
+   1    1  G  -3.280 -16.97
+   1    2  G  -2.996 -16.96
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.73* -21.77
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.020e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.07 sec. 
+Total time:           15.29 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.05        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+---------------------------
+   1    1  G  -3.265 -16.97
+   1    2  G  -3.009 -16.96
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    3  G  -6.75* -21.78
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.050e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           15.35 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.08        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">   1    1  G  -3.254 -16.97
+   1    2  G  -3.021 -16.96
+   1    3  G  -6.78* -21.78
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.080e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           15.45 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783262" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.11        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.246 -16.97
+   1    2  G  -3.033 -16.96
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">   1    3  G  -6.81* -21.79
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.110e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           15.52 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.14        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">   1    1  G  -3.241 -16.97
+   1    2  G  -3.045 -16.96
+   1    3  G  -6.83* -21.79
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.140e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.17 sec. 
+Total time:           15.75 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.17        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.237 -16.96
+   1    2  G  -3.056 -16.96
+   1    3  G  -6.86* -21.80
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.170e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           15.82 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.2         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.234 -16.96
+   1    2  G  -3.067 -16.95
+   1    3  G  -6.88* -21.81
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.200e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           15.88 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.23        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">   1    1  G  -3.233 -16.96
+   1    2  G  -3.077 -16.95
+   1    3  G  -6.90* -21.81
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.230e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           16.00 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.26        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">   1    1  G  -3.233 -16.96
+   1    2  G  -3.087 -16.95
+   1    3  G  -6.92* -21.82
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.260e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           16.16 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.29        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">   1    1  G  -3.233 -16.96
+   1    2  G  -3.096 -16.95
+   1    3  G  -6.94* -21.82
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.290e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           16.28 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.32        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.234 -16.95
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">   1    2  G  -3.106 -16.95
+   1    3  G  -6.97* -21.83
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.320e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           16.41 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783263" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.35        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">   1    1  G  -3.236 -16.95
+   1    2  G  -3.115 -16.95
+   1    3  G  -6.99* -21.83
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.350e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.11 sec. 
+Total time:           16.55 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.38        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.238 -16.95
+   1    2  G  -3.123 -16.95
+   1    3  G  -7.04* -21.84
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.380e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           16.60 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.41        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.240 -16.95
+   1    2  G  -3.132 -16.94
+   1    3  G  -7.05* -21.84
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.410e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           16.65 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.44        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">  m  -5.00* -26.0*
+--------------------------</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">-
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">   1    1  G  -3.243 -16.95
+   1    2  G  -3.140 -16.94
+   1    3  G  -7.07* -21.85
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.440e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           16.72 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.47        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">   1    1  G  -3.246 -16.95
+   1    2  G  -3.148 -16.94
+   1    3  G  -7.09* -21.85
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.470e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           16.84 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.5         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.249 -16.94
+   1    2  G  -3.156 -16.94
+   1    3  G  -7.11* -21.85
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.500e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           16.91 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.53        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.252 -16.94
+   1    2  G  -3.164 -16.94
+   1    3  G  -7.13* -21.86
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.530e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           16.97 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.56        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.256 -16.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">   1    2  G  -3.171 -16.94
+   1    3  G  -7.14* -21.86
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.560e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           17.10 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.59        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.259 -16.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">   1    2  G  -3.178 -16.94
+   1    3  G  -7.16* -21.87
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.590e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           17.18 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.62        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">   1    1  G  -3.263 -16.94
+   1    2  G  -3.185 -16.93
+   1    3  G  -7.17* -21.87
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.620e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.15 sec. 
+Total time:           17.45 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783264" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.65        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.266 -16.94
+   1    2  G  -3.192 -16.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    3  G  -7.19* -21.87
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.650e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           17.53 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.68        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+---------------------------
+   1    1  G  -3.270 -16.94
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    2  G  -3.199 -16.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    3  G  -7.21* -21.88
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.680e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           17.65 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.71        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    1  G  -3.274 -16.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    2  G  -3.206 -16.93
+   1    3  G  -7.22* -21.88
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.710e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           17.73 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.74        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    1  G  -3.278 -16.93
+   1    2  G  -3.212 -16.93
+   1    3  G  -7.24* -21.88
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.740e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           17.80 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.77        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    1  G  -3.282 -16.93
+   1    2  G  -3.218 -16.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    3  G  -7.25* -21.89
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.770e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.12 sec. 
+Total time:           17.94 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.8         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+---------------------------
+   1    1  G  -3.286 -16.93
+   1    2  G  -3.225 -16.93
+   1    3  G  -7.26* -21.89
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.800e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           17.99 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.83        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.290 -16.93
+   1    2  G  -3.231 -16.93
+   1    3  G  -7.28* -21.89
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.830e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           18.05 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.86        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.294 -16.93
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    2  G  -3.237 -16.92
+   1    3  G  -7.29* -21.90
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.860e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.13 sec. 
+Total time:           18.20 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.89        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    1  G  -3.298 -16.93
+   1    2  G  -3.243 -16.92
+   1    3  G  -7.30* -21.90
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.890e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           18.26 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 1.92        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.302 -16.93
+   1    2  G  -3.248 -16.92
+   1    3  G  -7.32* -21.90
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.920e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           18.33 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.95        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    1  G  -3.306 -16.92
+   1    2  G  -3.254 -16.92
+   1    3  G  -7.33* -21.91
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.950e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           18.37 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 1.98        
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    1  G  -3.310 -16.92
+   1    2  G  -3.259 -16.92
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">   1    3  G  -7.34* -21.91
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           1.980e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           18.49 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 2.01        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783265" type="out">
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    1  G  -3.313 -16.92
+   1    2  G  -3.265 -16.92
+   1    3  G  -7.35* -21.91
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.010e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           18.55 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 2.04        
+
+
+proj           psi    psi</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out"> 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.317 -16.92
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    2  G  -3.270 -16.92
+   1    3  G  -7.37* -21.91
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.040e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           18.61 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 2.07        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    1  G  -3.321 -16.92
+   1    2  G  -3.276 -16.92
+   1    3  G  -7.38* -21.92
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.070e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           18.67 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.1         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    1  G  -3.325 -16.92
+   1    2  G  -3.281 -16.92
+   1    3  G  -7.39* -21.92
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.100e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           18.82 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.13        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.329 -16.92
+   1    2  G  -3.286 -16.91
+   1    3  G  -7.40* -21.92
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.130e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           18.88 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.16        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.333 -16.92
+   1    2  G  -3.291 -16.91
+   1    3  G  -7.41* -21.92
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.160e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           18.95 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.19        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.337 -16.92
+   1    2  G  -3.296 -16.91
+   1    3  G  -7.42* -21.93
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.190e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           19.00 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.22        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    1  G  -3.340 -16.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    2  G  -3.301 -16.91
+   1    3  G  -7.43* -21.93
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.220e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           19.09 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 2.25        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    1  G  -3.344 -16.91
+   1    2  G  -3.305 -16.91
+   1    3  G  -7.44* -21.93
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.250e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           19.17 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.28        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">   1    1  G  -3.348 -16.91
+   1    2  G  -3.310 -16.91
+   1    3  G  -7.46* -21.93
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.280e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.07 sec. 
+Total time:           19.40 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.31        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.352 -16.91
+   1    2  G  -3.315 -16.91
+   1    3  G  -7.47* -21.94
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.310e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783266" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           19.47 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.34        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.355 -16.91
+   1    2  G  -3.319 -16.91
+   1    3  G  -7.48* -21.94
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.340e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           19.53 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.37        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.359 -16.91
+   1    2  G  -3.324 -16.91
+   1    3  G  -7.49* -21.94
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.370e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           19.59 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.4         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.363 -16.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    2  G  -3.328 -16.91
+   1    3  G  -7.50* -21.94
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.400e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.06 sec. 
+Total time:           19.68 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 2.43        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.366 -16.91
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    2  G  -3.332 -16.90
+   1    3  G  -7.51* -21.94
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.430e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           19.74 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gate  ) = 2.46        
+
+
+proj           psi    psi 
+direct          x     rhs </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.370 -16.91
+   1    2  G  -3.337 -16.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    3  G  -7.51* -21.95
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.460e+000              0.000</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           19.79 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.49        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    1  G  -3.373 -16.90
+   1    2  G  -3.341 -16.90
+   1    3  G  -7.52* -21.95
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.490e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           19.89 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.52        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    1  G  -3.377 -16.90
+   1    2  G  -3.345 -16.90
+   1    3  G  -7.53* -21.95
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.520e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           20.01 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.55        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.380 -16.90
+   1    2  G  -3.349 -16.90
+   1    3  G  -7.54* -21.95
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.550e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           20.12 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.58        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.384 -16.90
+   1    2  G  -3.353 -16.90
+   1    3  G  -7.55* -21.95
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.580e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           20.19 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.61        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    1  G  -3.387 -16.90
+   1    2  G  -3.357 -16.90
+   1    3  G  -7.56* -21.96
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.610e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           20.29 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.64        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.390 -16.90
+   1    2  G  -3.361 -16.90
+   1    3  G  -7.57* -21.96
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.640e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           20.36 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.67        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783267" type="out">   1    1  G  -3.394 -16.90
+   1    2  G  -3.365 -16.90
+   1    3  G  -7.58* -21.96
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.670e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           20.46 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.7         
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">   1    1  G  -3.397 -16.90
+   1    2  G  -3.369 -16.90
+   1    3  G  -7.59* -21.96
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.700e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.08 sec. 
+Total time:           20.60 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.73        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.400 -16.90
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">   1    2  G  -3.373 -16.89
+   1    3  G  -7.60* -21.96
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.730e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           20.74 sec. 
+  
+
+Obtaining static solution:
+
+ V(   gat</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">e  ) = 2.76    </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">    
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">   1    1  G  -3.404 -16.90
+   1    2  G  -3.377 -16.89
+   1    3  G  -7.60* -21.97
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.760e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           20.88 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.79        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.407 -16.90
+   1    2  G  -3.381 -16.89
+   1    3  G  -7.61* -21.97
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.790e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           20.95 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.82        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.410 -16.89
+   1    2  G  -3.384 -16.89
+   1    3  G  -7.62* -21.97
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.820e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           21.00 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.85        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+----</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">-----------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">   1    1  G  -3.413 -16.89
+   1    2  G  -3.388 -16.89
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">   1    3  G  -7.63* -21.97
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.850e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.10 sec. 
+Total time:           21.13 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.88        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.417 -16.89
+   1    2  G  -3.392 -16.89
+   1    3  G  -7.64* -21.97
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.880e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out"> 0.000e+000
+
+Time for bias point:   0.04 sec. 
+Total time:           21.20 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.91        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.420 -16.89
+   1    2  G  -3.395 -16.89
+   1    3  G  -7.64* -21.98
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.910e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           21.26 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.94        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.423 -16.89
+   1    2  G  -3.399 -16.89
+   1    3  G  -7.65* -21.98
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.940e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out"> 0.000e+000
+
+Time for bias point:   0.05 sec. 
+Total time:           21.33 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 2.97        
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783268" type="out">   1    1  G  -3.426 -16.89
+   1    2  G  -3.402 -16.89
+   1    3  G  -7.66* -21.98
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           2.970e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                  0.000e+000
+
+Time for bias point:   0.09 sec. 
+Total time:           21.44 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783269" type="out">
+Obtaining static solution:
+
+ V(   gate  ) = 3           
+
+
+proj           psi    psi 
+direct          x     rhs 
+   i    j  m  -5.00* -26.0*
+---------------------------
+   1    1  G  -3.429 -16.89
+   1    2  G  -3.406 -16.89
+   1    3  G  -7.67* -21.98
+
+Electrode       Va(V)        Jc(A/um)    Jt(A/um)
+=================================================
+gate           3.000e+000              0.000e+000
+substrate      0.000e+000              0.000e+000
+Total                                 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783269" type="out"> 0.000e+000
+
+Time for bias point:   0.03 sec. 
+Total time:           21.56 sec. 
+  
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783269" type="out">ATLAS&gt; </text>
+
+  <text deck-line="32" is-extract="false" line-id="32" simulator="atlas" timestamp="1640783269" type="out">logoff 
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783269" type="out">ATLAS&gt; </text>
+
+  <text deck-line="33" is-extract="false" line-id="33" simulator="atlas" timestamp="1640783269" type="out">save outf= CV.str
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783269" type="out">
+MASTER format file written to CV.str at Wed Dec 29 17:07:49 2021
+
+ATLAS&gt; </text>
+
+  <text deck-line="-1" is-extract="false" line-id="34" simulator="atlas" timestamp="1640783269" type="out">tonyplot CV.str
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="35" simulator="atlas" timestamp="1640783269" type="out">tonyplot CV.log
+</text>
+
+  <text deck-line="36" is-extract="false" line-id="36" simulator="atlas" timestamp="1640783270" type="out">quit
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1640783270" type="out">
+ATLAS version 5.26.1.R finished at Wed Dec 29 17:07:50 2021
+</text>
+
+</rto>

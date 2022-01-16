@@ -1,0 +1,105 @@
+
+go atlas
+
+set Vn=1.2
+
+mesh   diag.flip  
+x.mesh loc=0.0 spac=0.0025
+x.mesh loc=0.050 spac=0.0005
+x.mesh loc=0.070 spac=0.0025
+x.mesh loc=0.120 spac=0.0005
+x.mesh loc=0.125 spac=0.0025
+x.mesh loc=0.175 spac=0.0025
+#
+y.mesh loc=0.0 spac=0.001
+y.mesh loc=0.002 spac=0.001
+y.mesh loc=0.012 spac=0.001
+y.mesh loc=0.014 spac=0.001
+
+#
+region num=1 y.min = 0.0 y.max=0.002  material= HfO2
+region num=3 y.min =0.002 y.max=0.012  material= silicon
+region num=2 y.min = 0.012 y.max=0.014  material= HfO2
+
+#
+#qtregion number=1 pts.tunnel=101 x1=0.1 y1=0.0024 x2=0.1 y2=0.0075 x3=0.182 y3=0.0075 x4=0.182 y4=0.0024 snrm.beg=0.0001 snrm.end=0.0001
+
+electrode name= anode x.min=0.0 x.max=0.050 y.min =0.0 y.max=0.0
+electrode name= gate x.min=0.070 x.max=0.120 y.min = 0.0 y.max=0.0
+electrode name= cathode x.min=0.125 x.max=0.175 y.min = 0.0 y.max=0.0
+electrode name= anode2 x.min=0.0 x.max=0.050 y.min = 0.014 y.max=0.014
+electrode name= gate2 x.min=0.070 x.max=0.120 y.min = 0.014 y.max=0.014
+electrode name= cathode2 x.min=0.125 x.max=0.175 y.min = 0.014 y.max=0.014
+electrode name= drain material=NiSi x.min=0.0 x.max=0.0 y.min =0.002 y.max=0.012
+electrode name= source material=NiSi x.min=0.175 x.max=0.175 y.min =0.002 y.max=0.012
+
+#
+doping uniform n.type conc=1e14  reg=2
+interf qf=3e12 
+
+qtx.mesh loc=0.050 spac=0.001
+qtx.mesh loc=0.070 spac=0.001
+qtx.mesh loc=0.120 spac=0.001
+qtx.mesh loc=0.125 spac=0.001
+
+qty.mesh loc=0.000 spac=0.001
+qty.mesh loc=0.002 spac=0.001
+qty.mesh loc=0.012 spac=0.001
+qty.mesh loc=0.014 spac=0.001
+
+#
+contact name= anode workfun=4.5
+contact name= gate  workfun=4.5
+contact name= cathode workfun=4.5
+contact name= anode2 workfun=4.5 common=anode
+contact name= gate2 workfun=4.5 common=gate
+contact name= cathode2 workfun=4.5 common=cathode
+contact name= source   workfunction=4.86   SURF.REC
+contact name= drain    workfunction=4.86   SURF.REC
+
+material material=Si me.tunnel=.22 mh.tunnel=.12
+#
+models qtunn.dir=xdir bbt.nonlocal temperature=300 \
+fermi ni.fermi srh auger cvt \
+fldmob conmob bgn print
+models kla analytic
+
+models TRAP.TUNNEL SCHENK.TUN 
+models UST
+
+#
+method itlimit=5
+output con.band val.band t.quantum band.temp band.param traps u.srh j.electron j.hole j.total qfn qfp
+
+# Calculations 
+
+
+solve init
+#log outf=EDTFET_VPG_Neg2.log
+log outf=EDTFET_Id.log
+solve vanode =1.2
+solve vcathode =-1.2
+solve name=drain vdrain=0 vstep=0.05 vfinal=0.3
+solve name=gate vgate=0 vstep=0.05 vfinal=$Vn
+save outf=EDTFET_Id.str
+log off
+#solve init
+#log outf=EDTFET_VPG_0.log
+#solve vanode =0
+#solve vcathode =0
+#solve name=drain vdrain=0 vstep=0.05 vfinal=2
+#solve name=gate vgate=0 vstep=0.05 vfinal=$Vn
+#save outf=EDTFET_VPG_0.str
+#log off
+#solve init
+#log outf=EDTFET_VPG_Pos2.log
+#solve vanode =2
+#solve vcathode =2
+#solve name=drain vdrain=0 vstep=0.05 vfinal=2
+#solve name=gate vgate=0 vstep=0.05 vfinal=$Vn
+#save outf=EDTFET_VPG_Pos2.str
+#log off
+
+tonyplot EDTFET_Id.str
+tonyplot EDTFET_Id.log
+quit

@@ -1,0 +1,100 @@
+go atlas
+TITLE DGMOS
+mesh space.mult=1
+
+# Define meshing
+x.mesh loc=0.00 spacing =0.01
+x.mesh loc=0.005 spacing=0.01
+x.mesh loc=0.1 spacing=0.0001 
+x.mesh loc=0.15 spacing=0.0001
+x.mesh loc=0.20 spacing=0.01
+x.mesh loc=0.25 spacing=0.0001
+
+y.mesh loc=0.00  spacing=0.001
+y.mesh loc=0.002  spacing=0.001
+y.mesh loc=0.005  spacing=0.001
+y.mesh loc=0.015 spacing=0.001
+y.mesh loc=0.018 spacing=0.001
+y.mesh loc=0.020 spacing=0.001
+
+# Define region
+region number=1 material=Air x.min=0 y.min=0 
+region number=2 material=Sio2 x.min=0.1 x.max=0.15 y.min=0.002 y.max=0.005
+region number=3 material=Sio2 x.min=0.1 x.max=0.15 y.min=0.015 y.max=0.018
+region number=4 material=silicon x.min=0 x.max=0.1 y.min=0.005 y.max=0.015
+region number=5 material=silicon x.min=0.1 x.max=0.15 y.min=0.005 y.max=0.015
+region number=6 material=silicon x.min=0.15 x.max=0.25 y.min=0.005 y.max=0.015
+
+#Electrode
+electrode name=source x.min=0 x.max=0.05 y.min=0.003 y.max=0.005
+electrode name=gate x.min=0.1 x.max=0.15 y.min=0.0 y.max=0.002
+electrode name=gate2 x.min= 0.1 x.max=0.15 y.min=0.18 y.max=0.20
+electrode name=drain x.min=0.2 x.max=0.25 y.min=0.003 y.max=0.005
+
+# Doping
+doping uniform concentration=1E18 p.type region=5
+doping uniform concentration=1E20 n.type region=4
+doping uniform concentration=1E20 n.type region=6
+
+#Interface
+interf qf=3e10 y.max=0.005
+
+#Contact name
+contact name=gate workfun=4.6
+contact name=gate2 workfun=4.6 common=gate
+
+#Method
+models conmob srh auger bgn fldmob print
+#
+output val.band con.band qfn qfp e.field j.electron j.hole j.conduction j.total ex.field ey.field flowline e.mobility h.mobility qss e.temp h.temp j.disp
+#
+method newton trap
+#
+solve init 
+solve prev
+solve vdrain=0
+solve vdrain=0.01
+solve vdrain=0.02
+solve vdrain=0.03
+solve vdrain=0.04
+solve vdrain=0.05
+log outf=dgmos1.log
+solve name=gate vgate=0 vstep=0.1 vfinal=1
+tonyplot dgmos1.log
+save outf=dgmos.str
+tonyplot dgmos.str
+
+#Extract 
+extract name="vt1" x.val from curve ((v."gate"),log10(abs(i."drain"))) where y.val=-7
+
+solve init 
+solve prev
+solve vdrain=0
+solve vdrain=0.05
+solve vdrain=0.1
+solve vdrain=0.2
+solve vdrain=0.4
+solve vdrain=0.6
+solve vdrain=0.8
+solve vdrain=1
+log outf=dgmos.log
+
+solve ac freq 1e16 name=gate v.gate=0 vstep=0.05 vfinal=1
+
+#Extract updated log file
+extract name="vt2" x.val from curve ((v."gate"),log10(abs(i."drain"))) where y.val=-7
+ save outf=dgmos.str
+tonyplot dgmos.log
+tonyplot -overlay dgmos.log dgmos1.log -set dgmos1.log 
+
+extract name="dibl" ($"vt1"-$"vt2")/(1-0.05)
+
+extract name="subvt" 1.0/slope(maxslope(curve(v."gate",log10(abs(i."drain")))))
+extract name="Ioff_n" y.val from curve(v."gate",i."drain") where x.val=0
+extract name="Ioff_n" y.val from curve(v."gate",i."drain") where x.val=1
+extract name="Ion_Ioff" $Ion_n/$Ioff_n
+extract name="gm" curve (v."gate",dydx (v."gate",i."drain")) outf="gm.dat"
+
+quit
+
+                        

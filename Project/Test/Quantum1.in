@@ -1,0 +1,75 @@
+# (c) Silvaco Inc., 2018
+go atlas
+
+mesh 
+
+x.m l=0 spac=1
+x.m l=1 spac=1
+
+y.m l=-0.0035 spac=0.001
+y.m l=0 spac=0.0001
+y.m l=0.1 spac=0.02
+y.m l=0.5 spac=0.2
+
+region num=1 silicon y.min=0
+region num=2 oxide y.max=0
+
+electrode name=gate top
+electrode substrate
+
+doping uniform conc=1e17 n.type
+
+save outf=quantumex01.str
+
+go atlas
+
+mesh inf=quantumex01.str
+contact name=gate n.poly
+
+models cvt srh print 
+output con.band val.band t.quantum
+
+method carr=2 maxtrap=10
+solve outfile=quantumex01_temp.str master
+log outf=quantumex01_1.log
+solve vgate=0 vstep=0.1 vfinal=5 name=gate ac freq=1e6 direct 
+save outf=quantumex01_1.str
+log off
+
+load infile=quantumex01_temp.str master
+solve
+log outf=quantumex01_2.log
+solve vgate=0 vstep=-0.2 vfinal=-2 name=gate ac freq=1e6 direct 
+save outf=quantumex01_2.str
+
+go atlas
+
+mesh inf=quantumex01.str
+contact name=gate n.poly
+
+models cvt srh print quantum
+output con.band val.band t.quantum
+
+method carr=2  maxtrap=10
+solve outfile=quantumex01_temp.str master
+log outf=quantumex01_3.log
+solve vgate=0 vstep=0.1 vfinal=5 name=gate ac freq=1e6 direct 
+save outf=quantumex01_3.str
+log off
+
+load infile=quantumex01_temp.str master
+solve 
+log outf=quantumex01_4.log
+solve prev vgate=0 vstep=-0.1 vfinal=-2 name=gate ac freq=1e6 direct 
+save outf=quantumex01_4.str
+
+tonyplot -overlay quantumex01_1.log quantumex01_2.log quantumex01_3.log quantumex01_4.log -set quantumex01_1.set
+tonyplot -overlay quantumex01_1.str quantumex01_3.str -set quantumex01_2.set
+
+extract init inf="quantumex01_1.log"
+extract name="tox_cl" (3.9*8.85e-10*1.0e-4)/max(c."gate""substrate")
+
+extract init inf="quantumex01_3.log"
+extract name="tox_qm" (3.9*8.85e-10*1.0e-4)/max(c."gate""substrate")
+
+quit

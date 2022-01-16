@@ -1,0 +1,125 @@
+go atlas
+mesh space.mult=1.0
+
+x.mesh loc=0.0 spac=0.0025
+x.mesh loc=0.025 spac=0.00005
+x.mesh loc=0.035 spac=0.0025
+x.mesh loc=0.0775 spac=0.00005
+x.mesh loc=0.0875 spac=0.0025
+x.mesh loc=0.130 spac=0.00005
+x.mesh loc=0.140 spac=0.0025
+x.mesh loc=0.160 spac=0.00005
+x.mesh loc=0.170 spac=0.0025
+x.mesh loc=0.2215 spac=0.00005
+x.mesh loc=0.2325 spac=0.0025
+x.mesh loc=0.265 spac=0.00005
+x.mesh loc=0.275 spac=0.0025
+x.mesh loc=0.300 spac=0.0025
+
+y.mesh loc=0.0 spac=0.01
+y.mesh loc=0.002 spac=0.01
+y.mesh loc=0.012 spac=0.01
+y.mesh loc=0.014 spac=0.01
+
+region num=2 y.min=0.002 y.max=0.012 material=silicon
+region num=3 y.min=0.0 y.max=0.002 material=hfo2
+region num=4 y.min=0.012 y.max=0.014 material=hfo2
+
+#Electrode 
+electrode name=drain x.min=0.0 x.max=0.025 y.min=0.002 y.max=0.002
+electrode name=drain1 x.min=0.275 x.max=0.300 y.min=0.002 y.max=0.002
+
+electrode name=gate x.min=0.035 x.max=0.075 y.min=0.0 y.max=0.0
+electrode name=gateLBA x.min=0.035 x.max=0.075 y.min=0.014 y.max=0.014
+
+electrode name=gateLTB x.min=0.090 x.max=0.130 y.min=0.0 y.max=0.0
+electrode name=gateLBB x.min=0.090 x.max=0.130 y.min=0.014 y.max=0.014
+
+electrode name=source x.min=0.140 x.max=0.160 y.min=0.002 y.max=0.002
+
+electrode name=gateRTA x.min=0.180 x.max=0.220 y.min=0.0 y.max=0.0
+electrode name=gateRBA x.min=0.180 x.max=0.220 y.min=0.014 y.max=0.014
+
+electrode name=gateRTB x.min=0.230 x.max=0.265 y.min=0.0 y.max=0.0
+electrode name=gateRBB x.min=0.230 x.max=0.265 y.min=0.014 y.max=0.014
+
+#Define non Local BTB tunneling
+qtx.mesh loc=0.0815 spac=0.001
+qtx.mesh loc=0.0825 spac=0.0005
+qtx.mesh loc=0.0835 spac=0.001
+
+qtx.mesh loc=0.2265 spac=0.001
+qtx.mesh loc=0.2275 spac=0.0005
+qtx.mesh loc=0.2285 spac=0.001
+
+qty.mesh loc=0.002  spac=0.0005
+qty.mesh loc=0.006 spac=0.0005
+qty.mesh loc=0.012 spac=0.0005
+
+#Defining tunneling parameter for silicon :
+material material=Silicon me.tunnel=0.0825 region=2
+material material=Silicon me.tunnel=0.2275 region=2
+
+#Doping
+doping uniform n.type conc=1e18 x.min=0.0 x.max=0.030 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.030 x.max=0.0825 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.0825 x.max=0.135 reg=2
+
+doping uniform p.type conc=1e18 x.min=0.135 x.max=0.165 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.165 x.max=0.2225 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.2225 x.max=0.270 reg=2
+
+doping uniform n.type conc=1e18 x.min=0.270 x.max=0.300 reg=2
+
+#Interface that restrict the interface charges at boundry
+interf qf= 3e10 y.min=0.004 y.max=0.014
+interf qf= 1e11 y.min=0.014
+
+# Contact
+contact name=gate n.poly workfunc=5.4
+contact name=gateLBA p.poly workfunc=5.4 common= gate
+contact name=gateRTA p.poly workfunc=5.4
+contact name=gateRBA p.poly workfunc=5.4 common= gateRTA
+contact name=gateLBA p.poly workfunc=5.4 common=gateRBA
+
+contact name=gateLTB p.poly workfunc=4.3
+contact name=gateLBB p.poly workfunc=4.3 common= gateLTB
+contact name=gateRBB p.poly workfunc=4.3
+contact name=gateRTB p.poly workfunc=4.3 common= gateRBB
+contact name=gateLBB p.poly workfunc=4.3 common=gateRBB
+
+contact name=drain n.poly
+contact name=drain1 n.poly common=drain
+contact name=source p.poly
+
+models bbt.nonlocal fermi srh
+models cvt
+output val.band con.band qfn qfp e.field j.electron j.hole j.conduction j.total ex.field ey.field flowline e.mobility h.mobility qss e.temp h.temp j.disp
+
+method newton autonr trap
+solve init
+solve prev
+
+solve vdrain=0
+solve vdrain=0.1
+solve vdrain=0.2
+solve vdrain=0.3  
+solve vdrain=0.4
+solve vdrain=0.5
+solve vdrain=0.6
+solve vdrain=0.7
+solve vdrain=0.8
+solve vdrain=0.9  
+solve vdrain=1  
+solve vgateLTB=0
+
+log outf=TFET_XOR.log master
+solve vgate=0.0 vstep=0.05 vfinal=1 name=gate 
+
+save outf=TFET_XOR.str
+tonyplot TFET_XOR.str
+quit

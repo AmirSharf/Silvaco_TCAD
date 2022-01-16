@@ -1,0 +1,60 @@
+go atlas
+mesh space.mult=1
+#
+x.m l=0 spac=0.01
+x.m l=0.05 spac=0.01
+x.m l=0.1 spac=0.01
+x.m l=0.2 spac=0.0001
+x.m l=0.22 spac=0.001
+x.m l=0.3 spac=0.0001
+x.m l=0.325 spac=0.001
+x.m l=0.35 spac=0.01
+x.m l=0.4 spac=0.01
+x.m l=0.5 spac=0.01
+#
+y.m l=0 spac=0.005
+y.m l=0.002 spac=0.005 
+y.m l=0.005 spac=0.001
+y.m l=0.035 spac=0.001
+y.m l=0.065 spac=0.005
+y.m l=0.105 spac=0.005
+#
+region num=1 material=air x.min=0 y.min=0
+region num=2 material=Sio2 x.min=0.2 x.max=0.3 y.min=0.002 y.max=0.005
+region num=3 material=silicon x.min=0 x.max=0.5 y.min=0.005 y.max=0.035
+region num=4 material=Sio2 x.min=0 x.max=0.5 y.min=0.035 y.max=0.065
+region num=5 material=silicon x.min=0 x.max=0.5 y.min=0.065 y.max=0.105
+#
+electrode name=gate x.min=0.2 x.max=0.3 y.min=0 y.max=0.002
+electrode name=source x.min=0 x.max=0.05 y.min=0.002 y.max=0.005
+electrode name=drain x.min=0.45 x.max=0.5 y.min=0.002 y.max=0.005
+#
+doping uniform concentration=1E10 p.type region=5
+doping uniform concentration=1E20 n.type x.min=0 x.max=0.2 y.min=0.005 y.max=0.035
+doping uniform concentration=1E10 p.type x.min=0.2 x.max=0.3 y.min=0.005 y.max=0.035
+doping uniform concentration = 1E20 n.type x.min=0.3 x.max=0.5 y.min=0.005 y.max=0.035
+#
+interf qf=3e10
+#
+contact name=gate workfun=4.6
+contact name=source
+contact name=drain
+#
+models conmob srh auger bgn fldmob print CVT
+#
+output val.band con.band qfn qfp e.field j.electron j.hole j.conduction j.total ex.field ey.field flowline e.mobility h.mobility qss e.temp h.temp j.disp
+#
+method newton trap
+
+solve init
+solve prev
+solve vdrain=0
+solve vdrain=0.2
+solve vdrain=0.5
+#
+log outf=FD.log master
+solve ac freq=1e6 vgate=0 vstep=0.1 name=gate vfinal=1
+#
+save outf=FD.str
+tonyplot FD.str
+tonyplot FD1.log

@@ -1,0 +1,108 @@
+go atlas
+mesh space.mult=1.0 ^diag.flip
+
+#meshing
+x.mesh loc=0.0 spac=0.001
+x.mesh loc=0.080 spac=0.001
+x.mesh loc=0.100 spac=0.0001
+x.mesh loc=0.150 spac=0.001
+x.mesh loc=0.200 spac=0.0001
+x.mesh loc=0.220 spac=0.001
+x.mesh loc=0.300 spac=0.001
+
+y.mesh loc=0.0 spac=0.001
+y.mesh loc=0.002 spac=0.001
+y.mesh loc=0.012 spac=0.001
+y.mesh loc=0.014 spac=0.001
+
+region num=2 y.min=0.0 y.max=0.002 material=hfo2
+region num=3 y.min=0.002 y.max=0.012 material=silicon
+region num=2 y.min=0.012 y.max=0.014 material=hfo2
+
+electrode name=drain x.min=0.0 x.max=0.075 y.min=0.002 y.max=0.002
+electrode name=gate x.min=0.080 x.max=0.150 y.min=0.0 y.max=0.0
+electrode name=gateTopR x.min=0.150 x.max=0.220 y.min=0.0 y.max=0.0
+electrode name=substrate x.min=0.080 x.max=0.150 y.min=0.014 y.max=0.014
+electrode name=gateBottomR x.min=0.150 x.max=0.220 y.min=0.014 y.max=0.014
+electrode name=source x.min=0.225 x.max=0.300 y.min=0.002 y.max=0.002
+
+qtx.mesh loc=0.095 spac=0.001
+qtx.mesh loc=0.100 spac=0.0005
+qtx.mesh loc=0.105 spac=0.001
+
+qtx.mesh loc=0.15 spac=0.001
+qtx.mesh loc=0.20 spac=0.0005
+qtx.mesh loc=0.25 spac=0.001
+
+qty.mesh loc=0.002  spac=0.0005
+qty.mesh loc=0.006 spac=0.0005
+qty.mesh loc=0.012 spac=0.0005
+
+#Defining tunneling parameter for silicon :
+material material=Silicon me.tunnel=0.100 region=3
+material material=Silicon me.tunnel=0.200 region=3
+
+doping uniform n.type conc=1e20 x.min=0.0 x.max=0.100 reg=3
+doping uniform n.type conc=1e17 x.min=0.100 x.max=0.200 reg=3
+doping uniform p.type conc=1e20 x.min=0.200 x.max=0.300 reg=3
+
+contact name=gate p.poly workfunc=4.5
+contact name=gateTopR p.poly workfunc=4.9 common=gate
+contact name=substrate p.poly workfunc=4.5
+contact name=gateBottomR p.poly workfunc=4.9 common=substrate
+contact name=drain n.poly
+contact name= source p.poly
+
+models temperature=200 srh fermi ni.fermi print bbt.nonlocal bbt.nlderivs 
+models cvt
+method climit=1.0 dvmax=0.005
+method newton itlimit=25 
+solve init
+
+#Applying bias for simulation
+solve vsource=0.0
+solve vgate=0.0
+solve vsubstrate=0.0
+output val.band con.band charge e.lines
+save outf=test_vd_xnor.str
+
+#In order to improve convergence, drain voltage is increased gradually
+solve vdrain=0.03125
+solve vdrain=0.0625
+solve vdrain=0.125
+solve vdrain=0.25
+solve vdrain=0.5
+solve vdrain=1.00
+solve vdrain=1.20
+output val.band con.band charge e.lines
+save outf=test_00_xnor.str
+tonyplot test_00_xnor.str
+#Simulating the transfer characteristics the right gate biased at 0 V.The left gate is varied from 0 to 1.2 V
+log outf=./transfer_X0_xnor.log master
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.2
+output val.band con.band charge e.lines
+save outf=test_10_xnor.str
+tonyplot test_10_xnor.str
+
+#A temporary file
+log outf=./temp_xnor.log master
+solve vsubstrate=0.0
+solve vsubstrate=0.2
+solve vsubstrate=0.4
+solve vsubstrate=0.8
+solve vsubstrate=1.0
+solve vsubstrate=1.2
+
+#Simulating the transfer characteristics the right gate biased at 1.2 V. The left gate is varied from 0 to 1.2 V
+log outf=./transfer_X1_xnor.log master
+output val.band con.band charge e.lines
+save outf=test_01_xnor.str
+tonyplot test_01_xnor.str
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.2
+output val.band con.band charge e.lines
+save outf=test_11_xnor.str
+tonyplot test_11_xnor.str
+tonyplot ./transfer_X0_xnor.log
+tonyplot ./transfer_X1_xnor.log
+tonyplot ./temp_xnor.log
+quit

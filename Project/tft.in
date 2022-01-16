@@ -1,0 +1,50 @@
+go atlas
+TITLE Thin film Transistor 
+mesh space.mult=1
+
+x.m l=0 spac=0.1
+x.m l=20 spac=0.1
+
+y.m l=-0.1 spac=0.1
+y.m l=0.8 spac=0.1
+
+region num=1 sio2 x.min=0 x.max=20 y.min = -0.1 y.max =0
+region num=2 silicon x.min=0 x.max=20 y.min=0 y.max=0.1
+region num=3 sio2 x.min=0 x.max=20 y.min=0.1 y.max=0.8
+
+electrode name =gate x.min=6 x.max=15 y.min=-0.10 y.max=-0.098
+electrode name=source x.min=0 x.max=2 
+electrode name =drain x.min=18 x.max=20
+
+doping uniform n.type conc = 7.E14 region num=2
+doping gauss conc =3.E18 n.type x.right=5 char=0.3 region num=2
+doping gauss conc= 3.E18 n.type x.left =15 char=0.3 
+
+contact num=1 alum
+
+model temp =300
+method itlimit=30
+
+solve init
+log off
+save outf=tft1.str
+tonyplot tft1.str
+
+method gummel newton
+solve vgate=-0.1
+
+method  newton 
+solve  vdrain=0.1
+solve  vdrain=0.2
+solve  vdrain=0.5
+solve  vdrain=1 vfinal=0.25 vstep=1 name=drain
+#
+# Solve id versus vg curve
+#
+
+#
+log outf=tft.log 
+solve vstep=0.5 vfinal=5. name=gate vdrain=5 
+#
+tonyplot  tft1.log
+quit

@@ -1,0 +1,144 @@
+# (c) Silvaco Inc., 2018
+go atlas
+#
+#    N-MOSFET structure 
+#
+#
+#    For MIXEDMODE master.out should be specified
+#
+
+mesh       outf=mos2ex01_0.str master.out
+#
+x.m     l=0.0  spacing=0.1
+x.m     l=3.0  spacing=0.1 
+#
+y.m     l=-0.02 spacing=0.01
+y.m     l=0.0   spacing=0.01
+y.m     l=0.7   spacing=0.06
+y.m     l=2.0   spacing=0.2 
+#
+#    Regions
+#
+region     num=1 y.min=0 silicon
+region     num=2 y.max=0 oxide
+#
+#    Electrodes. For MIXEDMODE names must be specified
+#
+elec       num=1 x.min=1 length=1.0 name=gate
+elec       num=2 left    length=1.0 y.min=0 y.max=0 name=source
+elec       num=3 right   length=1.0 y.min=0 y.max=0 name=drain
+elec       num=4 substrate name=substrate
+#
+#    Doping profiles
+#
+doping uniform conc=1e16 p.type
+doping gauss   conc=1e17 p.type char=0.2  peak=0.15
+doping gauss   conc=1e20 n.type junc=0.17 x.right=1.0 ratio=0.7
+doping gauss   conc=1e20 n.type junc=0.17 x.left=2.0  ratio=0.7
+
+tonyplot  mos2ex01_0.str -set mos2ex01_0.set
+#
+
+go atlas
+.begin
+#
+#     NMOS inverters - DC point simulation
+#     Circuit description
+#
+vin 1 0 0 
+an 2=drain 1=gate 0=source 0=substrate infile=mos2ex01_0.str width=15.
+mn 3 2 0 0 simple L=2.0u W=5u 
+r1 2 4 10k
+r2 3 4 10k
+vcc 4 0 5.
+c1 3 0 3ff
+#
+#     End of circuit description
+#
+.model simple nmos ( tox=0.02e-6 vt0=0.9 )
+#
+.numeric vchange=1.
+.options print m2ln noshift
+#
+.save outfile=nmos
+.end
+#
+#  Define physical models for ATLAS device   
+#
+contact device=an name=gate n.poly
+model   device=an reg=1 conmob fldmob bgn
+
+go atlas
+.begin
+#
+#     NMOS inverters - DC curve simulation
+
+#
+#     Circuit description
+#
+vin 1 0 0 
+an 2=drain 1=gate 0=source 0=substrate infile=mos2ex01_0.str width=15.
+mn 3 2 0 0 simple L=2.0u W=5u 
+r1 2 4 10k
+r2 3 4 10k
+vcc 4 0 5.
+c1 3 0 3ff
+#
+#     End of circuit description
+#
+.model simple nmos ( tox=0.02e-6 vt0=0.9 ) 
+#
+.options print fulln noshift
+#
+.load infile=nmos
+.log outfile=mos2ex01
+.dc vin 0. 5. 0.25
+#
+.end
+#
+#  Define physical models for ATLAS device   
+#
+contact device=an name=gate n.poly
+model   device=an reg=1 conmob fldmob bgn
+
+go atlas
+
+tonyplot  mos2ex01_dc_1.log -set  mos2ex01_dc_1.set
+
+go atlas
+.begin
+#
+#     NMOS inverters - transient simulation
+#     
+#     Circuit description
+#
+vin 1 0 0. PULSE 0 5 0 50ps 50ps 1000ps 10 
+an 2=drain 1=gate 0=source 0=substrate infile=mos2ex01_0.str width=15.
+mn 3 2 0 0 simple L=2.0u W=5u 
+r1 2 4 10k
+r2 3 4 10k
+vcc 4 0 5.
+c1 3 0 3ff
+#
+#     End of circuit description
+#
+.model simple nmos ( tox=.02e-6 vt0=0.9 ) 
+#
+.numeric lte=0.05 dtmin=1e-15
+.options print noshift
+#
+.load infile=nmos
+.log outfile=mos2ex01_t
+#
+.tran 0.0001ps 3ns
+#
+.end
+#
+#    ATLAS device models and parameters
+#
+contact device=an name=gate n.poly
+model device=an reg=1 conmob fldmob bgn
+
+go atlas
+tonyplot  mos2ex01_t_tr.log -set  mos2ex01_tr.set
+quit  

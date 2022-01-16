@@ -1,0 +1,84 @@
+gateox=100.163 angstroms (0.0100163 um)  X.val=0.05
+
+nxj=0.174288 um from top of first Silicon layer  X.val=0.1
+
+n++ sheet rho=29.0936 ohm/square  X.val=0.05
+
+ldd sheet rho=2176.84 ohm/square  X.val=0.3
+
+chan surf conc=3.73448e+016 atoms/cm3  X.val=0.45
+
+n1dvt=0.610621 V  X.val=0.49
+
+nvt=0.534386 
+
+nbeta=0.00023928 
+
+ntheta=0.131034 
+
+xj=0.566734 um from top of first Silicon layer  X.val=0.1
+
+sheet_rho=36.7657 ohm/square
+
+xj=0.566734 um from top of first Silicon layer  X.val=0.1
+
+sheet_rho=36.7657 ohm/square  X.val=0.1
+
+xj=0.566734 um from top of first Silicon layer  X.val=0.1
+
+sheet_rho=36.7657 ohm/square  X.val=0.1
+
+ERROR : Initialization has not been performed.
+
+ERROR : Initialization has not been performed.
+
+dibl=0 
+
+ERROR : Initialization has not been performed.
+
+ERROR : Initialization has not been performed.
+
+ERROR : Initialization has not been performed.
+
+ERROR : Division by zero encountered.
+
+ERROR : Initialization has not been performed.
+
+vt1=0.278518 
+
+vt2=0.278518 
+
+dibl=0 
+
+subvt=0.0748325 V/decade
+
+Ioff_n=3.12091e-011 
+
+Ioff_n=9.94126e-005 
+
+Ion_Ioff=0 
+
+vt1=0.278518 
+
+nVt=0.663528 
+
+vt1=-0.810269 
+
+vt2=-0.810269 
+
+vt3=-0.810269 
+
+vt4=-0.810269 
+
+vt5=-0.810269 
+
+vt6=-0.810269 
+
+tox_cl=35.2991 
+
+tox_qm=36.8845 
+
+tox_cl=35.2991 
+
+tox_qm=36.8845 
+

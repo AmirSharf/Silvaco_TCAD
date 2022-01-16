@@ -1,0 +1,231 @@
+DB2 Dump Info Wed 29. Dec 14:42:38 2021
+
+
+*** History of GUI state machine : ***
+
+state machine DB2 MainWindow State Machine (0x1d9abd399d0) registered state initialState (0x1d9abd3aa50)
+state machine DB2 MainWindow State Machine (0x1d9abd399d0) registered state normalState (0x1d9abd3a540)
+
+onEntry State initialState (0x1d9abd3aa50) !
+state entered: initialState (0x1d9abd3aa50)
+state properties assigned: initialState (0x1d9abd3aa50)
+state exited: initialState (0x1d9abd3aa50)
+
+onEntry State normalState (0x1d9abd3a540) !
+state entered: normalState (0x1d9abd3a540)
+
+onEntry State readyState (0x1d9abd3a720) !
+state entered: readyState (0x1d9abd3a720)
+state properties assigned: normalState (0x1d9abd3a540)
+state properties assigned: readyState (0x1d9abd3a720)
+state exited: readyState (0x1d9abd3a720)
+
+onEntry State runningState (0x1d9abd3b710) !
+state entered: runningState (0x1d9abd3b710)
+
+onEntry State startcontState (0x1d9abd3b800) !
+state entered: startcontState (0x1d9abd3b800)
+state properties assigned: runningState (0x1d9abd3b710)
+state properties assigned: startcontState (0x1d9abd3b800)
+state exited: startcontState (0x1d9abd3b800)
+state exited: runningState (0x1d9abd3b710)
+
+onEntry State readyState (0x1d9abd3a720) !
+state entered: readyState (0x1d9abd3a720)
+state properties assigned: readyState (0x1d9abd3a720)
+state exited: readyState (0x1d9abd3a720)
+
+onEntry State runningState (0x1d9abd3b710) !
+state entered: runningState (0x1d9abd3b710)
+
+onEntry State startcontState (0x1d9abd3b800) !
+state entered: startcontState (0x1d9abd3b800)
+state properties assigned: runningState (0x1d9abd3b710)
+state properties assigned: startcontState (0x1d9abd3b800)
+state exited: startcontState (0x1d9abd3b800)
+state exited: runningState (0x1d9abd3b710)
+
+onEntry State readyState (0x1d9abd3a720) !
+state entered: readyState (0x1d9abd3a720)
+state properties assigned: readyState (0x1d9abd3a720)
+state exited: readyState (0x1d9abd3a720)
+
+onEntry State runningState (0x1d9abd3b710) !
+state entered: runningState (0x1d9abd3b710)
+
+onEntry State startcontState (0x1d9abd3b800) !
+state entered: startcontState (0x1d9abd3b800)
+state properties assigned: runningState (0x1d9abd3b710)
+state properties assigned: startcontState (0x1d9abd3b800)
+state exited: startcontState (0x1d9abd3b800)
+state exited: runningState (0x1d9abd3b710)
+
+onEntry State readyState (0x1d9abd3a720) !
+state entered: readyState (0x1d9abd3a720)
+state properties assigned: readyState (0x1d9abd3a720)
+state exited: readyState (0x1d9abd3a720)
+
+onEntry State runningState (0x1d9abd3b710) !
+state entered: runningState (0x1d9abd3b710)
+
+onEntry State startcontState (0x1d9abd3b800) !
+state entered: startcontState (0x1d9abd3b800)
+state properties assigned: runningState (0x1d9abd3b710)
+state properties assigned: startcontState (0x1d9abd3b800)
+state exited: startcontState (0x1d9abd3b800)
+state exited: runningState (0x1d9abd3b710)
+
+onEntry State readyState (0x1d9abd3a720) !
+state entered: readyState (0x1d9abd3a720)
+state properties assigned: readyState (0x1d9abd3a720)
+state exited: readyState (0x1d9abd3a720)
+
+onEntry State runningState (0x1d9abd3b710) !
+state entered: runningState (0x1d9abd3b710)
+
+onEntry State startcontState (0x1d9abd3b800) !
+state entered: startcontState (0x1d9abd3b800)
+state properties assigned: runningState (0x1d9abd3b710)
+state properties assigned: startcontState (0x1d9abd3b800)
+state exited: startcontState (0x1d9abd3b800)
+state exited: runningState (0x1d9abd3b710)
+
+onEntry State readyState (0x1d9abd3a720) !
+state entered: readyState (0x1d9abd3a720)
+state properties assigned: readyState (0x1d9abd3a720)
+state exited: readyState (0x1d9abd3a720)
+
+onEntry State runningState (0x1d9abd3b710) !
+state entered: runningState (0x1d9abd3b710)
+
+onEntry State startcontState (0x1d9abd3b800) !
+state entered: startcontState (0x1d9abd3b800)
+state properties assigned: runningState (0x1d9abd3b710)
+state properties assigned: startcontState (0x1d9abd3b800)
+
+
+*** List of GUI current machine's states : ***
+
+Name : startcontState,			 @:0x1d9abd3b800
+Name : normalState,			 @:0x1d9abd3a540
+Name : runningState,			 @:0x1d9abd3b710
+
+
+*** Executor info : ***
+
+state-name:SimReady
+itsWantExit:0
+itsInsertedDeckCmds:
+itsNextCmdIdx:1
+itsDeckCmds:
+  DeckLine:"solve vgate=0.0 vstep=0.1 name=gate vfinal=1.0", number:81,line-id:81,generated:0,isExtract:0
+itsPendingEvents.size():0
+itsHandleEventsOnly:0
+itsDeckFinishedIssued:0
+itsNoPromptsReceived:0
+itsBatchMode:0
+itsNice:0
+itsSystemEnabled:1
+itsAIEnabled:1
+itsAIPreferencesEnabled:1
+itsDeckWasQuit:0
+itsMonitorStrings:
+  itsString:ERROR #,itsDisplayString:ERROR #
+  itsString:errors detected in,itsDisplayString:errors detected in
+  itsString:\*\*\*Stop now\*\*\*,itsDisplayString:***Stop now***
+  itsString:syntax error,itsDisplayString:syntax error
+  itsString:System Error,itsDisplayString:System Error
+  itsString:Command Error,itsDisplayString:Command Error
+itsSimSetting:
+  athena:path:"C:/sedatools\",version:"",args:""
+  atlas:path:"C:/sedatools\",version:"",args:""
+  clever:path:"C:/sedatools\",version:"",args:""
+  devedit:path:"",version:"",args:""
+  maskviews:path:"",version:"",args:""
+  sedit:path:"",version:"",args:""
+  tonyplot:path:"",version:"",args:""
+  tonyplot3d:path:"",version:"",args:""
+  utmost4:path:"C:/sedatools\",version:"",args:""
+  victoryd:path:"C:/sedatools\",version:"",args:""
+  victorymesh:path:"C:/sedatools\",version:"",args:""
+  victoryp:path:"C:/sedatools\",version:"",args:""
+callbackHistory:  
+  timestamp:-1740905808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   5       N  -12.3* -13.0* -10.7* -30.3* -16.17 -16.19
+,timestamp:1640774550,deckLine:NULL
+  timestamp:-1740843808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:
+Electrode       Va(V)        Jn(A/um)    Jp(A/um)    Jc(A/um)    Jt(A/um)
+=========================================================================
+drain          1.000e+000  5.065e-018  5.843e-023  5.065e-018  5.065e-018
+gate           1.000e-001  0.000e+000  0.000e+000  0.000e+000  0.000e+000
+substrate      0.000e+000  0.000e+000  0.000e+000  0.000e+000  0.000e+000
+source         0.000e+000 -1.731e-023 -5.385e-018 -5.385e-018 -5.385e-018
+Total                                                      ,timestamp:1640774550,deckLine:NULL
+  timestamp:-1740843808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   -3.198e-019
+
+Time for bias point:   4.19 sec. 
+Total time:           57.23 sec. 
+  
+,timestamp:1640774550,deckLine:NULL
+  timestamp:-1740718808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:
+Obtaining static solution:
+
+ V(   gate  ) = 0.2         
+
+
+proj           psi     n      p     psi     n      p  
+direct          x      x      x     rhs    rhs    rhs 
+   i    j  m  -5.00* -5.00* -5.00* -26.0* -17.3* -17.3*
+-------------------------------------------------------
+,timestamp:1640774550,deckLine:NULL
+  timestamp:-1740487808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:662996,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1739519808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:674328,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1738519808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:682612,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1738442808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   1       N  -0.589 -0.763 -0.399 -30.3* -5.857 -6.379
+,timestamp:1640774552,deckLine:NULL
+  timestamp:-1737519808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   2       N  -2.443 -2.050 -1.226 -30.3* -8.766 -9.090
+,timestamp:1640774553,deckLine:NULL
+  timestamp:-1737519808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:682536,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1736644808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   3       N  -5.62* -4.933 -3.754 -30.3* -15.25 -14.57
+,timestamp:1640774554,deckLine:NULL
+  timestamp:-1736519808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:682536,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1735841808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   4       N  -11.7* -11.5* -10.0* -30.2* -15.95 -16.09
+,timestamp:1640774555,deckLine:NULL
+  timestamp:-1735787808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:
+Electrode       Va(V)        Jn(A/um)    Jp(A/um)    Jc(A/um)    Jt(A/um)
+=========================================================================
+drain          1.000e+000  2.337e-018  5.510e-023  2.337e-018  2.337e-018
+gate           2.000e-001  0.000e+000  0.000e+000  0.000e+000  0.000e+000
+substrate      0.000e+000  0.000e+000  0.000e+000  0.000e+000  0.000e+000
+source         0.000e+000 -2.447e-023 -4.471e-018 -4.471e-018 -4.471e-018
+Total                                                      ,timestamp:1640774555,deckLine:NULL
+  timestamp:-1735787808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   -2.134e-018
+
+Time for bias point:   4.97 sec. 
+Total time:            1.04 min. 
+  
+,timestamp:1640774555,deckLine:NULL
+  timestamp:-1735721808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:
+Obtaining static solution:
+
+ V(   gate  ) = 0.3         
+
+
+proj           psi     n      p     psi     n      p  
+direct          x      x      x     rhs    rhs    rhs 
+   i    j  m  -5.00* -5.00* -5.00* -26.0* -17.3* -17.3*
+-------------------------------------------------------
+,timestamp:1640774555,deckLine:NULL
+  timestamp:-1735506808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:662920,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1734501808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:682496,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1734211808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   1       N  -0.588 -0.710 -0.421 -30.3* -5.808 -6.201
+,timestamp:1640774557,deckLine:NULL
+  timestamp:-1733499808,vwf::editor::DeckExecutorCallbackTracer::reportResourceUsage:ru:act_vm_rss:682496,max_vm_rss:682856,cpu_user_sec:0,cpu_user_usec:15625,cpu_sys_sec:0,cpu_sys_usec:46875,io_read_bytes:0,io_write_bytes:0
+  timestamp:-1733374808,vwf::editor::DeckExecutorCallbackTracer::simStdout:rto:RTO:sim:atlas,txt:   2       N  -2.367 -1.970 -1.288 -30.2* -8.707 -9.212
+,timestamp:1640774557,deckLine:NULL
+
+
+
+*** Last line in execution was line 80: ***
+
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.0
+

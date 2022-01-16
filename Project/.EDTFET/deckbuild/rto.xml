@@ -1,0 +1,2834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE rto SYSTEM "rto.dtd">
+<rto>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="deckbuild" timestamp="1641278604" type="out">
+*** this is deckbuild version 4.6.2.R ***
+
+</text>
+
+  <text deck-line="1" is-extract="false" line-id="1" simulator="atlas" timestamp="1641278604" type="out">go atlas
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278606" type="out">
+
+                                   A T L A S
+
+            Version:  atlas 5.26.1.R (Tue May  8 01:53:16 PDT 2018)
+
+                           Copyright (c) 1984 - 2018
+                        Silvaco Inc. All rights reserved
+
+    We acknowledge the contribution of the following collaborative partners:
+
+                              Stanford University
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278607" type="out">
+
+
+               ======================================================
+
+                  ATLAS                           : enabled
+
+                  S-PISCES                        : enabled
+
+                  BLAZE                           : enabled
+
+                  GIGA                            : enabled
+
+                  LUMINOUS                        : enabled
+
+                  LED                             : enabled
+
+                  TFT                             : en</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278607" type="out">abled
+
+                  ORGANIC DISPLAY                 : enabled
+
+                  ORGANIC SOLAR                   : enabled
+
+                  MIXEDMODE                       : enabled
+
+                  LASER                           : enabled
+
+                  VCSEL                           : enabled
+
+                  FERRO                           : enabled
+
+                  QUANTUM                         : enabled
+
+                  NOISE                           : enabled
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278607" type="out">
+                  REM                             : enabled
+
+                  MAGNETIC                        : enabled
+
+                  DEVICE3D                        : enabled
+
+                  THERMAL3D                       : enabled
+
+                  GIGA3D                          : enabled
+
+                  MIXEDMODE3D                     : enabled
+
+                  TFT3D                           : enabled
+
+                  QUANTUM3D                       : enabled
+
+     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278607" type="out">             LUMINOUS3D                      : enabled
+
+                  REM3D                           : enabled
+
+                  MAGNETIC3D                      : enabled
+
+                  LED3D                           : enabled
+
+                  LASER3D                         : enabled
+
+                  MIXEDMODE XL                    : enabled
+
+                  S-PISCES BUNDLE                 : enabled
+
+                  BLAZE BUNDLE                    : enabled
+
+            </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278607" type="out">      TFT BUNDLE                      : enabled
+
+                  ORGANIC BUNDLE                  : enabled
+
+                  DEVICE3D BUNDLE                 : enabled
+
+                  TFT3D BUNDLE                    : enabled
+
+               ======================================================
+
+                           Tue Jan 04 10:43:27 2022
+
+                       Executing on host: DESKTOP-NV769LF
+                  Current SFLM Server: DESKTOP-NV769LF:3162/
+
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="2" is-extract="false" line-id="2" simulator="atlas" timestamp="1641278607" type="out">mesh space.mult=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278610" type="out">	####################################################
+	######                                        ######
+	######           Running on 1 CPU             ######
+	######            4 CPUs available            ######
+	######                                        ######
+	####################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278610" type="out">ATLAS&gt; </text>
+
+  <text deck-line="3" is-extract="false" line-id="3" simulator="atlas" timestamp="1641278611" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="4" is-extract="false" line-id="4" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.000 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="5" is-extract="false" line-id="5" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.005 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="6" is-extract="false" line-id="6" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.055 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="7" is-extract="false" line-id="7" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.075 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="8" is-extract="false" line-id="8" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.125 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="9" is-extract="false" line-id="9" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.130 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="10" is-extract="false" line-id="10" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.180 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="11" is-extract="false" line-id="11" simulator="atlas" timestamp="1641278611" type="out">x.mesh loc=0.185 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="12" is-extract="false" line-id="12" simulator="atlas" timestamp="1641278611" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="13" is-extract="false" line-id="13" simulator="atlas" timestamp="1641278611" type="out">y.mesh loc=0.000 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="14" is-extract="false" line-id="14" simulator="atlas" timestamp="1641278611" type="out">y.mesh loc=0.002 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="15" is-extract="false" line-id="15" simulator="atlas" timestamp="1641278611" type="out">y.mesh loc=0.0052 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="16" is-extract="false" line-id="16" simulator="atlas" timestamp="1641278611" type="out">y.mesh loc=0.0152 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="17" is-extract="false" line-id="17" simulator="atlas" timestamp="1641278611" type="out">y.mesh loc=0.0184  spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="18" is-extract="false" line-id="18" simulator="atlas" timestamp="1641278611" type="out">y.mesh loc=0.0204 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="19" is-extract="false" line-id="19" simulator="atlas" timestamp="1641278611" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="20" is-extract="false" line-id="103" simulator="atlas" timestamp="1641278611" type="out">qtx.mesh loc=0.060 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="21" is-extract="false" line-id="104" simulator="atlas" timestamp="1641278611" type="out">qtx.mesh loc=0.065 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="22" is-extract="false" line-id="105" simulator="atlas" timestamp="1641278611" type="out">qtx.mesh loc=0.075 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="23" is-extract="false" line-id="106" simulator="atlas" timestamp="1641278611" type="out">qtx.mesh loc=0.120 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="24" is-extract="false" line-id="107" simulator="atlas" timestamp="1641278611" type="out">qtx.mesh loc=0.130 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="25" is-extract="false" line-id="108" simulator="atlas" timestamp="1641278611" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="26" is-extract="false" line-id="115" simulator="atlas" timestamp="1641278611" type="out">qty.mesh loc=0.000 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="27" is-extract="false" line-id="116" simulator="atlas" timestamp="1641278611" type="out">qty.mesh loc=0.003 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="28" is-extract="false" line-id="117" simulator="atlas" timestamp="1641278611" type="out">qty.mesh loc=0.005 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="29" is-extract="false" line-id="118" simulator="atlas" timestamp="1641278611" type="out">qty.mesh loc=0.007 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="30" is-extract="false" line-id="119" simulator="atlas" timestamp="1641278611" type="out">qty.mesh loc=0.010 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="31" is-extract="false" line-id="120" simulator="atlas" timestamp="1641278611" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="32" is-extract="false" line-id="20" simulator="atlas" timestamp="1641278611" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="33" is-extract="false" line-id="21" simulator="atlas" timestamp="1641278611" type="out">region num=1 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.002 y.max=0.052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="34" is-extract="false" line-id="22" simulator="atlas" timestamp="1641278611" type="out">region num=2 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.0152 y.max=0.0184
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="35" is-extract="false" line-id="23" simulator="atlas" timestamp="1641278611" type="out">region num=3 material= silicon x.min=0.0 x.max=0.175 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278611" type="out">ATLAS&gt; </text>
+
+  <text deck-line="36" is-extract="false" line-id="24" simulator="atlas" timestamp="1641278612" type="out">region num=4 material= Air x.min=0.050 x.max=0.070 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="37" is-extract="false" line-id="25" simulator="atlas" timestamp="1641278612" type="out">region num=5 material= Air x.min=0.050 x.max=0.070 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="38" is-extract="false" line-id="26" simulator="atlas" timestamp="1641278612" type="out">region num=6 material= Air x.min=0.120 x.max=0.125 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="39" is-extract="false" line-id="27" simulator="atlas" timestamp="1641278612" type="out">region num=7 material= Air x.min=0.120 x.max=0.125 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="40" is-extract="false" line-id="28" simulator="atlas" timestamp="1641278612" type="out">region num=8 material= Air x.min=-0.005 x.max=0.0 y.min = 0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="41" is-extract="false" line-id="29" simulator="atlas" timestamp="1641278612" type="out">region num=9 material= Air x.min=0.175 x.max=0.180 y.min =0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="42" is-extract="false" line-id="30" simulator="atlas" timestamp="1641278612" type="out">region num=10 material= Air x.min=0.000 x.max=0.005 y.min = 0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="43" is-extract="false" line-id="31" simulator="atlas" timestamp="1641278612" type="out">region num=11 material= Air x.min=0.175 x.max=0.180 y.min =0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="44" is-extract="false" line-id="32" simulator="atlas" timestamp="1641278612" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="45" is-extract="false" line-id="33" simulator="atlas" timestamp="1641278612" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="46" is-extract="false" line-id="34" simulator="atlas" timestamp="1641278612" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="47" is-extract="false" line-id="35" simulator="atlas" timestamp="1641278612" type="out">##################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="48" is-extract="false" line-id="36" simulator="atlas" timestamp="1641278612" type="out">qtregion number=1 pts.tunnel=101 x1=0.1 y1=0.0024 x2=0.1 y2=0.0075 x3=0.177 y3=0.0075 x4=0.177 y4=0.0024 snrm.beg=0.0001 snrm.end=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="49" is-extract="false" line-id="37" simulator="atlas" timestamp="1641278612" type="out">#################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="50" is-extract="false" line-id="38" simulator="atlas" timestamp="1641278612" type="out">electrode name= anode x.min=0.0 x.max=0.050 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #1
+Name: anode               
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  4.922e-002 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="51" is-extract="false" line-id="39" simulator="atlas" timestamp="1641278612" type="out">electrode name= gate x.min=0.070 x.max=0.120 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #2
+Name: gate                
+ Number of boundary nodes: 96
+ Dimensions in microns: 
+       min         max
+ x 7.100e-002  1.197e-001 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="52" is-extract="false" line-id="40" simulator="atlas" timestamp="1641278612" type="out">electrode name= cathode x.min=0.125 x.max=0.175 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #3
+Name: cathode             
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.742e-001 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="53" is-extract="false" line-id="41" simulator="atlas" timestamp="1641278612" type="out">electrode name= anode2 x.min=0.0 x.max=0.050 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #4
+Name: anode2              
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  4.922e-002 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="54" is-extract="false" line-id="42" simulator="atlas" timestamp="1641278612" type="out">electrode name= gate2 x.min=0.070 x.max=0.120 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #5
+Name: gate2               
+ Number of boundary nodes: 96
+ Dimensions in microns: 
+       min         max
+ x 7.100e-002  1.197e-001 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="55" is-extract="false" line-id="43" simulator="atlas" timestamp="1641278612" type="out">electrode name= cathode2 x.min=0.125 x.max=0.175 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #6
+Name: cathode2            
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.742e-001 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="56" is-extract="false" line-id="44" simulator="atlas" timestamp="1641278612" type="out">electrode name= drain material=NiSi x.min=-0.005 x.max=0.0 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #7
+Name: drain               
+ Number of boundary nodes: 51
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  0.000e+000 
+ y 5.200e-003  1.520e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="57" is-extract="false" line-id="45" simulator="atlas" timestamp="1641278612" type="out">electrode name= source material=NiSi x.min=0.175 x.max=0.180 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out"> 
+Electrode #8
+Name: source              
+ Number of boundary nodes: 153
+ Dimensions in microns: 
+       min         max
+ x 1.761e-001  1.800e-001 
+ y 5.200e-003  1.520e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="58" is-extract="false" line-id="46" simulator="atlas" timestamp="1641278612" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278612" type="out">ATLAS&gt; </text>
+
+  <text deck-line="59" is-extract="false" line-id="47" simulator="atlas" timestamp="1641278612" type="out">doping uniform p.type conc=1e15 x.min=0.0 x.max=0.175 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out"> Error: No region defined for element **** at  4.98427074E-02   6.66666667E-04
+ Error: No region defined for element **** at  1.19951769E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.75460960E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.86666667E-03
+ Error: No region defined for e</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">lement **** at  1.75460960E-01   6.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">  7.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.46666667E-03
+ Error: No re</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">gion defined for element **** at  1.75460960E-01   8.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.66666667E-03
+ Error: No region defined for element **** a</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">t  1.75460960E-01   9.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.10666667E</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">-02
+ Error: No region defined for element **** at  1.75460960E-01   1.12666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.22666667E-02
+ Error: No region defined </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">for element **** at  1.75460960E-01   1.24666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.75460960</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.48666667E-02
+ Error: </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">No region defined for element **** at  1.75460960E-01   1.50666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.81666667E-01   2.65681445E-03
+ Error: No region defined for element **** at  1.81666667E-01   4.23316913E-03
+ Error: No region defined for element **** at  1.81666667E-01   4.86371100E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.11592775E-03
+ Error: No region defined for element *</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">*** at  1.81666667E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.4666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">6667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.66666667E-03
+ Error: No region def</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">ined for element **** at  1.81666667E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.816</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">66667E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.02666667E-02
+ Er</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">ror: No region defined for element **** at  1.81666667E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.12666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.14666667E-02
+ Error: No region defined for elem</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">ent **** at  1.81666667E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.24666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">.28666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.40666667E-02
+ Error: No regio</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">n defined for element **** at  1.81666667E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.50666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.52420361E-02
+ Error: No region defined for element **** at  </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">1.81666667E-01   1.54311987E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.59041051E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.70863711E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.90666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.84166667E-01   2.65681445E-03
+ Error: No region defined for element **** at  1.84166667E-01   4.23316913E-03</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">
+ Error: No region defined for element **** at  1.84166667E-01   4.86371100E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.11592775E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.86666667E-03
+ Error: No region defined for</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out"> element **** at  1.84166667E-01   6.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-0</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">1   7.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.46666667E-03
+ Error: No </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">region defined for element **** at  1.84166667E-01   8.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.66666667E-03
+ Error: No region defined for element ****</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out"> at  1.84166667E-01   9.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.1066666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">7E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.12666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.22666667E-02
+ Error: No region define</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">d for element **** at  1.84166667E-01   1.24666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.841666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">67E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.48666667E-02
+ Error</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">: No region defined for element **** at  1.84166667E-01   1.50666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.52420361E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.54311987E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.59041051E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.70863711E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.90666667E-02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278613" type="out">
+ATLAS version 5.26.1.R aborted at Tue Jan 04 10:43:33 2022
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="deckbuild" timestamp="1641278657" type="out">
+*** this is deckbuild version 4.6.2.R ***
+
+</text>
+
+  <text deck-line="1" is-extract="false" line-id="1" simulator="atlas" timestamp="1641278658" type="out">go atlas
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278658" type="out">
+
+                                   A T L A S
+
+            Version:  atlas 5.26.1.R (Tue May  8 01:53:16 PDT 2018)
+
+                           Copyright (c) 1984 - 2018
+                        Silvaco Inc. All rights reserved
+
+    We acknowledge the contribution of the following collaborative partners:
+
+                              Stanford University
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278660" type="out">
+
+
+               ======================================================
+
+                  ATLAS                           : enabled
+
+                  S-PISCES                        : enabled
+
+                  BLAZE                           : enabled
+
+                  GIGA                            : enabled
+
+                  LUMINOUS                        : enabled
+
+                  LED                             : enabled
+
+                  TFT                             : en</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278660" type="out">abled
+
+                  ORGANIC DISPLAY                 : enabled
+
+                  ORGANIC SOLAR                   : enabled
+
+                  MIXEDMODE                       : enabled
+
+                  LASER                           : enabled
+
+                  VCSEL                           : enabled
+
+                  FERRO                           : enabled
+
+                  QUANTUM                         : enabled
+
+                  NOISE                           : enabled
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278660" type="out">
+                  REM                             : enabled
+
+                  MAGNETIC                        : enabled
+
+                  DEVICE3D                        : enabled
+
+                  THERMAL3D                       : enabled
+
+                  GIGA3D                          : enabled
+
+                  MIXEDMODE3D                     : enabled
+
+                  TFT3D                           : enabled
+
+                  QUANTUM3D                       : enabled
+
+     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278660" type="out">             LUMINOUS3D                      : enabled
+
+                  REM3D                           : enabled
+
+                  MAGNETIC3D                      : enabled
+
+                  LED3D                           : enabled
+
+                  LASER3D                         : enabled
+
+                  MIXEDMODE XL                    : enabled
+
+                  S-PISCES BUNDLE                 : enabled
+
+                  BLAZE BUNDLE                    : enabled
+
+            </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278660" type="out">      TFT BUNDLE                      : enabled
+
+                  ORGANIC BUNDLE                  : enabled
+
+                  DEVICE3D BUNDLE                 : enabled
+
+                  TFT3D BUNDLE                    : enabled
+
+               ======================================================
+
+                           Tue Jan 04 10:44:20 2022
+
+                       Executing on host: DESKTOP-NV769LF
+                  Current SFLM Server: DESKTOP-NV769LF:3162/
+
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="2" is-extract="false" line-id="2" simulator="atlas" timestamp="1641278660" type="out">mesh space.mult=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">	####################################################
+	######                                        ######
+	######           Running on 1 CPU             ######
+	######            4 CPUs available            ######
+	######                                        ######
+	####################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="3" is-extract="false" line-id="3" simulator="atlas" timestamp="1641278661" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="4" is-extract="false" line-id="4" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.000 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="5" is-extract="false" line-id="5" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.005 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="6" is-extract="false" line-id="6" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.055 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="7" is-extract="false" line-id="7" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.075 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="8" is-extract="false" line-id="8" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.125 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="9" is-extract="false" line-id="9" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.130 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="10" is-extract="false" line-id="10" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.180 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="11" is-extract="false" line-id="11" simulator="atlas" timestamp="1641278661" type="out">x.mesh loc=0.185 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278661" type="out">ATLAS&gt; </text>
+
+  <text deck-line="12" is-extract="false" line-id="12" simulator="atlas" timestamp="1641278662" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="13" is-extract="false" line-id="13" simulator="atlas" timestamp="1641278662" type="out">y.mesh loc=0.000 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="14" is-extract="false" line-id="14" simulator="atlas" timestamp="1641278662" type="out">y.mesh loc=0.002 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="15" is-extract="false" line-id="15" simulator="atlas" timestamp="1641278662" type="out">y.mesh loc=0.0052 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="16" is-extract="false" line-id="16" simulator="atlas" timestamp="1641278662" type="out">y.mesh loc=0.0152 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="17" is-extract="false" line-id="17" simulator="atlas" timestamp="1641278662" type="out">y.mesh loc=0.0184  spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="18" is-extract="false" line-id="18" simulator="atlas" timestamp="1641278662" type="out">y.mesh loc=0.0204 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="19" is-extract="false" line-id="19" simulator="atlas" timestamp="1641278662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="20" is-extract="false" line-id="103" simulator="atlas" timestamp="1641278662" type="out">qtx.mesh loc=0.060 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="21" is-extract="false" line-id="104" simulator="atlas" timestamp="1641278662" type="out">qtx.mesh loc=0.065 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="22" is-extract="false" line-id="105" simulator="atlas" timestamp="1641278662" type="out">qtx.mesh loc=0.075 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="23" is-extract="false" line-id="106" simulator="atlas" timestamp="1641278662" type="out">qtx.mesh loc=0.120 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="24" is-extract="false" line-id="107" simulator="atlas" timestamp="1641278662" type="out">qtx.mesh loc=0.130 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="25" is-extract="false" line-id="108" simulator="atlas" timestamp="1641278662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="26" is-extract="false" line-id="115" simulator="atlas" timestamp="1641278662" type="out">qty.mesh loc=0.000 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="27" is-extract="false" line-id="116" simulator="atlas" timestamp="1641278662" type="out">qty.mesh loc=0.003 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="28" is-extract="false" line-id="117" simulator="atlas" timestamp="1641278662" type="out">qty.mesh loc=0.005 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="29" is-extract="false" line-id="118" simulator="atlas" timestamp="1641278662" type="out">qty.mesh loc=0.007 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="30" is-extract="false" line-id="119" simulator="atlas" timestamp="1641278662" type="out">qty.mesh loc=0.010 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="31" is-extract="false" line-id="120" simulator="atlas" timestamp="1641278662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="32" is-extract="false" line-id="20" simulator="atlas" timestamp="1641278662" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="33" is-extract="false" line-id="21" simulator="atlas" timestamp="1641278662" type="out">region num=1 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.002 y.max=0.052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="34" is-extract="false" line-id="22" simulator="atlas" timestamp="1641278662" type="out">region num=2 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.0152 y.max=0.0184
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="35" is-extract="false" line-id="23" simulator="atlas" timestamp="1641278662" type="out">region num=3 material= silicon x.min=0.0 x.max=0.175 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="36" is-extract="false" line-id="24" simulator="atlas" timestamp="1641278662" type="out">region num=4 material= Air x.min=0.050 x.max=0.070 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="37" is-extract="false" line-id="25" simulator="atlas" timestamp="1641278662" type="out">region num=5 material= Air x.min=0.050 x.max=0.070 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="38" is-extract="false" line-id="26" simulator="atlas" timestamp="1641278662" type="out">region num=6 material= Air x.min=0.120 x.max=0.125 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="39" is-extract="false" line-id="27" simulator="atlas" timestamp="1641278662" type="out">region num=7 material= Air x.min=0.120 x.max=0.125 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="40" is-extract="false" line-id="28" simulator="atlas" timestamp="1641278662" type="out">region num=8 material= Air x.min=-0.005 x.max=0.0 y.min = 0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="41" is-extract="false" line-id="29" simulator="atlas" timestamp="1641278662" type="out">region num=9 material= Air x.min=0.175 x.max=0.180 y.min =0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="42" is-extract="false" line-id="30" simulator="atlas" timestamp="1641278662" type="out">region num=10 material= Air x.min=0.000 x.max=0.005 y.min = 0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="43" is-extract="false" line-id="31" simulator="atlas" timestamp="1641278662" type="out">region num=11 material= Air x.min=0.175 x.max=0.180 y.min =0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="44" is-extract="false" line-id="32" simulator="atlas" timestamp="1641278662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="45" is-extract="false" line-id="33" simulator="atlas" timestamp="1641278662" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="46" is-extract="false" line-id="34" simulator="atlas" timestamp="1641278662" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="47" is-extract="false" line-id="36" simulator="atlas" timestamp="1641278662" type="out">#qtregion number=1 pts.tunnel=101 x1=0.1 y1=0.0024 x2=0.1 y2=0.0075 x3=0.177 y3=0.0075 x4=0.177 y4=0.0024 snrm.beg=0.0001 snrm.end=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278662" type="out">ATLAS&gt; </text>
+
+  <text deck-line="48" is-extract="false" line-id="37" simulator="atlas" timestamp="1641278663" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">ATLAS&gt; </text>
+
+  <text deck-line="49" is-extract="false" line-id="38" simulator="atlas" timestamp="1641278663" type="out">electrode name= anode x.min=0.0 x.max=0.050 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #1
+Name: anode               
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  4.922e-002 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="50" is-extract="false" line-id="39" simulator="atlas" timestamp="1641278663" type="out">electrode name= gate x.min=0.070 x.max=0.120 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #2
+Name: gate                
+ Number of boundary nodes: 96
+ Dimensions in microns: 
+       min         max
+ x 7.100e-002  1.197e-001 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="51" is-extract="false" line-id="40" simulator="atlas" timestamp="1641278663" type="out">electrode name= cathode x.min=0.125 x.max=0.175 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #3
+Name: cathode             
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.742e-001 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="52" is-extract="false" line-id="41" simulator="atlas" timestamp="1641278663" type="out">electrode name= anode2 x.min=0.0 x.max=0.050 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #4
+Name: anode2              
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  4.922e-002 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="53" is-extract="false" line-id="42" simulator="atlas" timestamp="1641278663" type="out">electrode name= gate2 x.min=0.070 x.max=0.120 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #5
+Name: gate2               
+ Number of boundary nodes: 96
+ Dimensions in microns: 
+       min         max
+ x 7.100e-002  1.197e-001 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="54" is-extract="false" line-id="43" simulator="atlas" timestamp="1641278663" type="out">electrode name= cathode2 x.min=0.125 x.max=0.175 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #6
+Name: cathode2            
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.742e-001 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="55" is-extract="false" line-id="44" simulator="atlas" timestamp="1641278663" type="out">electrode name= drain material=NiSi x.min=-0.005 x.max=0.0 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #7
+Name: drain               
+ Number of boundary nodes: 51
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  0.000e+000 
+ y 5.200e-003  1.520e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="56" is-extract="false" line-id="45" simulator="atlas" timestamp="1641278663" type="out">electrode name= source material=NiSi x.min=0.175 x.max=0.180 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> 
+Electrode #8
+Name: source              
+ Number of boundary nodes: 153
+ Dimensions in microns: 
+       min         max
+ x 1.761e-001  1.800e-001 
+ y 5.200e-003  1.520e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="57" is-extract="false" line-id="46" simulator="atlas" timestamp="1641278663" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">ATLAS&gt; </text>
+
+  <text deck-line="58" is-extract="false" line-id="47" simulator="atlas" timestamp="1641278663" type="out">doping uniform p.type conc=1e15 x.min=0.0 x.max=0.175 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> Error: No region defined for element **** at  4.98427074E-02   6.66666667E-04
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> Error: No region defined for element **** at  1.19951769E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.75460960E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.06666667E-03
+ Error: No region defined for e</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">lement **** at  1.75460960E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">  7.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.66666667E-03
+ Error: No re</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">gion defined for element **** at  1.75460960E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.86666667E-03
+ Error: No region defined for element **** a</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">t  1.75460960E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.12666667E</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">-02
+ Error: No region defined for element **** at  1.75460960E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.24666667E-02
+ Error: No region defined </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">for element **** at  1.75460960E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.75460960</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.50666667E-02
+ Error: </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">No region defined for element **** at  1.81666667E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.81666667E-01   2.65681445E-03
+ Error: No region defined for element **** at  1.81666667E-01   4.23316913E-03
+ Error: No region defined for element **** at  1.81666667E-01   4.86371100E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.11592775E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.26666667E-03
+ Error: No region defined for element *</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">*** at  1.81666667E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.6666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">6667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.86666667E-03
+ Error: No region def</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">ined for element **** at  1.81666667E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.816</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">66667E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.04666667E-02
+ Er</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">ror: No region defined for element **** at  1.81666667E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.12666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.16666667E-02
+ Error: No region defined for elem</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">ent **** at  1.81666667E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.24666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">.30666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.42666667E-02
+ Error: No regio</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">n defined for element **** at  1.81666667E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.50666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.52420361E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.54311987E-02
+ Error: No region defined for element **** at  </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">1.81666667E-01   1.59041051E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.70863711E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.90666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.84166667E-01   2.65681445E-03
+ Error: No region defined for element **** at  1.84166667E-01   4.23316913E-03
+ Error: No region defined for element **** at  1.84166667E-01   4.86371100E-03</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">
+ Error: No region defined for element **** at  1.84166667E-01   5.11592775E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.06666667E-03
+ Error: No region defined for</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> element **** at  1.84166667E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-0</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">1   7.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.66666667E-03
+ Error: No </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">region defined for element **** at  1.84166667E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.86666667E-03
+ Error: No region defined for element ****</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out"> at  1.84166667E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.1266666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">7E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.24666667E-02
+ Error: No region define</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">d for element **** at  1.84166667E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.841666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">67E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.50666667E-02
+ Error</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278663" type="out">: No region defined for element **** at  1.84166667E-01   1.52420361E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.54311987E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.59041051E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.70863711E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.90666667E-02
+
+ATLAS version 5.26.1.R aborted at Tue Jan 04 10:44:23 2022
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="deckbuild" timestamp="1641278694" type="out">
+*** this is deckbuild version 4.6.2.R ***
+
+</text>
+
+  <text deck-line="1" is-extract="false" line-id="1" simulator="atlas" timestamp="1641278694" type="out">go atlas
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278694" type="out">
+
+                                   A T L A S
+
+            Version:  atlas 5.26.1.R (Tue May  8 01:53:16 PDT 2018)
+
+                           Copyright (c) 1984 - 2018
+                        Silvaco Inc. All rights reserved
+
+    We acknowledge the contribution of the following collaborative partners:
+
+                              Stanford University
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278695" type="out">
+
+
+               ======================================================
+
+                  ATLAS                           : enabled
+
+                  S-PISCES                        : enabled
+
+                  BLAZE                           : enabled
+
+                  GIGA                            : enabled
+
+                  LUMINOUS                        : enabled
+
+                  LED                             : enabled
+
+                  TFT                             : en</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278695" type="out">abled
+
+                  ORGANIC DISPLAY                 : enabled
+
+                  ORGANIC SOLAR                   : enabled
+
+                  MIXEDMODE                       : enabled
+
+                  LASER                           : enabled
+
+                  VCSEL                           : enabled
+
+                  FERRO                           : enabled
+
+                  QUANTUM                         : enabled
+
+                  NOISE                           : enabled
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278695" type="out">
+                  REM                             : enabled
+
+                  MAGNETIC                        : enabled
+
+                  DEVICE3D                        : enabled
+
+                  THERMAL3D                       : enabled
+
+                  GIGA3D                          : enabled
+
+                  MIXEDMODE3D                     : enabled
+
+                  TFT3D                           : enabled
+
+                  QUANTUM3D                       : enabled
+
+     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278695" type="out">             LUMINOUS3D                      : enabled
+
+                  REM3D                           : enabled
+
+                  MAGNETIC3D                      : enabled
+
+                  LED3D                           : enabled
+
+                  LASER3D                         : enabled
+
+                  MIXEDMODE XL                    : enabled
+
+                  S-PISCES BUNDLE                 : enabled
+
+                  BLAZE BUNDLE                    : enabled
+
+            </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278695" type="out">      TFT BUNDLE                      : enabled
+
+                  ORGANIC BUNDLE                  : enabled
+
+                  DEVICE3D BUNDLE                 : enabled
+
+                  TFT3D BUNDLE                    : enabled
+
+               ======================================================
+
+                           Tue Jan 04 10:44:55 2022
+
+                       Executing on host: DESKTOP-NV769LF
+                  Current SFLM Server: DESKTOP-NV769LF:3162/
+
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="2" is-extract="false" line-id="2" simulator="atlas" timestamp="1641278695" type="out">mesh space.mult=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">	####################################################
+	######                                        ######
+	######           Running on 1 CPU             ######
+	######            4 CPUs available            ######
+	######                                        ######
+	####################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="3" is-extract="false" line-id="3" simulator="atlas" timestamp="1641278697" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="4" is-extract="false" line-id="4" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.000 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="5" is-extract="false" line-id="5" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.005 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="6" is-extract="false" line-id="6" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.055 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="7" is-extract="false" line-id="7" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.075 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="8" is-extract="false" line-id="8" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.125 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="9" is-extract="false" line-id="9" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.130 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="10" is-extract="false" line-id="10" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.180 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="11" is-extract="false" line-id="11" simulator="atlas" timestamp="1641278697" type="out">x.mesh loc=0.185 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="12" is-extract="false" line-id="12" simulator="atlas" timestamp="1641278697" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="13" is-extract="false" line-id="13" simulator="atlas" timestamp="1641278697" type="out">y.mesh loc=0.000 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="14" is-extract="false" line-id="14" simulator="atlas" timestamp="1641278697" type="out">y.mesh loc=0.002 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="15" is-extract="false" line-id="15" simulator="atlas" timestamp="1641278697" type="out">y.mesh loc=0.0052 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="16" is-extract="false" line-id="16" simulator="atlas" timestamp="1641278697" type="out">y.mesh loc=0.0152 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="17" is-extract="false" line-id="17" simulator="atlas" timestamp="1641278697" type="out">y.mesh loc=0.0184  spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="18" is-extract="false" line-id="18" simulator="atlas" timestamp="1641278697" type="out">y.mesh loc=0.0204 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="19" is-extract="false" line-id="19" simulator="atlas" timestamp="1641278697" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="20" is-extract="false" line-id="103" simulator="atlas" timestamp="1641278697" type="out">qtx.mesh loc=0.060 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="21" is-extract="false" line-id="104" simulator="atlas" timestamp="1641278697" type="out">qtx.mesh loc=0.065 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="22" is-extract="false" line-id="105" simulator="atlas" timestamp="1641278697" type="out">qtx.mesh loc=0.075 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="23" is-extract="false" line-id="106" simulator="atlas" timestamp="1641278697" type="out">qtx.mesh loc=0.120 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="24" is-extract="false" line-id="107" simulator="atlas" timestamp="1641278697" type="out">qtx.mesh loc=0.130 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278697" type="out">ATLAS&gt; </text>
+
+  <text deck-line="25" is-extract="false" line-id="108" simulator="atlas" timestamp="1641278698" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="26" is-extract="false" line-id="115" simulator="atlas" timestamp="1641278698" type="out">qty.mesh loc=0.000 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="27" is-extract="false" line-id="116" simulator="atlas" timestamp="1641278698" type="out">qty.mesh loc=0.003 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="28" is-extract="false" line-id="117" simulator="atlas" timestamp="1641278698" type="out">qty.mesh loc=0.005 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="29" is-extract="false" line-id="118" simulator="atlas" timestamp="1641278698" type="out">qty.mesh loc=0.007 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="30" is-extract="false" line-id="119" simulator="atlas" timestamp="1641278698" type="out">qty.mesh loc=0.010 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="31" is-extract="false" line-id="120" simulator="atlas" timestamp="1641278698" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="32" is-extract="false" line-id="20" simulator="atlas" timestamp="1641278698" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="33" is-extract="false" line-id="21" simulator="atlas" timestamp="1641278698" type="out">region num=1 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.002 y.max=0.052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="34" is-extract="false" line-id="22" simulator="atlas" timestamp="1641278698" type="out">region num=2 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.0152 y.max=0.0184
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="35" is-extract="false" line-id="23" simulator="atlas" timestamp="1641278698" type="out">region num=3 material= silicon x.min=0.0 x.max=0.175 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="36" is-extract="false" line-id="24" simulator="atlas" timestamp="1641278698" type="out">region num=4 material= Air x.min=0.050 x.max=0.070 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="37" is-extract="false" line-id="25" simulator="atlas" timestamp="1641278698" type="out">region num=5 material= Air x.min=0.050 x.max=0.070 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="38" is-extract="false" line-id="26" simulator="atlas" timestamp="1641278698" type="out">region num=6 material= Air x.min=0.120 x.max=0.125 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="39" is-extract="false" line-id="27" simulator="atlas" timestamp="1641278698" type="out">region num=7 material= Air x.min=0.120 x.max=0.125 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="40" is-extract="false" line-id="28" simulator="atlas" timestamp="1641278698" type="out">region num=8 material= Air x.min=-0.005 x.max=0.0 y.min = 0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="41" is-extract="false" line-id="29" simulator="atlas" timestamp="1641278698" type="out">region num=9 material= Air x.min=0.175 x.max=0.180 y.min =0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="42" is-extract="false" line-id="30" simulator="atlas" timestamp="1641278698" type="out">region num=10 material= Air x.min=0.000 x.max=0.005 y.min = 0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="43" is-extract="false" line-id="31" simulator="atlas" timestamp="1641278698" type="out">region num=11 material= Air x.min=0.175 x.max=0.180 y.min =0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="44" is-extract="false" line-id="32" simulator="atlas" timestamp="1641278698" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="45" is-extract="false" line-id="33" simulator="atlas" timestamp="1641278698" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="46" is-extract="false" line-id="34" simulator="atlas" timestamp="1641278698" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="47" is-extract="false" line-id="36" simulator="atlas" timestamp="1641278698" type="out">#qtregion number=1 pts.tunnel=101 x1=0.1 y1=0.0024 x2=0.1 y2=0.0075 x3=0.177 y3=0.0075 x4=0.177 y4=0.0024 snrm.beg=0.0001 snrm.end=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="48" is-extract="false" line-id="37" simulator="atlas" timestamp="1641278698" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="49" is-extract="false" line-id="38" simulator="atlas" timestamp="1641278698" type="out">electrode name= anode x.min=0.0 x.max=0.050 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #1
+Name: anode               
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  4.922e-002 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="50" is-extract="false" line-id="39" simulator="atlas" timestamp="1641278698" type="out">electrode name= gate x.min=0.070 x.max=0.120 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #2
+Name: gate                
+ Number of boundary nodes: 96
+ Dimensions in microns: 
+       min         max
+ x 7.100e-002  1.197e-001 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="51" is-extract="false" line-id="40" simulator="atlas" timestamp="1641278698" type="out">electrode name= cathode x.min=0.125 x.max=0.175 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #3
+Name: cathode             
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.742e-001 
+ y 0.000e+000  2.000e-003 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="52" is-extract="false" line-id="41" simulator="atlas" timestamp="1641278698" type="out">electrode name= anode2 x.min=0.0 x.max=0.050 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #4
+Name: anode2              
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  4.922e-002 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="53" is-extract="false" line-id="42" simulator="atlas" timestamp="1641278698" type="out">electrode name= gate2 x.min=0.070 x.max=0.120 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #5
+Name: gate2               
+ Number of boundary nodes: 96
+ Dimensions in microns: 
+       min         max
+ x 7.100e-002  1.197e-001 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="54" is-extract="false" line-id="43" simulator="atlas" timestamp="1641278698" type="out">electrode name= cathode2 x.min=0.125 x.max=0.175 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #6
+Name: cathode2            
+ Number of boundary nodes: 174
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.742e-001 
+ y 1.840e-002  2.040e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="55" is-extract="false" line-id="44" simulator="atlas" timestamp="1641278698" type="out">electrode name= drain material=NiSi x.min=-0.005 x.max=0.0 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #7
+Name: drain               
+ Number of boundary nodes: 51
+ Dimensions in microns: 
+       min         max
+ x 0.000e+000  0.000e+000 
+ y 5.200e-003  1.520e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="56" is-extract="false" line-id="45" simulator="atlas" timestamp="1641278698" type="out">electrode name= source material=NiSi x.min=0.175 x.max=0.180 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> 
+Electrode #8
+Name: source              
+ Number of boundary nodes: 153
+ Dimensions in microns: 
+       min         max
+ x 1.761e-001  1.800e-001 
+ y 5.200e-003  1.520e-002 
+
+Warning:  Electrode shortened in X-direction.
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="57" is-extract="false" line-id="46" simulator="atlas" timestamp="1641278698" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out">ATLAS&gt; </text>
+
+  <text deck-line="58" is-extract="false" line-id="47" simulator="atlas" timestamp="1641278698" type="out">doping uniform p.type conc=1e15 reg=3
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278698" type="out"> Error: No region defined for element **** at  4.98427074E-02   6.66666667E-04
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out"> Error: No region defined for element **** at  1.19951769E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.75460960E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.06666667E-03
+ Error: No region defined for e</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">lement **** at  1.75460960E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">  7.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   8.66666667E-03
+ Error: No re</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">gion defined for element **** at  1.75460960E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.75460960E-01   9.86666667E-03
+ Error: No region defined for element **** a</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">t  1.75460960E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.12666667E</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">-02
+ Error: No region defined for element **** at  1.75460960E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.24666667E-02
+ Error: No region defined </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">for element **** at  1.75460960E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.75460960</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.75460960E-01   1.50666667E-02
+ Error: </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">No region defined for element **** at  1.81666667E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.81666667E-01   2.65681445E-03
+ Error: No region defined for element **** at  1.81666667E-01   4.23316913E-03
+ Error: No region defined for element **** at  1.81666667E-01   4.86371100E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.11592775E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.26666667E-03
+ Error: No region defined for element *</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">*** at  1.81666667E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.6666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">6667E-03
+ Error: No region defined for element **** at  1.81666667E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   7.86666667E-03
+ Error: No region def</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">ined for element **** at  1.81666667E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.816</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">66667E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   9.86666667E-03
+ Error: No region defined for element **** at  1.81666667E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.04666667E-02
+ Er</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">ror: No region defined for element **** at  1.81666667E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.12666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.16666667E-02
+ Error: No region defined for elem</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">ent **** at  1.81666667E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.24666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">.30666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.42666667E-02
+ Error: No regio</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">n defined for element **** at  1.81666667E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.50666667E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.52420361E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.54311987E-02
+ Error: No region defined for element **** at  </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">1.81666667E-01   1.59041051E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.70863711E-02
+ Error: No region defined for element **** at  1.81666667E-01   1.90666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   6.66666667E-04
+ Error: No region defined for element **** at  1.84166667E-01   2.65681445E-03
+ Error: No region defined for element **** at  1.84166667E-01   4.23316913E-03
+ Error: No region defined for element **** at  1.84166667E-01   4.86371100E-03</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">
+ Error: No region defined for element **** at  1.84166667E-01   5.11592775E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   5.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.06666667E-03
+ Error: No region defined for</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out"> element **** at  1.84166667E-01   6.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   6.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-0</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">1   7.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   7.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   8.66666667E-03
+ Error: No </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">region defined for element **** at  1.84166667E-01   8.86666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.06666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.26666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.46666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.66666667E-03
+ Error: No region defined for element **** at  1.84166667E-01   9.86666667E-03
+ Error: No region defined for element ****</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out"> at  1.84166667E-01   1.00666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.02666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.04666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.06666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.08666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.10666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.1266666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">7E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.14666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.16666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.18666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.20666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.22666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.24666667E-02
+ Error: No region define</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">d for element **** at  1.84166667E-01   1.26666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.28666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.30666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.32666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.34666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.36666667E-02
+ Error: No region defined for element **** at  1.841666</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">67E-01   1.38666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.40666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.42666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.44666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.46666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.48666667E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.50666667E-02
+ Error</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278699" type="out">: No region defined for element **** at  1.84166667E-01   1.52420361E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.54311987E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.59041051E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.70863711E-02
+ Error: No region defined for element **** at  1.84166667E-01   1.90666667E-02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="deckbuild" timestamp="1641278832" type="out">
+*** this is deckbuild version 4.6.2.R ***
+
+</text>
+
+  <text deck-line="1" is-extract="false" line-id="1" simulator="atlas" timestamp="1641278832" type="out">go atlas
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278832" type="out">
+
+                                   A T L A S
+
+            Version:  atlas 5.26.1.R (Tue May  8 01:53:16 PDT 2018)
+
+                           Copyright (c) 1984 - 2018
+                        Silvaco Inc. All rights reserved
+
+    We acknowledge the contribution of the following collaborative partners:
+
+                              Stanford University
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278834" type="out">
+
+
+               ======================================================
+
+                  ATLAS                           : enabled
+
+                  S-PISCES                        : enabled
+
+                  BLAZE                           : enabled
+
+                  GIGA                            : enabled
+
+                  LUMINOUS                        : enabled
+
+                  LED                             : enabled
+
+                  TFT                             : en</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278834" type="out">abled
+
+                  ORGANIC DISPLAY                 : enabled
+
+                  ORGANIC SOLAR                   : enabled
+
+                  MIXEDMODE                       : enabled
+
+                  LASER                           : enabled
+
+                  VCSEL                           : enabled
+
+                  FERRO                           : enabled
+
+                  QUANTUM                         : enabled
+
+                  NOISE                           : enabled
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278834" type="out">
+                  REM                             : enabled
+
+                  MAGNETIC                        : enabled
+
+                  DEVICE3D                        : enabled
+
+                  THERMAL3D                       : enabled
+
+                  GIGA3D                          : enabled
+
+                  MIXEDMODE3D                     : enabled
+
+                  TFT3D                           : enabled
+
+                  QUANTUM3D                       : enabled
+
+     </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278834" type="out">             LUMINOUS3D                      : enabled
+
+                  REM3D                           : enabled
+
+                  MAGNETIC3D                      : enabled
+
+                  LED3D                           : enabled
+
+                  LASER3D                         : enabled
+
+                  MIXEDMODE XL                    : enabled
+
+                  S-PISCES BUNDLE                 : enabled
+
+                  BLAZE BUNDLE                    : enabled
+
+            </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278834" type="out">      TFT BUNDLE                      : enabled
+
+                  ORGANIC BUNDLE                  : enabled
+
+                  DEVICE3D BUNDLE                 : enabled
+
+                  TFT3D BUNDLE                    : enabled
+
+               ======================================================
+
+                           Tue Jan 04 10:47:14 2022
+
+                       Executing on host: DESKTOP-NV769LF
+                  Current SFLM Server: DESKTOP-NV769LF:3162/
+
+
+
+ATLAS&gt; </text>
+
+  <text deck-line="2" is-extract="false" line-id="2" simulator="atlas" timestamp="1641278834" type="out">mesh space.mult=1.0
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">	####################################################
+	######                                        ######
+	######           Running on 1 CPU             ######
+	######            4 CPUs available            ######
+	######                                        ######
+	####################################################
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="3" is-extract="false" line-id="3" simulator="atlas" timestamp="1641278835" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="4" is-extract="false" line-id="4" simulator="atlas" timestamp="1641278835" type="out">x.mesh loc=-0.005 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="5" is-extract="false" line-id="5" simulator="atlas" timestamp="1641278835" type="out">x.mesh loc=0.00 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="6" is-extract="false" line-id="6" simulator="atlas" timestamp="1641278835" type="out">x.mesh loc=0.050 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="7" is-extract="false" line-id="7" simulator="atlas" timestamp="1641278835" type="out">x.mesh loc=0.070 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="8" is-extract="false" line-id="8" simulator="atlas" timestamp="1641278835" type="out">x.mesh loc=0.120 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278835" type="out">ATLAS&gt; </text>
+
+  <text deck-line="9" is-extract="false" line-id="9" simulator="atlas" timestamp="1641278836" type="out">x.mesh loc=0.135 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="10" is-extract="false" line-id="10" simulator="atlas" timestamp="1641278836" type="out">x.mesh loc=0.175 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="11" is-extract="false" line-id="11" simulator="atlas" timestamp="1641278836" type="out">x.mesh loc=0.180 spac=0.02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="12" is-extract="false" line-id="12" simulator="atlas" timestamp="1641278836" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="13" is-extract="false" line-id="13" simulator="atlas" timestamp="1641278836" type="out">y.mesh loc=0.000 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="14" is-extract="false" line-id="14" simulator="atlas" timestamp="1641278836" type="out">y.mesh loc=0.002 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="15" is-extract="false" line-id="15" simulator="atlas" timestamp="1641278836" type="out">y.mesh loc=0.0052 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="16" is-extract="false" line-id="16" simulator="atlas" timestamp="1641278836" type="out">y.mesh loc=0.0152 spac=0.0002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="17" is-extract="false" line-id="17" simulator="atlas" timestamp="1641278836" type="out">y.mesh loc=0.0184  spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="18" is-extract="false" line-id="18" simulator="atlas" timestamp="1641278836" type="out">y.mesh loc=0.0204 spac=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="19" is-extract="false" line-id="19" simulator="atlas" timestamp="1641278836" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="20" is-extract="false" line-id="103" simulator="atlas" timestamp="1641278836" type="out">qtx.mesh loc=0.060 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="21" is-extract="false" line-id="104" simulator="atlas" timestamp="1641278836" type="out">qtx.mesh loc=0.065 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="22" is-extract="false" line-id="105" simulator="atlas" timestamp="1641278836" type="out">qtx.mesh loc=0.075 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="23" is-extract="false" line-id="106" simulator="atlas" timestamp="1641278836" type="out">qtx.mesh loc=0.120 spac=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="24" is-extract="false" line-id="107" simulator="atlas" timestamp="1641278836" type="out">qtx.mesh loc=0.130 spac=0.01
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="25" is-extract="false" line-id="108" simulator="atlas" timestamp="1641278836" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="26" is-extract="false" line-id="115" simulator="atlas" timestamp="1641278836" type="out">qty.mesh loc=0.000 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="27" is-extract="false" line-id="116" simulator="atlas" timestamp="1641278836" type="out">qty.mesh loc=0.003 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="28" is-extract="false" line-id="117" simulator="atlas" timestamp="1641278836" type="out">qty.mesh loc=0.005 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="29" is-extract="false" line-id="118" simulator="atlas" timestamp="1641278836" type="out">qty.mesh loc=0.007 spac=0.001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="30" is-extract="false" line-id="119" simulator="atlas" timestamp="1641278836" type="out">qty.mesh loc=0.010 spac=0.0005
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="31" is-extract="false" line-id="120" simulator="atlas" timestamp="1641278836" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="32" is-extract="false" line-id="20" simulator="atlas" timestamp="1641278836" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="33" is-extract="false" line-id="21" simulator="atlas" timestamp="1641278836" type="out">region num=1 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.002 y.max=0.052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="34" is-extract="false" line-id="22" simulator="atlas" timestamp="1641278836" type="out">region num=2 material= HfO2 x.min=0.0 x.max=0.175 y.min = 0.0152 y.max=0.0184
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="35" is-extract="false" line-id="23" simulator="atlas" timestamp="1641278836" type="out">region num=3 material= silicon x.min=0.0 x.max=0.175 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="36" is-extract="false" line-id="24" simulator="atlas" timestamp="1641278836" type="out">region num=4 material= Air x.min=0.050 x.max=0.070 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="37" is-extract="false" line-id="25" simulator="atlas" timestamp="1641278836" type="out">region num=5 material= Air x.min=0.050 x.max=0.070 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="38" is-extract="false" line-id="26" simulator="atlas" timestamp="1641278836" type="out">region num=6 material= Air x.min=0.120 x.max=0.125 y.min = 0.000 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="39" is-extract="false" line-id="27" simulator="atlas" timestamp="1641278836" type="out">region num=7 material= Air x.min=0.120 x.max=0.125 y.min =0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="40" is-extract="false" line-id="28" simulator="atlas" timestamp="1641278836" type="out">region num=8 material= Air x.min=-0.005 x.max=0.0 y.min = 0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="41" is-extract="false" line-id="29" simulator="atlas" timestamp="1641278836" type="out">region num=9 material= Air x.min=0.175 x.max=0.180 y.min =0.0 y.max=0.0052
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="42" is-extract="false" line-id="30" simulator="atlas" timestamp="1641278836" type="out">region num=10 material= Air x.min=0.000 x.max=0.005 y.min = 0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="43" is-extract="false" line-id="31" simulator="atlas" timestamp="1641278836" type="out">region num=11 material= Air x.min=0.175 x.max=0.180 y.min =0.0152 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="44" is-extract="false" line-id="32" simulator="atlas" timestamp="1641278836" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="45" is-extract="false" line-id="33" simulator="atlas" timestamp="1641278836" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="46" is-extract="false" line-id="34" simulator="atlas" timestamp="1641278836" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278836" type="out">ATLAS&gt; </text>
+
+  <text deck-line="47" is-extract="false" line-id="36" simulator="atlas" timestamp="1641278837" type="out">#qtregion number=1 pts.tunnel=101 x1=0.1 y1=0.0024 x2=0.1 y2=0.0075 x3=0.177 y3=0.0075 x4=0.177 y4=0.0024 snrm.beg=0.0001 snrm.end=0.0001
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">ATLAS&gt; </text>
+
+  <text deck-line="48" is-extract="false" line-id="37" simulator="atlas" timestamp="1641278837" type="out">
+</text>  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">ATLAS&gt; </text>
+
+  <text deck-line="49" is-extract="false" line-id="38" simulator="atlas" timestamp="1641278837" type="out">electrode name= anode x.min=0.005 x.max=0.050 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #1
+Name: anode               
+ Number of boundary nodes: 92
+ Dimensions in microns: 
+       min         max
+ x 5.302e-003  5.000e-002 
+ y 0.000e+000  2.000e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="50" is-extract="false" line-id="39" simulator="atlas" timestamp="1641278837" type="out">electrode name= gate x.min=0.070 x.max=0.120 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #2
+Name: gate                
+ Number of boundary nodes: 130
+ Dimensions in microns: 
+       min         max
+ x 7.000e-002  1.200e-001 
+ y 0.000e+000  2.000e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="51" is-extract="false" line-id="40" simulator="atlas" timestamp="1641278837" type="out">electrode name= cathode x.min=0.125 x.max=0.175 y.min = 0.0 y.max=0.002
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #3
+Name: cathode             
+ Number of boundary nodes: 204
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.750e-001 
+ y 0.000e+000  2.000e-003 
+
+ATLAS&gt; </text>
+
+  <text deck-line="52" is-extract="false" line-id="41" simulator="atlas" timestamp="1641278837" type="out">electrode name= anode2 x.min=0.005 x.max=0.050 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #4
+Name: anode2              
+ Number of boundary nodes: 92
+ Dimensions in microns: 
+       min         max
+ x 5.302e-003  5.000e-002 
+ y 1.840e-002  2.040e-002 
+
+ATLAS&gt; </text>
+
+  <text deck-line="53" is-extract="false" line-id="42" simulator="atlas" timestamp="1641278837" type="out">electrode name= gate2 x.min=0.070 x.max=0.120 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #5
+Name: gate2               
+ Number of boundary nodes: 130
+ Dimensions in microns: 
+       min         max
+ x 7.000e-002  1.200e-001 
+ y 1.840e-002  2.040e-002 
+
+ATLAS&gt; </text>
+
+  <text deck-line="54" is-extract="false" line-id="43" simulator="atlas" timestamp="1641278837" type="out">electrode name= cathode2 x.min=0.125 x.max=0.175 y.min = 0.0184 y.max=0.0204
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #6
+Name: cathode2            
+ Number of boundary nodes: 204
+ Dimensions in microns: 
+       min         max
+ x 1.250e-001  1.750e-001 
+ y 1.840e-002  2.040e-002 
+
+ATLAS&gt; </text>
+
+  <text deck-line="55" is-extract="false" line-id="44" simulator="atlas" timestamp="1641278837" type="out">electrode name= drain material=NiSi x.min=-0.005 x.max=0.0 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #7
+Name: drain               
+ Number of boundary nodes: 1326
+ Dimensions in microns: 
+       min         max
+ x -5.000e-003  1.787e-018 
+ y 5.200e-003  1.520e-002 
+
+ATLAS&gt; </text>
+
+  <text deck-line="56" is-extract="false" line-id="45" simulator="atlas" timestamp="1641278837" type="out">electrode name= source material=NiSi x.min=0.175 x.max=0.180 y.min =0.0052 y.max=0.0152
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> 
+Electrode #8
+Name: source              
+ Number of boundary nodes: 153
+ Dimensions in microns: 
+       min         max
+ x 1.750e-001  1.800e-001 
+ y 5.200e-003  1.520e-002 
+
+ATLAS&gt; </text>
+
+  <text deck-line="57" is-extract="false" line-id="46" simulator="atlas" timestamp="1641278837" type="out">#
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">ATLAS&gt; </text>
+
+  <text deck-line="58" is-extract="false" line-id="47" simulator="atlas" timestamp="1641278837" type="out">doping uniform p.type conc=1e15 reg=3
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> Error: No region defined for element  111 at -4.93333333E-03   1.52420361E-02
+ Error: No region defined for element  112 at -4.93333333E-03   1.54311987E-02
+ Error: No region defined for element  113 at -4.93333333E-03   1.59041051E-02
+ Error: No region defined for element  114 at -4.93333333E-03   1.70863711E-02
+ Error: No region defined for element  115 at -4.93333333E-03   1.90666667E-02
+ Error: No region defined for element  171 at -4.73333333E-03   1.52420361E-02
+ Error: No region defined for e</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">lement  172 at -4.73333333E-03   1.54311987E-02
+ Error: No region defined for element  173 at -4.73333333E-03   1.59041051E-02
+ Error: No region defined for element  174 at -4.73333333E-03   1.70863711E-02
+ Error: No region defined for element  175 at -4.73333333E-03   1.90666667E-02
+ Error: No region defined for element  231 at -4.53333333E-03   1.52420361E-02
+ Error: No region defined for element  232 at -4.53333333E-03   1.54311987E-02
+ Error: No region defined for element  233 at -4.53333333E-03 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">  1.59041051E-02
+ Error: No region defined for element  234 at -4.53333333E-03   1.70863711E-02
+ Error: No region defined for element  235 at -4.53333333E-03   1.90666667E-02
+ Error: No region defined for element  291 at -4.33333333E-03   1.52420361E-02
+ Error: No region defined for element  292 at -4.33333333E-03   1.54311987E-02
+ Error: No region defined for element  293 at -4.33333333E-03   1.59041051E-02
+ Error: No region defined for element  294 at -4.33333333E-03   1.70863711E-02
+ Error: No re</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">gion defined for element  295 at -4.33333333E-03   1.90666667E-02
+ Error: No region defined for element  351 at -4.13333333E-03   1.52420361E-02
+ Error: No region defined for element  352 at -4.13333333E-03   1.54311987E-02
+ Error: No region defined for element  353 at -4.13333333E-03   1.59041051E-02
+ Error: No region defined for element  354 at -4.13333333E-03   1.70863711E-02
+ Error: No region defined for element  355 at -4.13333333E-03   1.90666667E-02
+ Error: No region defined for element  411 a</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">t -3.93333333E-03   1.52420361E-02
+ Error: No region defined for element  412 at -3.93333333E-03   1.54311987E-02
+ Error: No region defined for element  413 at -3.93333333E-03   1.59041051E-02
+ Error: No region defined for element  414 at -3.93333333E-03   1.70863711E-02
+ Error: No region defined for element  415 at -3.93333333E-03   1.90666667E-02
+ Error: No region defined for element  471 at -3.73333333E-03   1.52420361E-02
+ Error: No region defined for element  472 at -3.73333333E-03   1.54311987E</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">-02
+ Error: No region defined for element  473 at -3.73333333E-03   1.59041051E-02
+ Error: No region defined for element  474 at -3.73333333E-03   1.70863711E-02
+ Error: No region defined for element  475 at -3.73333333E-03   1.90666667E-02
+ Error: No region defined for element  531 at -3.53333333E-03   1.52420361E-02
+ Error: No region defined for element  532 at -3.53333333E-03   1.54311987E-02
+ Error: No region defined for element  533 at -3.53333333E-03   1.59041051E-02
+ Error: No region defined </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">for element  534 at -3.53333333E-03   1.70863711E-02
+ Error: No region defined for element  535 at -3.53333333E-03   1.90666667E-02
+ Error: No region defined for element  591 at -3.33333333E-03   1.52420361E-02
+ Error: No region defined for element  592 at -3.33333333E-03   1.54311987E-02
+ Error: No region defined for element  593 at -3.33333333E-03   1.59041051E-02
+ Error: No region defined for element  594 at -3.33333333E-03   1.70863711E-02
+ Error: No region defined for element  595 at -3.33333333</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">E-03   1.90666667E-02
+ Error: No region defined for element  651 at -3.13333333E-03   1.52420361E-02
+ Error: No region defined for element  652 at -3.13333333E-03   1.54311987E-02
+ Error: No region defined for element  653 at -3.13333333E-03   1.59041051E-02
+ Error: No region defined for element  654 at -3.13333333E-03   1.70863711E-02
+ Error: No region defined for element  655 at -3.13333333E-03   1.90666667E-02
+ Error: No region defined for element  711 at -2.93333333E-03   1.52420361E-02
+ Error: </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">No region defined for element  712 at -2.93333333E-03   1.54311987E-02
+ Error: No region defined for element  713 at -2.93333333E-03   1.59041051E-02
+ Error: No region defined for element  714 at -2.93333333E-03   1.70863711E-02
+ Error: No region defined for element  715 at -2.93333333E-03   1.90666667E-02
+ Error: No region defined for element  771 at -2.73333333E-03   1.52420361E-02
+ Error: No region defined for element  772 at -2.73333333E-03   1.54311987E-02
+ Error: No region defined for element  </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">773 at -2.73333333E-03   1.59041051E-02
+ Error: No region defined for element  774 at -2.73333333E-03   1.70863711E-02
+ Error: No region defined for element  775 at -2.73333333E-03   1.90666667E-02
+ Error: No region defined for element  831 at -2.53333333E-03   1.52420361E-02
+ Error: No region defined for element  832 at -2.53333333E-03   1.54311987E-02
+ Error: No region defined for element  833 at -2.53333333E-03   1.59041051E-02
+ Error: No region defined for element  834 at -2.53333333E-03   1.7086</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">3711E-02
+ Error: No region defined for element  835 at -2.53333333E-03   1.90666667E-02
+ Error: No region defined for element  891 at -2.33333333E-03   1.52420361E-02
+ Error: No region defined for element  892 at -2.33333333E-03   1.54311987E-02
+ Error: No region defined for element  893 at -2.33333333E-03   1.59041051E-02
+ Error: No region defined for element  894 at -2.33333333E-03   1.70863711E-02
+ Error: No region defined for element  895 at -2.33333333E-03   1.90666667E-02
+ Error: No region def</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">ined for element  951 at -2.13333333E-03   1.52420361E-02
+ Error: No region defined for element  952 at -2.13333333E-03   1.54311987E-02
+ Error: No region defined for element  953 at -2.13333333E-03   1.59041051E-02
+ Error: No region defined for element  954 at -2.13333333E-03   1.70863711E-02
+ Error: No region defined for element  955 at -2.13333333E-03   1.90666667E-02
+ Error: No region defined for element 1011 at -1.93333333E-03   1.52420361E-02
+ Error: No region defined for element 1012 at -1.933</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">33333E-03   1.54311987E-02
+ Error: No region defined for element 1013 at -1.93333333E-03   1.59041051E-02
+ Error: No region defined for element 1014 at -1.93333333E-03   1.70863711E-02
+ Error: No region defined for element 1015 at -1.93333333E-03   1.90666667E-02
+ Error: No region defined for element 1071 at -1.73333333E-03   1.52420361E-02
+ Error: No region defined for element 1072 at -1.73333333E-03   1.54311987E-02
+ Error: No region defined for element 1073 at -1.73333333E-03   1.59041051E-02
+ Er</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">ror: No region defined for element 1074 at -1.73333333E-03   1.70863711E-02
+ Error: No region defined for element 1075 at -1.73333333E-03   1.90666667E-02
+ Error: No region defined for element 1131 at -1.53333333E-03   1.52420361E-02
+ Error: No region defined for element 1132 at -1.53333333E-03   1.54311987E-02
+ Error: No region defined for element 1133 at -1.53333333E-03   1.59041051E-02
+ Error: No region defined for element 1134 at -1.53333333E-03   1.70863711E-02
+ Error: No region defined for elem</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">ent 1135 at -1.53333333E-03   1.90666667E-02
+ Error: No region defined for element 1191 at -1.33333333E-03   1.52420361E-02
+ Error: No region defined for element 1192 at -1.33333333E-03   1.54311987E-02
+ Error: No region defined for element 1193 at -1.33333333E-03   1.59041051E-02
+ Error: No region defined for element 1194 at -1.33333333E-03   1.70863711E-02
+ Error: No region defined for element 1195 at -1.33333333E-03   1.90666667E-02
+ Error: No region defined for element 1251 at -1.13333333E-03   1</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">.52420361E-02
+ Error: No region defined for element 1252 at -1.13333333E-03   1.54311987E-02
+ Error: No region defined for element 1253 at -1.13333333E-03   1.59041051E-02
+ Error: No region defined for element 1254 at -1.13333333E-03   1.70863711E-02
+ Error: No region defined for element 1255 at -1.13333333E-03   1.90666667E-02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> Error: No region defined for element 1311 at -9.33333333E-04   1.52420361E-02
+ Error: No region defined for element 1312 at -9.33333333E-04   1.54311987E-02
+ Error: No region defined for element 1313 at -9.33333333E-04   1.59041051E-02
+ Error: No region defined for element 1314 at -9.33333333E-04   1.70863711E-02
+ Error: No region defined for element 1315 at -9.33333333E-04   1.90666667E-02
+</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out"> Error: No region defined for element 1371 at -7.33333333E-04   1.52420361E-02
+ Error: No region defined for element 1372 at -7.33333333E-04   1.54311987E-02
+ Error: No region defined for element 1373 at -7.33333333E-04   1.59041051E-02
+ Error: No region defined for element 1374 at -7.33333333E-04   1.70863711E-02
+ Error: No region defined for element 1375 at -7.33333333E-04   1.90666667E-02
+ Error: No region defined for element 1431 at -5.33333333E-04   1.52420361E-02
+ Error: No region defined for e</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">lement 1432 at -5.33333333E-04   1.54311987E-02
+ Error: No region defined for element 1433 at -5.33333333E-04   1.59041051E-02
+ Error: No region defined for element 1434 at -5.33333333E-04   1.70863711E-02
+ Error: No region defined for element 1435 at -5.33333333E-04   1.90666667E-02
+ Error: No region defined for element 1491 at -3.33333333E-04   1.52420361E-02
+ Error: No region defined for element 1492 at -3.33333333E-04   1.54311987E-02
+ Error: No region defined for element 1493 at -3.33333333E-04 </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">  1.59041051E-02
+ Error: No region defined for element 1494 at -3.33333333E-04   1.70863711E-02
+ Error: No region defined for element 1495 at -3.33333333E-04   1.90666667E-02
+ Error: No region defined for element 1551 at -1.33333333E-04   1.52420361E-02
+ Error: No region defined for element 1552 at -1.33333333E-04   1.54311987E-02
+ Error: No region defined for element 1553 at -1.33333333E-04   1.59041051E-02
+ Error: No region defined for element 1554 at -1.33333333E-04   1.70863711E-02
+ Error: No re</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">gion defined for element 1555 at -1.33333333E-04   1.90666667E-02
+ Error: No region defined for element 1556 at  6.54473094E-05   6.66666667E-04
+ Error: No region defined for element 1616 at  2.64243512E-04   6.66666667E-04
+ Error: No region defined for element 1676 at  4.70494572E-04   6.66666667E-04
+ Error: No region defined for element 1736 at  6.84480046E-04   6.66666667E-04
+ Error: No region defined for element 1796 at  9.06489976E-04   6.66666667E-04
+ Error: No region defined for element 1856 a</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">t  1.13682528E-03   6.66666667E-04
+ Error: No region defined for element 1916 at  1.37579815E-03   6.66666667E-04
+ Error: No region defined for element 1976 at  1.62373251E-03   6.66666667E-04
+ Error: No region defined for element 2036 at  1.88096441E-03   6.66666667E-04
+ Error: No region defined for element 2096 at  2.14784250E-03   6.66666667E-04
+ Error: No region defined for element 2156 at  2.42472853E-03   6.66666667E-04
+ Error: No region defined for element 2216 at  2.71199777E-03   6.66666667E</text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">-04
+ Error: No region defined for element 2276 at  3.01003962E-03   6.66666667E-04
+ Error: No region defined for element 2336 at  3.31925803E-03   6.66666667E-04
+ Error: No region defined for element 2396 at  3.64007214E-03   6.66666667E-04
+ Error: No region defined for element 2456 at  3.97291677E-03   6.66666667E-04
+ Error: No region defined for element 2516 at  4.31824308E-03   6.66666667E-04
+ Error: No region defined for element 2576 at  4.67651912E-03   6.66666667E-04
+ Error: No region defined </text>
+
+  <text deck-line="-1" is-extract="false" line-id="-1" simulator="atlas" timestamp="1641278837" type="out">for element 2636 at  5.04823052E-03   6.66666667E-04
+
+ATLAS version 5.26.1.R aborted at Tue Jan 04 10:47:17 2022
+</text>
+
+</rto>

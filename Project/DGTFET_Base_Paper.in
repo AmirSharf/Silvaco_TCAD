@@ -1,0 +1,95 @@
+#Structure of DGTFET
+go atlas 
+mesh space.mult=1.0
+
+x.mesh loc=0.0 spac=0.01
+x.mesh loc=0.085 spac=0.001
+x.mesh loc=0.095 spac=0.00005
+x.mesh loc=0.100 spac=0.0005
+x.mesh loc=0.100 spac=0.005
+x.mesh loc=0.105 spac=0.001
+x.mesh loc=0.185 spac=0.001
+x.mesh loc=0.195 spac=0.00005
+x.mesh loc=0.200 spac=0.0005
+x.mesh loc=0.200 spac=0.005
+x.mesh loc=0.3 spac=0.01
+
+y.mesh loc=-0.003 spac=0.0005
+y.mesh loc=0.0 spac=0.0001
+y.mesh loc=0.002 spac=0.0005
+y.mesh loc=0.008 spac=0.0005
+y.mesh loc=0.010 spac=0.0001
+y.mesh loc=0.013 spac=0.0005
+
+region num=1 y.max=0.002 material=hfo2
+region num=2 y.min=0.002 y.max=0.008 material=silicon
+region num=3 y.min=0.008 material=hfo2
+region num=6 x.min=0.100 x.max=0.220 y.min=-0.003 y.max=0.0 material=Oxide
+region num=7 x.min=0.100 x.max=0.220 y.min=0.010 y.max=0.013 material=Oxide
+
+
+
+# Defining electrode: Channel length in this example is 30nm
+electrode name=gate x.min=0.1 x.max=0.220 top
+electrode name= drain x.max=0.100 y.min=0.002 y.max=0.002
+electrode name=source x.min=0.220 y.min=0.002 y.max=0.002
+electrode name=gate2 x.min=0.1 x.max=0.220 bottom
+
+qtx.mesh loc=0.05 spac=0.0005
+qtx.mesh loc=0.10 spac=0.0002
+qtx.mesh loc=0.15 spac=0.0005
+
+qtx.mesh loc=0.15 spac=0.0005
+qtx.mesh loc=0.20 spac=0.0002
+qtx.mesh loc=0.25 spac=0.0005
+
+qty.mesh loc=0.0  spac=0.0005
+qty.mesh loc=0.005 spac=0.001
+qty.mesh loc=0.010 spac=0.0005
+
+qty.mesh loc=0.0  spac=0.0005
+qty.mesh loc=0.005 spac=0.001
+qty.mesh loc=0.010 spac=0.0005
+
+#Defining tunneling parameter for silicon :
+material material=Silicon me.tunnel=0.100 region=2
+material material=Silicon me.tunnel=0.200 region=2
+
+
+doping uniform n.type conc=1e17 reg=2
+doping uniform n.type conc=5e18 x.max=0.100 reg=2
+doping uniform p.type conc=1e20 x.min=0.200 reg=2
+
+contact name=gate workfunction=5
+contact name=gate2 workfunction=5 
+contact name=drain
+contact name=source
+
+model bbt.nonlocal bbt.forward qtunn.dir=1 bgn consrh conmob print
+
+method newton
+solved init
+# Applying bias for simulation
+solve vsource=0.0
+solve vgate=0.0
+
+# Order to improve c0nvergence, drain voltage increased gradually 
+solve vdrain=0.03125
+solve vdrain=0.0625
+solve vdrain=0.125
+solve vdrain=0.25
+solve vdrain=0.5
+solve vdrain=1.0
+
+#Simulate the transfer characteristics
+log outf= transfer.log master
+solve vgate=0.0 vstep=0.1 name=gate vfinal=0.5
+
+#Plotting Section
+tonyplot transfer.log
+output val.band con.band charge e.lines 
+save outfile= DGTFET.str
+tonyplot DGTFET.str
+quit
+
+ 

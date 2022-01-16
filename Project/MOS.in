@@ -1,0 +1,56 @@
+go atlas
+
+mesh infile=mos2ex18_0.str width=1.0
+
+inttrap density=1.0e12 s.i degen=1 x.min=1.3 x.max=3.1 sign=1.23e-15 sigp=1.1e-13 gra.4.sto gra.ea=0.9 gra.nu=1.47e13  gra.eb.elec=0.012 gra.eb.hole=0.012 gra.ec.elec=0.05 gra.ec.hole=0.05 gra.et1=-0.75 gra.et2=0.2 gra.et4=0.15 gra.gamma=1.0e-7 gra.ed=1.35 gra.fc=1.1e7 gra.samples=10 gra.sign.sd=0.0 gra.sigp.sd=0.0 gra.et1.sd=0.04 gra.et2.sd=0.02 gra.eb.sd=0.0 gra.nu.sd=1.0e12 gra.ec.sd=0.0 gra.ea.sd=0.0 gra.fc.sd=1.0e6 gra.gamma.sd=2.0e-8
+
+contact name=gate p.polysilicon
+
+material material=Si  taun0=1e-7  taup0=1e-7
+
+#probe values at centre of interface
+
+probe ft.msc msc.state=1 x=2.2 y=-3.0216445
+probe ft.msc msc.state=2 x=2.2 y=-3.0216445
+probe ft.msc msc.state=3 x=2.2 y=-3.0216445
+probe ft.msc msc.state=4 x=2.2 y=-3.0216445
+probe ft.msc msc.state=5 x=2.2 y=-3.0216445
+probe h.trantrap x=2.2 y=-3.021
+probe e.trantrap x=2.2 y=-3.021
+probe p.conc x=2.2 y=-3.021
+probe n.conc x=2.2 y=-3.021
+
+#do elevated temperature simulation
+
+model temp=373 mos
+
+loop steps=6
+
+assign name=counter print n.value=1 delta=1
+assign name=counterp1 print n.value=2 delta=1
+
+solve init
+
+load infile=mos2ex18_${counter}.str master
+
+contact name=gate p.polysilicon
+
+solve name=drain vstep=-0.1 vfinal=-0.5
+
+
+solve vgate=0.1
+solve vgate=0.5
+
+log outf=mos2ex18_${counterp1}.log
+
+solve name=gate vstep=-0.025 vfinal=-1.5 compl=1.0e-6 cname=source
+
+extract name="vt${counter}" -(xintercept(maxslope(curve(abs(v."gate"),abs(i."drain")))) \
+        - abs(ave(v."drain"))/2.0)
+
+log off
+
+l.end
+
+
+tonyplot -overlay mos2ex18_2.log mos2ex18_3.log mos2ex18_4.log mos2ex18_5.log mos2ex18_6.log mos2ex18_7.log -set mos2ex18_4.set

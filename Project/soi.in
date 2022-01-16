@@ -1,0 +1,61 @@
+go atlas
+title Comparison of DD_MS and NEGF_MS models for nanoscale SOI FET
+mesh diag.flip
+
+
+x.m l=0.00       s=0.0002
+x.m l=0.05        s=0.0002
+
+
+y.m l= -0.001   s=0.0002
+y.m l=  0.0     s=0.0002
+y.m l=  0.006    s=0.0002
+y.m l=  0.01    s=0.002
+
+
+
+region      num=1  sio2
+region      num=2  y.min= 0.00  y.max=0.006  silicon
+
+
+
+electrode   num=1 name= source x.max=0.0   y.min=0.0 y.max=0.006
+electrode   num=2 name= drain  x.min=0.05  y.min=0.0 y.max=0.006
+electrode   num=3 name=gate    x.min=0.01 x.max=0.04 y.min=-0.001 y.max=-0.001 
+
+#REFLECT specifies that for Energy Balance and Hydrodynamic simulation using a Neumann (reflective) boundary condition for carrier temperature equations. By default, contacts are handled as Dirichlet boundaries with carrier temperature equal to lattice temperature.
+contact name=source  reflect
+contact name=drain   reflect 
+contact name=gate    workfun=4.7 
+
+
+doping region=2  n.type uniform conc=1.0E20 x.max=0.01
+doping region=2  n.type uniform conc=1.0E20 x.min=0.04
+doping region=2  p.type uniform conc=1.0E18 x.min=0.01 x.max=0.04
+
+# Possible to look at the transmission function computed and its step with eigen enrgy at the source injection barrier...magnitude of a single transmission step never reaches a value of one, which signals a strong reflection of electrons back into the source.
+
+output  con.band val.band eigens=10 
+
+#dd_md : drift-diffusion Ox: oxide 
+models  schro p.schrodinger dd_ms   npred.negf=10 \
+        Ox.Schro Ox.Margin=0.002  num.direct=1 num.band=1 
+
+mobility betan=2 vsatn=1.1e7
+method carriers=0
+
+# A zero bias quantum solution is obtained first.
+
+solve init
+
+solve v2=1.0
+#MASTER specifies that the output file will be written in a standard structure format.Files in this format can be plotted in TONYPLOT. master can be replace with dd_ms 
+save outf=quantumex14_ddms_vd10.str master
+
+log outf=quantumex14_ddms_IdVg_vd10.log
+solve v3=0.0 vstep =0.1 vfinal=1.0 name = gate
+save outf=quantumex14_ddms_vd10_vg15.str master
+log off
+
+tonyplot quantumex14_ddms_vd10_vg15.str
+quit

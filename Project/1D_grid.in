@@ -1,0 +1,22 @@
+go athena 
+#TITLE : Solid surface phosphorus diffusion
+line x loc=0 spacing =0.02
+line x loc=0.2 spacing=0.2
+line y loc=0 spacing=0.02
+line y loc=0.1 spacing=0.02
+line y loc=0.4 spacing=0.04
+line y loc=0.8 spacing=0.06
+line y loc=1.5 spacing=0.10
+#
+init c.boron=3e14
+method adapt
+# Diffuse phosphorus
+diffuse time=60 temp=1000 c.phos=1e20
+# extract junction depth
+extract name="xj" xj material="Silicon" mat.occno=1 x.val=0.1 junc.occno=1
+#extract 1D electrical parameters
+extract name="sheet_rho" n.sheet.res material="Silicon" mat.occno=1 x.val=0.1 region.occno=1
+# Save and plot the final structure
+structure outfile=ex3_4.str
+tonyplot
+quit

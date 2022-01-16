@@ -1,0 +1,36 @@
+# (c) Silvaco Inc., 2019
+go atlas
+TITLE PN Diode 
+
+mesh space.mult=1   
+x.m  l=0.0 spac=0.1
+x.m  l=10 spac=0.1
+
+y.m  l=0   spac=0.1
+y.m  l=4.0  spac=0.1
+
+
+region num=1 silicon x.min=0 x.max=10 y.min=0 y.max=4
+ 
+electrode  name=anode top x.min=1 x.max=9
+electrode  name=cathode bottom x.min=1 x.max=9
+
+doping uniform p.type conc=5e15 x.min=0 x.max=5 y.min=0 y.max=4
+doping uniform n.type conc=1e17 x.min=5 x.max=10 y.min=0 y.max=4
+
+model bipolar 
+solve init 
+method newton
+
+solve  vcathode=0  vanode=0 
+save outf=diode1.str
+tonyplot diode1.str
+log outf=diode2.log
+
+solve  vcathode=0 vanode=-2 vstep=0.05 vfinal=2 name=anode
+log off
+
+
+quit
+
+

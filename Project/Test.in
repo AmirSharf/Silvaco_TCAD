@@ -1,0 +1,94 @@
+go atlas
+mesh space.mult=1.0
+#
+x.mesh loc=0.000 spac=0.02
+x.mesh loc=0.005 spac=0.0002
+x.mesh loc=0.055 spac=0.002
+x.mesh loc=0.075 spac=0.002
+x.mesh loc=0.125 spac=0.0002
+x.mesh loc=0.130 spac=0.0002
+x.mesh loc=0.180 spac=0.002
+x.mesh loc=0.185 spac=0.02
+#
+y.mesh loc=0.000 spac=0.002
+y.mesh loc=0.002 spac=0.002
+y.mesh loc=0.0052 spac=0.0002
+y.mesh loc=0.0152 spac=0.0002
+y.mesh loc=0.0184  spac=0.002
+y.mesh loc=0.0204 spac=0.002
+
+#
+region num=1 material= HfO2 x.min=0.005 x.max=0.180 y.min = 0.002 y.max=0.052
+region num=2 material= HfO2 x.min=0.005 x.max=0.180 y.min = 0.0152 y.max=0.0184
+region num=3 material= silicon x.min=0.005 x.max=0.180 y.min =0.0052 y.max=0.0152
+region num=4 material= Air x.min=0.055 x.max=0.075 y.min = 0.000 y.max=0.002
+region num=5 material= Air x.min=0.055 x.max=0.075 y.min =0.0184 y.max=0.0204
+region num=6 material= Air x.min=0.125 x.max=0.130 y.min = 0.000 y.max=0.002
+region num=7 material= Air x.min=0.125 x.max=0.130 y.min =0.0184 y.max=0.0204
+region num=8 material= Air x.min=0.000 x.max=0.005 y.min = 0.000 y.max=0.0052
+region num=9 material= Air x.min=0.180 x.max=0.185 y.min =0.000 y.max=0.0052
+region num=10 material= Air x.min=0.000 x.max=0.005 y.min = 0.0152 y.max=0.0204
+region num=11 material= Air x.min=0.180 x.max=0.185 y.min =0.0152 y.max=0.0204
+
+
+#
+##################################################
+qtregion number=1 pts.tunnel=101 x1=0.1 y1=0.0024 x2=0.1 y2=0.0075 x3=0.182 y3=0.0075 x4=0.182 y4=0.0024 snrm.beg=0.0001 snrm.end=0.0001
+#################################################
+electrode name= anode x.min=0.005 x.max=0.055 y.min = 0.000 y.max=0.002
+electrode name= gate x.min=0.075 x.max=0.125 y.min = 0.000 y.max=0.002
+electrode name= cathode x.min=0.130 x.max=0.180 y.min = 0.000 y.max=0.002
+electrode name= anode2 x.min=0.005 x.max=0.055 y.min = 0.0184 y.max=0.0204
+electrode name= gate2 x.min=0.075 x.max=0.125 y.min = 0.0184 y.max=0.0204
+electrode name= cathode2 x.min=0.130 x.max=0.180 y.min = 0.0184 y.max=0.0204
+electrode name= drain material=NiSi x.min=0 x.max=0.005 y.min =0.0052 y.max=0.0152
+electrode name= source material=NiSi x.min=0.180 x.max=0.185 y.min =0.0052 y.max=0.0152
+#
+doping uniform p.type conc=1e15  x.min=0.005  x.max=0.180 y.min=0.0052 y.max=0.0152
+interf qf=3e12 
+#
+contact name= anode workfun=4.5
+contact name= gate  workfun=4.5
+contact name= cathode workfun=4.5
+contact name= anode2 workfun=4.5 common=anode
+contact name= gate2 workfun=4.5 common=gate
+contact name= cathode2 workfun=4.5 common=cathode
+contact name= source   workfunction=4.86   SURF.REC
+contact name= drain    workfunction=4.86   SURF.REC
+
+#
+models bbt.nonlocal   
+models kla analytic
+
+models TRAP.TUNNEL SCHENK.TUN 
+models UST
+
+#
+method newton autonr trap maxtrap=10
+output val.band con.band qfn qfp e.field j.electron j.hole j.conduction j.total ex.field ey.field flowline e.mobility h.mobility qss e.temp h.temp j.disp
+#
+solve init
+
+solve vanode=0
+solve vanode=0.05
+
+
+solve vcathode=0
+solve vcathode=-0.05
+
+
+solve vdrain=0
+solve vdrain=0.05
+
+
+#
+log outf=dgmos.log master
+solve vgate=0 vstep=0.05 name=gate vfinal=0.8
+# 
+save outf= dgmos.str
+tonyplot dgmos.str
+#
+tonyplot dgmos.log
+
+#
+quit

@@ -1,0 +1,46 @@
+go atlas
+TITLE DIODE
+
+mesh space.mult=1.0
+
+# To define meshing in x and y direction
+x.mesh loc= 0.0 spacing=0.001
+x.mesh loc=0.024 spacing=0.0001
+x.mesh loc=0.026 spacing=0.001
+x.mesh loc=0.050 spacing=0.001
+
+y.mesh loc=0.0 spacing=0.001
+y.mesh loc=0.020 spacing=0.001
+
+# To define region 
+region num =1 x.min=0.0 x.max=0.025 y.min=0.0 y.max=0.020 material=silicon
+region num =2 x.min=0.025 x.max=0.050 y.min=0.0 y.max=0.020 material=silicon
+
+# To define electrode 
+electrode name= anode x.min=-0.001 x.max=0.0
+electrode name= cathode x.min=-0.050 x.max=0.05001
+
+# Doping
+doping uniform p.type conc=1e15 reg=1
+doping uniform n.type conc=1e17 reg=2
+
+# Define model 
+model bipolar
+solve init
+method newton
+
+solve vcathode=0 vanode=0
+save outf=diode_implement.str
+log outf=diode_implement.log
+
+solve vcathode=0 vanode=-2 vstep=0.05 vfinal=2 name=anode
+log off
+
+log outf=diode_implement2.log
+solve vcathode=1 vanode=-2 vstep=0.05 vfinal=2 name=anode
+log off
+save outf=diode_implement2.str
+tonyplot diode_implement2.str
+tonyplot diode_implementation.log
+
+quit 

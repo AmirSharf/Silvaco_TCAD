@@ -1,0 +1,32 @@
+go atlas
+
+mesh space.mult=1.0
+
+x.mesh loc=0.0 spac=0.01
+x.mesh loc=0.1 spac=0.01
+
+y.mesh loc=-0.002 spac=0.01
+y.mesh loc=0.0 spac=0.01
+y.mesh loc=0.01  spac=0.01
+
+region number=1 y.min=-0.002 y.max=0.0 material=oxide
+region number=2 x.min=0.0 x.max=0.1 y.min=0.002 y.max=0.01 material=silicon
+
+electrode x.min=0.025 x.max=0.075 y.min=-0.002 y.max=-0.002 name=gate
+electrode bottom name=substrate
+
+
+doping uniform conc=1e21 p.type reg=2
+
+
+solve init
+solve vgate=-1.5
+solve vgate=-3
+
+log outfile=MOSCAP.log
+solve vgate=-2.5 vstep=0.5 vfinal=2.5 name=gate previous
+
+save outfile=MOSCAP.str
+tonyplot MOSCAP.str
+
+quit

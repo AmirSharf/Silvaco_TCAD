@@ -1,0 +1,120 @@
+go atlas
+mesh smooth=1 space.mult=1.0 width=100
+
+x.mesh loc=0.0 spac=0.001
+x.mesh loc=0.100 spac=0.0005
+x.mesh loc=0.1475 spac=0.005
+x.mesh loc=0.1525 spac=0.005
+x.mesh loc=0.200 spac=0.0005
+x.mesh loc=0.300 spac=0.001
+
+y.mesh loc=0.0 spac=0.001
+y.mesh loc=0.002 spac=0.001
+y.mesh loc=0.012 spac=0.001
+y.mesh loc=0.014 spac=0.001
+
+#Define non Local BTB tunneling
+qtx.mesh loc=0.100 spac=0.001
+qtx.mesh loc=0.1475 spac=0.0005
+qtx.mesh loc=0.1525 spac=0.0005
+qtx.mesh loc=0.200 spac=0.001
+qtx.mesh loc=0.300 spac=0.001
+
+
+qty.mesh loc=0.002  spac=0.0005
+qty.mesh loc=0.006 spac=0.0005
+qty.mesh loc=0.012 spac=0.0005
+
+region num=2 y.min=0.002 y.max=0.012 material=silicon
+region num=1 y.min=0.0 y.max=0.002 material=hfo2
+region num=3 y.min=0.012 y.max=0.014 material=hfo2
+
+#Electrode 
+electrode name=source x.min=0.0 x.max=0.100 y.min=0.002 y.max=0.002
+
+electrode name=gate x.min=0.100 x.max=0.1475 y.min=0.0 y.max=0.0
+electrode name=gateLB x.min=0.100 x.max=0.1475 y.min=0.014 y.max=0.014
+
+electrode name=gate2 x.min=0.1525 x.max=0.200 y.min=0.0 y.max=0.0
+electrode name=gateRB x.min=0.1525 x.max=0.200 y.min=0.014 y.max=0.014
+
+electrode name=drain x.min=0.200 x.max=0.300 y.min=0.002 y.max=0.002
+
+#Defining tunneling parameter for silicon :
+#material material=Silicon me.tunnel=0.100 region=2
+#material material=Silicon me.tunnel=0.200 region=2
+
+#Doping
+doping uniform p.type conc=1e18 x.min=0.0 x.max=0.100 reg=2
+
+doping uniform p.type conc=1e17 x.min=0.100 x.max=0.200 reg=2
+
+doping uniform n.type conc=1e18 x.min=0.200 x.max=0.300 reg=2
+
+#Interface that restrict the interface charges at boundry
+interf qf= 3e10 y.min=0.002 y.max=0.012
+interf qf= 1e11 y.min=0.014
+
+# Contact
+contact name=gate p.poly workfunc=5.4 neutral
+contact name=gateLB p.poly workfunc=5.4 common= gate
+
+contact name=gate2 p.poly workfunc=4.3 neutral
+contact name=gateRB p.poly workfunc=4.3 common= gate2
+
+contact name=drain n.poly neutral
+contact name=source p.poly neutral
+
+save outf=test_Equilibrium_xor.str
+tonyplot test_Equilibrium_xor.str
+
+models bbt.nonlocal fermi cvt srh print 
+output con.band val.band t.quantum
+
+method carr=2 maxtrap=10
+method newton
+solve init
+
+
+#In order to improve convergence, drain voltage is increased gradually
+solve vdrain=0
+solve vdrain=0.03125
+solve vdrain=0.0625
+solve vdrain=0.125
+solve vdrain=0.25
+solve vdrain=0.5
+solve vdrain=1.00
+
+output val.band con.band charge e.lines
+save outf=test_00_xor.str
+#Simulating the transfer characteristics
+#the bottom gate biased at 0 V.
+#The top gate is varied from 0 to 1.0 V
+log outf= ./transfer_X0_xor.log master
+tonyplot ./transfer_X0_xor.log
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.0
+output val.band con.band charge e.lines
+save outf=test_10_xor.str
+#A temporary file
+log outf=./temp_xor.log master
+solve vgate2=0.0
+solve vgate2=0.2
+solve vgate2=0.4
+solve vgate2=0.8
+solve vgate2=1.0
+#Simulating the transfer characteristics the right gate biased at 1.0 V.
+#The left gate is varied from 0 to 1.0 V
+log outf=./transfer_X1_xor.log master
+output val.band con.band charge e.lines
+save outf=test_01_xor.str
+tonyplot test_01_xor.str
+tonyplot ./transfer_X1_xor.log
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.0
+output val.band con.band charge e.lines
+save outf=test_11_xor.str
+tonyplot test_11_xor.str
+tonyplot ./temp_xor.log
+quit
+
+
+

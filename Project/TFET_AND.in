@@ -1,0 +1,130 @@
+# Input file for device simulation tool ATLAS
+go atlas
+#Defining meshes for the device: Meshes should be as fine as possible,
+#meeting the computer resource constraints.
+mesh space.mult=1.0
+x.mesh loc=0.000 spac=0.01
+x.mesh loc=0.095 spac=0.001
+x.mesh loc=0.098 spac=0.0001
+x.mesh loc=0.100 spac=0.0001
+x.mesh loc=0.105 spac=0.0001
+x.mesh loc=0.110 spac=0.001
+x.mesh loc=0.155 spac=0.001
+x.mesh loc=0.158 spac=0.0001
+x.mesh loc=0.160 spac=0.0001
+x.mesh loc=0.165 spac=0.001
+x.mesh loc=0.190 spac=0.0001
+x.mesh loc=0.200 spac=0.0001
+x.mesh loc=0.210 spac=0.001
+x.mesh loc=0.400 spac=0.01
+
+y.mesh loc=-0.003 spac=0.0005
+y.mesh loc=0.000 spac=0.0002
+y.mesh loc=0.003 spac=0.001
+y.mesh loc=0.005 spac=0.0005
+y.mesh loc=0.007 spac=0.001
+y.mesh loc=0.010 spac=0.0002
+y.mesh loc=0.013 spac=0.0005
+# defining another mesh for non-local BTBT modelling in ATLAS
+qtx.mesh loc=0.04 spac=0.01
+qtx.mesh loc=0.09 spac=0.0001
+qtx.mesh loc=0.095 spac=0.0001
+qtx.mesh loc=0.10 spac=0.0001
+qtx.mesh loc=0.105 spac=0.0001
+qtx.mesh loc=0.110 spac=0.01
+qtx.mesh loc=0.150 spac=0.0001
+qtx.mesh loc=0.170 spac=0.01
+qtx.mesh loc=0.190 spac=0.0001
+qtx.mesh loc=0.205 spac=0.0001
+qtx.mesh loc=0.210 spac=0.001
+qtx.mesh loc=0.360 spac=0.01
+qty.mesh loc=0.000 spac=0.0005
+qty.mesh loc=0.003 spac=0.001
+qty.mesh loc=0.005 spac=0.0005
+qty.mesh loc=0.007 spac=0.001
+qty.mesh loc=0.010 spac=0.0005
+#Defining regions of the device
+region num=1 y.max=0.000 material=Oxide
+region num=2 y.min=0.000 y.max=0.010 material=Silicon
+region num=3 y.min=0.010 material=Oxide
+
+#Defining electrodes: channel length in this example is 100 nm
+# The top gate A, it is named gate
+electrode name=gate x.min=0.1 x.max=0.160 top
+#The bottom gate B, it is named substrate
+electrode name=substrate x.min=0.1 x.max=0.160 bottom
+#The drain electrode
+electrode name=drain x.max=0.030 y.min=0.000 y.max=0.0
+#The source electrode
+electrode name=source x.min=0.35 y.min=0.0 y.max=0.0
+#Defining doping: The doping profile is assumed to be abrupt
+doping uniform n.type conc=1e17 x.min=0.100 x.max=0.200 reg=2
+doping uniform n.type conc=1e18 x.max=0.100 reg=2
+doping uniform p.type conc=1e20 x.min=0.200 reg=2
+#Defining the tunneling parameter for silicon:
+material material=Silicon me.tunnel=0.14 mh.tunnel=0.14 region=2
+material material=Oxide permittivity=16
+#Defining contacts
+contact name=gate workfunction=5.0
+contact name=substrate workfunction=5.0
+#The structure file for the device in equilibrium
+save outf=test_eqb_and.str
+tonyplot test_eqb_and.str
+#Defining physical models: Band gap narrowing effect is included.
+#The effect of concentration dependent mobility and SRH models are also
+#included, though their impact in this example is found to be not appreciable.
+models bbt.nonlocal qtunn.dir=1 qtunn.el qtunn.ho bgn consrh conmob print
+
+#included to improve the convergence
+method newton
+solve init
+#Applying bias for simulation
+solve vsource=0.0
+solve vgate=0.0
+solve vsubstrate=0.0
+output val.band con.band charge e.lines
+save outf=test_vd_and.str
+
+#in order to improve convergence, drain voltage is increased gradually
+solve vdrain=0.03125
+solve vdrain=0.0625
+solve vdrain=0.125
+solve vdrain=0.25
+solve vdrain=0.5
+solve vdrain=1.00
+solve vdrain=1.20
+output val.band con.band charge e.lines
+save outf=test_00_and.str
+
+#Simulating the transfer characteristics
+#the bottom gate biased at 0 V.
+#The top gate is varied from 0 to 1.2 V
+log outf=./transfer_X0_and.log master
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.2
+output val.band con.band charge e.lines
+save outf=test_10_and.str
+
+#A temporary file
+log outf=./temp_and.log master
+solve vgate=0.0
+solve vsubstrate=0.2
+
+solve vsubstrate=0.4
+solve vsubstrate=0.8
+solve vsubstrate=1.0
+solve vsubstrate=1.2
+#Simulating the transfer characteristics
+#the bottom gate biased at 1.2 V.
+#The top gate is varied from 0 to 1.2 V
+log outf=./transfer_X1_and.log master
+output val.band con.band charge e.lines
+save outf=test_01_and.str
+
+solve vgate=0.0 vstep=0.1 name=gate vfinal=1.2
+output val.band con.band charge e.lines
+save outf=test_11_and.str
+tonyplot test_11_and.str
+tonyplot ./transfer_X0_and.log
+tonyplot ./transfer_X1_and.log
+tonyplot ./temp_and.log
+quit
